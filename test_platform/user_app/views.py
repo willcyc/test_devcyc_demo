@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib import auth
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def index(request):
@@ -18,14 +19,21 @@ def login_action(request):
         else:   #认证admin/后台的用户
             user = auth.authenticate(username=username, password=password)
             if user is not None:
-                auth.login(request, user)
-                return render(request,"project_manage.html")
+                auth.login(request, user)   #记录用户登录状态
+                request.session['user'] = username
+                return HttpResponseRedirect("/project_manage/")
+                #response.set_cookie('user',username,3600)  #记录浏览器cookie
+                #return response
             else:
                 return render(request,"index.html",{"error":"用户名或密码错误！"})
 
-        '''
-        elif username == "admin" and password == "admin123":
-            return render(request, "project_manage.html")
-        else:
-            return render(request, "index.html", {"error": "用户名或密码错误！"})
-        '''
+@login_required
+def project_manage(request):
+    #username = request.COOKIES.get('user','')  #读取浏览器cookie
+    username = request.session.get('user','')   #读取浏览器session
+    return render(request, "project_manage.html",{"user":username})
+
+def logout(request):
+    auth.logout(request)  #清除用户登录状态
+    response = HttpResponseRedirect('/')
+    return response
