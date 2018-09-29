@@ -38,9 +38,9 @@ TIME_ZONE = 'Asia/Shanghai'
 <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://getbootstrap.com/docs/4.1/examples/sign-in/signin.css" rel="stylesheet">
 ```
-2）引用本地样式
+2）引用本地样式<br>
 （1）在manage.py文件统计目录下创建static/css文件夹，在static/css文件夹下创建bootstrap.min.css、signin.css文件（文件内容为格式化引用的模板中的源码）
-（2）在settings.py文件下添加如下内容：
+（2）在settings.py文件下添加如下内容：<br>
 ```
 STATIC_URL = '/static/'
 
@@ -48,7 +48,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 ```
-（3）在index.html中，去掉引用的bootstrap模板，添加如下内容：
+（3）在index.html中，去掉引用的bootstrap模板，添加如下内容：<br>
 ```
 {% load static %}
 <link rel="stylesheet" type="text/css" href="{% static "css/bootstrap.min.css" %}">
