@@ -20,7 +20,12 @@ def login_action(request):
 
 ```
 
-2、创建管理员账号
+2、创建管理员账号<br>
+创建数据表：
+```
+python manage.py migrate
+```
+创建超级管理员：
 ```
 python manage.py createsuperuser
 ```
