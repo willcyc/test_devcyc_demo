@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 - django.contrib.staticfiles -- 管理静态文件的框架
 
 7、MTV设计模式
+[MTV](https://github.com/willcyc/test_devcyc_demo/blob/master/test_platform/images/MVT%E6%A8%A1%E5%BC%8F.png)
  - M 代表模型（Model），数据存取层，该层处理与数据相关的所有事物：如何存取、包含哪些行为以及数据之间的关系等
  - T 代表模板（Template），即表现层。该层处理与表现相关的决定：如何在页面和其他类型的文档中进行显示
  - V 代表视图（View），即业务逻辑层。该层包含存取模型及调取恰当模型的相关逻辑，可看作模板与模型之间的桥梁
