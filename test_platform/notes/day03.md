@@ -24,7 +24,7 @@ python manage.py createsuperuser
 ```
 登录管理员账号并添加其他账号，在登录页面使用管理员账号和添加的账号登录
 
-3、修改时区和语言
+3、修改时区和语言<br>
 在settings.py文件中：
 ```
 LANGUAGE_CODE = 'zh-hans'
@@ -32,7 +32,7 @@ LANGUAGE_CODE = 'zh-hans'
 TIME_ZONE = 'Asia/Shanghai'
 ```
 
-4、引用登录模板
+4、引用登录模板<br>
 1）[引用bootstrap登录模板](https://getbootstrap.com/docs/4.1/examples/sign-in/)
 ```
 <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
