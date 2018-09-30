@@ -26,7 +26,9 @@ def login_action(request):
                 #return response
             else:
                 return render(request,"index.html",{"error":"用户名或密码错误！"})
-
+    else:
+        return render(request,'user_app/index.html')
+    
 @login_required
 def project_manage(request):
     #username = request.COOKIES.get('user','')  #读取浏览器cookie
