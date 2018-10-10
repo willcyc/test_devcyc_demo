@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib import auth
 from django.contrib.auth.decorators import login_required
+from user_app.models import Project
 
 # Create your views here.
 def index(request):
@@ -33,7 +34,8 @@ def login_action(request):
 def project_manage(request):
     #username = request.COOKIES.get('user','')  #读取浏览器cookie
     username = request.session.get('user','')   #读取浏览器session
-    return render(request, "project_manage.html",{"user":username})
+    project_all = Project.objects.all()
+    return render(request, "project_manage.html",{"user":username,"projects":project_all})
 
 def logout(request):
     auth.logout(request)  #清除用户登录状态
