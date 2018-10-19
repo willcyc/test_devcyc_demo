@@ -22,7 +22,7 @@ def add_project(request):
 
 @login_required
 def add_project(request):
-
+    """添加项目"""
     if request.method == 'POST':
         form = ProjectForm(request.POST)
         if form.is_valid():
@@ -38,18 +38,25 @@ def add_project(request):
 
 @login_required
 def edit_project(request,pid):
-
-    project = Project.objects.get(id=pid)
-    name = project.name
-    describe = project.describe
-
+    """编辑项目"""
     if request.method == 'POST':
-        form = ProjectForm(instance=project,data=request.POST)
+        form = ProjectForm(request.POST)
         if form.is_valid():
-            form.save()
+            model = Project.objects.get(id=pid)
+            model.name = form.cleaned_data['name']
+            model.describe = form.cleaned_data['describe']
+            model.status = form.cleaned_data['status']
+            model.save()
             return HttpResponseRedirect('/manage/project_manage/')
     else:
-        form = ProjectForm()
+        if pid:
+            form = ProjectForm(instance=Project.objects.get(id=pid))
+        else:
+            form = ProjectForm()
+    return render(request, "project_manage.html", {'form': form, 'type': 'edit'})
 
-    #context = {'project':project,'name':name,'describe':describe,'form':form}
-    return render(request, "project_manage.html", {'form': form, 'type': 'edit','project':project})
+@login_required
+def delete_project(request,pid):
+    """删除项目"""
+    Project.objects.get(id=pid).delete()
+    return HttpResponseRedirect('/manage/project_manage/')
