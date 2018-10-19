@@ -1,6 +1,6 @@
 1、在project_app中创建forms.py表单<br>
 参考：<br>
-https://docs.djangoproject.com/en/2.1/topics/forms/
+https://docs.djangoproject.com/en/2.1/topics/forms/<br>
 https://docs.djangoproject.com/en/2.1/topics/forms/modelforms/<br>
 forms.py:
 ```
