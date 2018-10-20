@@ -28,7 +28,8 @@ def add_project(request):
         if form.is_valid():
             name = form.cleaned_data['name']
             describe = form.cleaned_data['describe']
-            Project.objects.create(name=name,describe=describe)
+            status = form.cleaned_data['status']
+            Project.objects.create(name=name,describe=describe,status=status)
 
             return HttpResponseRedirect('/manage/project_manage/')
     else:
@@ -51,8 +52,7 @@ def edit_project(request,pid):
     else:
         if pid:
             form = ProjectForm(instance=Project.objects.get(id=pid))
-        else:
-            form = ProjectForm()
+
     return render(request, "project_manage.html", {'form': form, 'type': 'edit'})
 
 @login_required

@@ -1,5 +1,5 @@
 from django import forms
-from .models import Project
+from .models import Project,Module
 
 '''
 class ProjectForm(forms.Form):
@@ -11,5 +11,11 @@ class ProjectForm(forms.Form):
 class ProjectForm(forms.ModelForm):
     class Meta:
         model = Project
-        exclude = ['create_time']
+        fields = ['name','describe','status']
+        #exclude = ['create_time']
 
+class ModuleForm(forms.ModelForm):
+    class Meta:
+        model = Module
+        #fields = ['name','describe','status']
+        exclude = ['create_time']
