@@ -127,3 +127,46 @@ $ ./manage.py test user_app.tests.tests.UserTestCase
 # Run just one test method
 $ ./manage.py test user_app.tests.tests.UserTestCase.test_user_select
 ```
+
+4、django UI（templates/）测试
+```
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from selenium.webdriver import Firefox
+from time import sleep
+from django.contrib.auth.models import User
+from project_app.models import Project
+
+class LoginTests(StaticLiveServerTestCase):
+    #fixtures = ['user-data.json']
+
+    @classmethod
+    def setUpClass(self):
+        super().setUpClass()
+        self.driver = Firefox()
+        self.driver.implicitly_wait(10)
+
+    @classmethod
+    def tearDownClass(self):
+        self.driver.quit()
+        super().tearDownClass()
+
+    def setUp(self):
+        """初始化数据"""
+        User.objects.create_user("test01", "test01@mail.com", "test123456")
+        Project.objects.create(name="测试平台测试数据", describe="描述")
+
+    def test_login_null(self):
+        """用户名、密码为空"""
+        self.driver.get('%s%s' % (self.live_server_url, '/'))
+        username_input = self.driver.find_element_by_name("username")
+        username_input.send_keys('')
+        password_input = self.driver.find_element_by_name("password")
+        password_input.send_keys('')
+        sleep(1)
+        self.driver.find_element_by_id("LoginButton").click()
+        sleep(2)
+        error_hint = self.driver.find_element_by_id("error").text
+        #print(error_hint)
+        self.assertEqual("用户名或密码不能为空",error_hint)
+
+```

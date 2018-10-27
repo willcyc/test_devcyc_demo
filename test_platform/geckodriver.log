@@ -1,0 +1,1322 @@
+1540568929337	geckodriver	INFO	geckodriver 0.19.1
+1540568929346	geckodriver	INFO	Listening on 127.0.0.1:50263
+1540568931438	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.D58Q672hGJ5C"
+1540568934946	Marionette	INFO	Listening on port 50269
+1540568935061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540568935095	Marionette	DEBUG	[6442450945] Frame script loaded
+1540568935096	Marionette	DEBUG	[6442450945] Frame script registered
+1540568935129	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540568935419	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540568935475	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50262/
+1540568935541	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50262/
+1540568942533	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50262/
+1540568942548	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50262/
+1540568942549	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50262/
+1540568942556	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50262/login_action/
+1540568942578	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50262/login_action/
+1540568945632	Marionette	INFO	Stopped listening on port 50269
+1540569027316	geckodriver	INFO	geckodriver 0.19.1
+1540569027323	geckodriver	INFO	Listening on 127.0.0.1:50439
+1540569029406	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.H34XEUAIDbTI"
+1540569032878	Marionette	INFO	Listening on port 50446
+1540569033019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540569033047	Marionette	DEBUG	[6442450945] Frame script loaded
+1540569033049	Marionette	DEBUG	[6442450945] Frame script registered
+1540569033069	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540569033382	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540569033391	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50438/
+1540569033659	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50438/
+1540569040704	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50438/
+1540569040727	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50438/
+1540569040727	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50438/
+1540569040735	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50438/login_action/
+1540569040873	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50438/login_action/
+1540569043918	Marionette	INFO	Stopped listening on port 50446
+1540642904612	geckodriver	INFO	geckodriver 0.19.1
+1540642904625	geckodriver	INFO	Listening on 127.0.0.1:54965
+1540642906752	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.B1rH2wtDyjsN"
+1540642918092	Marionette	INFO	Listening on port 54971
+1540642918588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540642918621	Marionette	DEBUG	[4294967297] Frame script loaded
+1540642918682	Marionette	DEBUG	[4294967297] Frame script registered
+1540642919962	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1540642920682	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1540642920694	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost:54964/
+1540642921364	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost:54964/
+1540642926635	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for http://localhost:54964/
+1540642926651	Marionette	DEBUG	[4294967297] Received DOM event pagehide for http://localhost:54964/
+1540642926651	Marionette	DEBUG	[4294967297] Received DOM event unload for http://localhost:54964/
+1540642926659	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for http://localhost:54964/login_action/
+1540642926679	Marionette	DEBUG	[4294967297] Received DOM event pageshow for http://localhost:54964/login_action/
+1540642930075	Marionette	INFO	Stopped listening on port 54971
+1540642985089	geckodriver	INFO	geckodriver 0.19.1
+1540642985096	geckodriver	INFO	Listening on 127.0.0.1:55069
+1540642987105	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.GeJsuKAFJENj"
+1540642993499	Marionette	INFO	Listening on port 55077
+1540642994432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540642994461	Marionette	DEBUG	[6442450945] Frame script loaded
+1540642994462	Marionette	DEBUG	[6442450945] Frame script registered
+1540642994479	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540642994836	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540642994843	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55068/
+1540642994911	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55068/
+1540643000745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55068/
+1540643000767	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55068/
+1540643000768	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55068/
+1540643000773	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55068/login_action/
+1540643000795	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55068/login_action/
+1540643003895	Marionette	INFO	Stopped listening on port 55077
+1540643110486	geckodriver	INFO	geckodriver 0.19.1
+1540643110494	geckodriver	INFO	Listening on 127.0.0.1:55181
+1540643112376	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.SVxd86BKk6jK"
+1540643119570	Marionette	INFO	Listening on port 55187
+1540643119711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540643119782	Marionette	DEBUG	[6442450945] Frame script loaded
+1540643119784	Marionette	DEBUG	[6442450945] Frame script registered
+1540643119802	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540643120083	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540643120094	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55180/
+1540643120162	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55180/
+1540643123528	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55180/
+1540643123860	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55180/
+1540643123860	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55180/
+1540643123865	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55180/login_action/
+1540643123889	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55180/login_action/
+1540643125974	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55180/login_action/
+1540643125984	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55180/login_action/
+1540643125993	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55180/
+1540643126010	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55180/
+1540643127095	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55180/
+1540643127103	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55180/
+1540643127104	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55180/
+1540643127111	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55180/login_action/
+1540643127138	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55180/login_action/
+1540643129213	Marionette	INFO	Stopped listening on port 55187
+1540643534314	geckodriver	INFO	geckodriver 0.19.1
+1540643534329	geckodriver	INFO	Listening on 127.0.0.1:55481
+1540643536276	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.mSeG30NrYKAi"
+1540643544699	Marionette	INFO	Listening on port 55487
+1540643545704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540643545749	Marionette	DEBUG	[6442450945] Frame script loaded
+1540643545751	Marionette	DEBUG	[6442450945] Frame script registered
+1540643546830	Marionette	INFO	Stopped listening on port 55487
+1540643580999	geckodriver	INFO	geckodriver 0.19.1
+1540643581013	geckodriver	INFO	Listening on 127.0.0.1:55550
+1540643582851	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.HU4nqfI6IOy0"
+1540643586743	Marionette	INFO	Listening on port 55561
+1540643586988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540643587144	Marionette	DEBUG	[6442450945] Frame script loaded
+1540643587145	Marionette	DEBUG	[6442450945] Frame script registered
+1540643587447	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540643587755	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540643587765	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/
+1540643587865	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/
+1540643591753	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55549/
+1540643591974	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55549/
+1540643591975	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55549/
+1540643591982	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/login_action/
+1540643592002	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/login_action/
+1540643594340	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55549/login_action/
+1540643594353	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55549/login_action/
+1540643594358	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/
+1540643594378	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/
+1540643595487	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55549/
+1540643595503	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55549/
+1540643595504	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55549/
+1540643595514	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/login_action/
+1540643595538	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/login_action/
+1540643597795	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55549/login_action/
+1540643597806	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55549/login_action/
+1540643597813	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/
+1540643597833	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/
+1540643598946	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:55549/
+1540643599395	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:55549/
+1540643599396	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:55549/
+1540643599400	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:55549/manage/project_manage/
+1540643599423	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:55549/manage/project_manage/
+1540643601446	Marionette	INFO	Stopped listening on port 55561
+1540644189759	geckodriver	INFO	geckodriver 0.19.1
+1540644189771	geckodriver	INFO	Listening on 127.0.0.1:56592
+1540644191593	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.2UFV6Iezy8Iw"
+1540644196903	Marionette	INFO	Listening on port 56602
+1540644197316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540644198456	Marionette	DEBUG	[6442450945] Frame script loaded
+1540644198470	Marionette	DEBUG	[6442450945] Frame script registered
+1540644198784	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540644199067	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540644199077	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/
+1540644199133	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/
+1540644202253	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56591/
+1540644202452	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56591/
+1540644202452	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56591/
+1540644202459	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/login_action/
+1540644202477	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/login_action/
+1540644204771	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56591/login_action/
+1540644204781	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56591/login_action/
+1540644204787	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/
+1540644204808	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/
+1540644205903	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56591/
+1540644205935	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56591/
+1540644205936	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56591/
+1540644205947	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/login_action/
+1540644205974	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/login_action/
+1540644208206	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56591/login_action/
+1540644208217	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56591/login_action/
+1540644208235	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/
+1540644208258	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/
+1540644209344	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56591/
+1540644209730	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56591/
+1540644209730	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56591/
+1540644209738	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56591/manage/project_manage/
+1540644209763	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56591/manage/project_manage/
+1540644211878	Marionette	INFO	Stopped listening on port 56602
+1540644245188	geckodriver	INFO	geckodriver 0.19.1
+1540644245203	geckodriver	INFO	Listening on 127.0.0.1:56752
+1540644247130	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.oXL3N56oHGT3"
+1540644251314	Marionette	INFO	Listening on port 56760
+1540644252350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540644253060	Marionette	DEBUG	[6442450945] Frame script loaded
+1540644253061	Marionette	DEBUG	[6442450945] Frame script registered
+1540644253373	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540644253802	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540644253815	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/
+1540644253892	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/
+1540644256384	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56751/
+1540644256588	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56751/
+1540644256589	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56751/
+1540644256594	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/login_action/
+1540644256612	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/login_action/
+1540644258943	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56751/login_action/
+1540644258955	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56751/login_action/
+1540644258960	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/
+1540644258979	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/
+1540644260060	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56751/
+1540644260075	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56751/
+1540644260076	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56751/
+1540644260086	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/login_action/
+1540644260111	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/login_action/
+1540644262376	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56751/login_action/
+1540644262387	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56751/login_action/
+1540644262394	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/
+1540644262415	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/
+1540644263520	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:56751/
+1540644263915	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:56751/
+1540644263915	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:56751/
+1540644263921	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:56751/manage/project_manage/
+1540644263946	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:56751/manage/project_manage/
+1540644266032	Marionette	INFO	Stopped listening on port 56760
+1540648782551	geckodriver	INFO	geckodriver 0.19.1
+1540648782563	geckodriver	INFO	Listening on 127.0.0.1:64082
+1540648784450	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.VO0D8NUrJ4MK"
+1540648793949	Marionette	INFO	Listening on port 64092
+1540648794356	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540648794410	Marionette	DEBUG	[6442450945] Frame script loaded
+1540648794412	Marionette	DEBUG	[6442450945] Frame script registered
+1540648795888	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540648796278	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540648796286	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/
+1540648797535	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/
+1540648800891	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64081/
+1540648801105	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64081/
+1540648801105	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64081/
+1540648801113	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/login_action/
+1540648801132	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/login_action/
+1540648803717	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64081/login_action/
+1540648803728	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64081/login_action/
+1540648803732	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/
+1540648803752	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/
+1540648804846	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64081/
+1540648804880	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64081/
+1540648804881	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64081/
+1540648804901	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/login_action/
+1540648804956	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/login_action/
+1540648807205	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64081/login_action/
+1540648807215	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64081/login_action/
+1540648807221	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/
+1540648807239	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/
+1540648808336	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64081/
+1540648808741	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64081/
+1540648808742	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64081/
+1540648808746	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64081/manage/project_manage/
+1540648808772	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64081/manage/project_manage/
+1540648810846	Marionette	INFO	Stopped listening on port 64092
+1540648811606	geckodriver	INFO	geckodriver 0.19.1
+1540648811619	geckodriver	INFO	Listening on 127.0.0.1:64205
+1540648813692	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.dJolenawfrze"
+1540648817262	Marionette	INFO	Listening on port 64217
+1540648817336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540648817368	Marionette	DEBUG	[6442450945] Frame script loaded
+1540648817378	Marionette	DEBUG	[6442450945] Frame script registered
+1540648817587	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540648817856	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540648817872	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64204/
+1540648817959	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64204/
+1540648821842	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64204/
+1540648822080	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64204/
+1540648822081	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64204/
+1540648822089	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64204/manage/project_manage/
+1540648822110	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64204/manage/project_manage/
+1540648832185	Marionette	INFO	Stopped listening on port 64217
+1540648925543	geckodriver	INFO	geckodriver 0.19.1
+1540648925550	geckodriver	INFO	Listening on 127.0.0.1:64429
+1540648927645	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.rcyTDcNCPchz"
+1540648931244	Marionette	INFO	Listening on port 64439
+1540648931287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540648931318	Marionette	DEBUG	[6442450945] Frame script loaded
+1540648931324	Marionette	DEBUG	[6442450945] Frame script registered
+1540648931651	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540648931933	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540648931941	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/
+1540648931991	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/
+1540648936704	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64428/
+1540648936922	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64428/
+1540648936923	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64428/
+1540648936930	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/login_action/
+1540648936951	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/login_action/
+1540648939286	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64428/login_action/
+1540648939297	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64428/login_action/
+1540648939303	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/
+1540648939321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/
+1540648940394	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64428/
+1540648940406	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64428/
+1540648940407	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64428/
+1540648940421	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/login_action/
+1540648940454	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/login_action/
+1540648942713	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64428/login_action/
+1540648942724	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64428/login_action/
+1540648942730	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/
+1540648942748	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/
+1540648943853	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64428/
+1540648944253	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64428/
+1540648944268	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64428/
+1540648944272	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64428/manage/project_manage/
+1540648944299	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64428/manage/project_manage/
+1540648946385	Marionette	INFO	Stopped listening on port 64439
+1540648947142	geckodriver	INFO	geckodriver 0.19.1
+1540648947155	geckodriver	INFO	Listening on 127.0.0.1:64534
+1540648949214	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.VD4hZSbgVeik"
+1540648952635	Marionette	INFO	Listening on port 64545
+1540648952826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540648952874	Marionette	DEBUG	[6442450945] Frame script loaded
+1540648952876	Marionette	DEBUG	[6442450945] Frame script registered
+1540648953079	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540648953347	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540648953358	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64533/
+1540648953421	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64533/
+1540648957585	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64533/
+1540648957829	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64533/
+1540648957830	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64533/
+1540648957834	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64533/manage/project_manage/
+1540648957859	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64533/manage/project_manage/
+1540648957882	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64533/manage/project_manage/
+1540648957910	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64533/manage/project_manage/
+1540648957911	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64533/manage/project_manage/
+1540648957915	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64533/manage/add_project/
+1540648957941	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64533/manage/add_project/
+1540648957969	Marionette	INFO	Stopped listening on port 64545
+1540649004865	geckodriver	INFO	geckodriver 0.19.1
+1540649004871	geckodriver	INFO	Listening on 127.0.0.1:64678
+1540649006966	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.Pg4CcfivQkUw"
+1540649010409	Marionette	INFO	Listening on port 64688
+1540649010578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649010637	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649010639	Marionette	DEBUG	[6442450945] Frame script registered
+1540649010937	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649011248	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649011259	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/
+1540649011502	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/
+1540649015841	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64677/
+1540649016058	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64677/
+1540649016059	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64677/
+1540649016064	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/login_action/
+1540649016087	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/login_action/
+1540649018425	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64677/login_action/
+1540649018435	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64677/login_action/
+1540649018441	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/
+1540649018458	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/
+1540649019543	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64677/
+1540649019561	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64677/
+1540649019562	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64677/
+1540649019578	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/login_action/
+1540649019612	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/login_action/
+1540649021853	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64677/login_action/
+1540649021864	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64677/login_action/
+1540649021870	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/
+1540649021887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/
+1540649022996	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64677/
+1540649023408	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64677/
+1540649023409	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64677/
+1540649023413	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64677/manage/project_manage/
+1540649023438	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64677/manage/project_manage/
+1540649025512	Marionette	INFO	Stopped listening on port 64688
+1540649026270	geckodriver	INFO	geckodriver 0.19.1
+1540649026280	geckodriver	INFO	Listening on 127.0.0.1:64785
+1540649028356	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.04j6RjXNb6Q7"
+1540649032106	Marionette	INFO	Listening on port 64794
+1540649032479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649032519	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649032521	Marionette	DEBUG	[6442450945] Frame script registered
+1540649032731	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649033004	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649033033	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64784/
+1540649033224	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64784/
+1540649036716	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64784/
+1540649036959	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64784/
+1540649036960	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64784/
+1540649036965	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64784/manage/project_manage/
+1540649036987	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64784/manage/project_manage/
+1540649037031	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:64784/manage/project_manage/
+1540649037049	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:64784/manage/project_manage/
+1540649037051	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:64784/manage/project_manage/
+1540649037057	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:64784/manage/add_project/
+1540649037083	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:64784/manage/add_project/
+1540649039137	Marionette	INFO	Stopped listening on port 64794
+1540649314574	geckodriver	INFO	geckodriver 0.19.1
+1540649314580	geckodriver	INFO	Listening on 127.0.0.1:65265
+1540649316657	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.rpPgsPRm5WBA"
+1540649320097	Marionette	INFO	Listening on port 65275
+1540649320268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649320326	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649320328	Marionette	DEBUG	[6442450945] Frame script registered
+1540649320544	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649320827	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649320844	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/
+1540649320935	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/
+1540649322606	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65264/
+1540649322900	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65264/
+1540649322901	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:65264/
+1540649322906	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/login_action/
+1540649322925	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/login_action/
+1540649325180	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65264/login_action/
+1540649325190	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65264/login_action/
+1540649325197	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/
+1540649325214	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/
+1540649326295	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65264/
+1540649326353	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65264/
+1540649326353	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:65264/
+1540649326358	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/login_action/
+1540649326380	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/login_action/
+1540649328630	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65264/login_action/
+1540649328641	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65264/login_action/
+1540649328647	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/
+1540649328665	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/
+1540649329770	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65264/
+1540649330172	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65264/
+1540649330172	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:65264/
+1540649330179	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65264/manage/project_manage/
+1540649330204	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65264/manage/project_manage/
+1540649332286	Marionette	INFO	Stopped listening on port 65275
+1540649332525	geckodriver	INFO	geckodriver 0.19.1
+1540649332535	geckodriver	INFO	Listening on 127.0.0.1:65364
+1540649335926	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.2DEDMdVSpDOm"
+1540649339247	Marionette	INFO	Listening on port 65380
+1540649339553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649339627	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649339628	Marionette	DEBUG	[6442450945] Frame script registered
+1540649339831	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649340152	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649340168	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65363/
+1540649340371	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65363/
+1540649341992	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:65363/
+1540649342542	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:65363/
+1540649342553	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:65363/
+1540649342563	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:65363/manage/project_manage/
+1540649342607	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:65363/manage/project_manage/
+1540649352685	Marionette	INFO	Stopped listening on port 65380
+1540649429230	geckodriver	INFO	geckodriver 0.19.1
+1540649429238	geckodriver	INFO	Listening on 127.0.0.1:49193
+1540649431309	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.m4RV6b37u3EF"
+1540649434690	Marionette	INFO	Listening on port 49202
+1540649434936	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649434998	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649435000	Marionette	DEBUG	[6442450945] Frame script registered
+1540649435218	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649435498	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649435505	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/
+1540649435581	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/
+1540649440163	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49192/
+1540649440376	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49192/
+1540649440377	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49192/
+1540649440381	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/login_action/
+1540649440401	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/login_action/
+1540649442657	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49192/login_action/
+1540649442667	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49192/login_action/
+1540649442673	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/
+1540649442692	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/
+1540649443778	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49192/
+1540649443807	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49192/
+1540649443808	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49192/
+1540649443821	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/login_action/
+1540649443853	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/login_action/
+1540649446194	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49192/login_action/
+1540649446206	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49192/login_action/
+1540649446212	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/
+1540649446229	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/
+1540649447330	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49192/
+1540649447833	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49192/
+1540649447833	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49192/
+1540649447840	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49192/manage/project_manage/
+1540649447864	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49192/manage/project_manage/
+1540649449939	Marionette	INFO	Stopped listening on port 49202
+1540649450708	geckodriver	INFO	geckodriver 0.19.1
+1540649450719	geckodriver	INFO	Listening on 127.0.0.1:49300
+1540649452767	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.yACNrR1GrLyZ"
+1540649455807	Marionette	INFO	Listening on port 49310
+1540649455882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649455912	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649455913	Marionette	DEBUG	[6442450945] Frame script registered
+1540649456119	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649456390	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649456413	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49299/
+1540649456491	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49299/
+1540649459135	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49299/
+1540649459400	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49299/
+1540649459402	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49299/
+1540649459407	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49299/manage/project_manage/
+1540649459428	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49299/manage/project_manage/
+1540649469512	Marionette	INFO	Stopped listening on port 49310
+1540649587611	geckodriver	INFO	geckodriver 0.19.1
+1540649587617	geckodriver	INFO	Listening on 127.0.0.1:49574
+1540649589699	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.SjufF0SUVwxw"
+1540649592858	Marionette	INFO	Listening on port 49584
+1540649593326	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649593355	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649593356	Marionette	DEBUG	[6442450945] Frame script registered
+1540649593655	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649593951	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649593964	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/
+1540649594302	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/
+1540649595483	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49573/
+1540649595792	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49573/
+1540649595792	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49573/
+1540649595797	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/login_action/
+1540649595816	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/login_action/
+1540649598156	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49573/login_action/
+1540649598166	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49573/login_action/
+1540649598172	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/
+1540649598188	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/
+1540649599270	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49573/
+1540649599284	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49573/
+1540649599284	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49573/
+1540649599294	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/login_action/
+1540649599321	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/login_action/
+1540649601577	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49573/login_action/
+1540649601587	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49573/login_action/
+1540649601601	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/
+1540649601618	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/
+1540649602730	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49573/
+1540649603154	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49573/
+1540649603155	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49573/
+1540649603159	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49573/manage/project_manage/
+1540649603183	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49573/manage/project_manage/
+1540649605278	Marionette	INFO	Stopped listening on port 49584
+[GFX1-]: Receive IPC close with [GFX1-]: Receive IPCreas close witon=AbnormalShutdownh reason=
+AbnormalShutdown
+1540649606038	geckodriver	INFO	geckodriver 0.19.1
+1540649606054	geckodriver	INFO	Listening on 127.0.0.1:49681
+1540649608090	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.uswIremXQM59"
+1540649610805	Marionette	INFO	Listening on port 49699
+1540649611204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649611246	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649611247	Marionette	DEBUG	[6442450945] Frame script registered
+1540649611442	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649611711	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649611727	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49679/
+1540649611823	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49679/
+1540649613435	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49679/
+1540649613858	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49679/
+1540649613859	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49679/
+1540649613868	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49679/manage/project_manage/
+1540649613907	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49679/manage/project_manage/
+1540649613951	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49679/manage/project_manage/
+1540649613990	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49679/manage/project_manage/
+1540649613991	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49679/manage/project_manage/
+1540649613995	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49679/manage/add_project/
+1540649614021	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49679/manage/add_project/
+1540649616076	Marionette	INFO	Stopped listening on port 49699
+1540649633359	geckodriver	INFO	geckodriver 0.19.1
+1540649633365	geckodriver	INFO	Listening on 127.0.0.1:49849
+1540649635460	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.6SJL0Cm12kVf"
+1540649638294	Marionette	INFO	Listening on port 49865
+1540649638572	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649638601	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649638603	Marionette	DEBUG	[6442450945] Frame script registered
+1540649638815	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649639123	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649639135	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/
+1540649639187	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/
+1540649640284	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49847/
+1540649640650	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49847/
+1540649640650	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49847/
+1540649640660	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/login_action/
+1540649640729	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/login_action/
+1540649642956	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49847/login_action/
+1540649642966	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49847/login_action/
+1540649642971	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/
+1540649643168	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/
+1540649644248	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49847/
+1540649644266	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49847/
+1540649644267	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49847/
+1540649644277	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/login_action/
+1540649644299	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/login_action/
+1540649646537	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49847/login_action/
+1540649646548	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49847/login_action/
+1540649646557	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/
+1540649646574	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/
+1540649647659	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49847/
+1540649648106	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49847/
+1540649648106	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49847/
+1540649648111	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49847/manage/project_manage/
+1540649648132	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49847/manage/project_manage/
+1540649650200	Marionette	INFO	Stopped listening on port 49865
+1540649650957	geckodriver	INFO	geckodriver 0.19.1
+1540649650968	geckodriver	INFO	Listening on 127.0.0.1:49959
+1540649653044	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.4suzXmsLHMPp"
+1540649655687	Marionette	INFO	Listening on port 49969
+1540649656162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540649656218	Marionette	DEBUG	[6442450945] Frame script loaded
+1540649656220	Marionette	DEBUG	[6442450945] Frame script registered
+1540649656425	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540649656725	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540649656755	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49958/
+1540649656853	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49958/
+1540649657994	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49958/
+1540649658520	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49958/
+1540649658521	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49958/
+1540649658527	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49958/manage/project_manage/
+1540649658559	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49958/manage/project_manage/
+1540649658579	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:49958/manage/project_manage/
+1540649658658	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:49958/manage/project_manage/
+1540649658658	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:49958/manage/project_manage/
+1540649658663	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:49958/manage/add_project/
+1540649658705	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:49958/manage/add_project/
+1540649660746	Marionette	INFO	Stopped listening on port 49969
+1540650105440	geckodriver	INFO	geckodriver 0.19.1
+1540650105448	geckodriver	INFO	Listening on 127.0.0.1:50716
+1540650107533	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.NV16pbKLj221"
+1540650110729	Marionette	INFO	Listening on port 50725
+1540650111150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650111185	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650111187	Marionette	DEBUG	[6442450945] Frame script registered
+1540650111493	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650111871	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650111884	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/
+1540650111987	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/
+1540650115966	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50715/
+1540650116174	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50715/
+1540650116175	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50715/
+1540650116182	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/login_action/
+1540650116199	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/login_action/
+1540650118543	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50715/login_action/
+1540650118554	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50715/login_action/
+1540650118560	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/
+1540650118579	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/
+1540650119678	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50715/
+1540650119705	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50715/
+1540650119706	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50715/
+1540650119721	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/login_action/
+1540650119753	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/login_action/
+1540650121964	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50715/login_action/
+1540650121977	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50715/login_action/
+1540650121982	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/
+1540650122003	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/
+1540650123094	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50715/
+1540650123520	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50715/
+1540650123520	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50715/
+1540650123527	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50715/manage/project_manage/
+1540650123552	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50715/manage/project_manage/
+1540650125632	Marionette	INFO	Stopped listening on port 50725
+1540650125871	geckodriver	INFO	geckodriver 0.19.1
+1540650125879	geckodriver	INFO	Listening on 127.0.0.1:50818
+1540650127920	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.7dCJfpHmU3W2"
+1540650131227	Marionette	INFO	Listening on port 50830
+1540650131545	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650131601	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650131602	Marionette	DEBUG	[6442450945] Frame script registered
+1540650131813	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650132079	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650132094	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50817/
+1540650132161	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50817/
+1540650135711	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50817/
+1540650135950	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50817/
+1540650135950	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50817/
+1540650135957	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50817/manage/project_manage/
+1540650135979	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50817/manage/project_manage/
+1540650136001	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50817/manage/project_manage/
+1540650136029	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50817/manage/project_manage/
+1540650136030	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50817/manage/project_manage/
+1540650136034	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50817/manage/add_project/
+1540650136058	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50817/manage/add_project/
+1540650140308	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:50817/manage/add_project/
+1540650140341	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:50817/manage/add_project/
+1540650140342	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:50817/manage/add_project/
+1540650140347	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:50817/manage/project_manage/
+1540650140375	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:50817/manage/project_manage/
+1540650142427	Marionette	INFO	Stopped listening on port 50830
+1540650297705	geckodriver	INFO	geckodriver 0.19.1
+1540650297711	geckodriver	INFO	Listening on 127.0.0.1:51158
+1540650299799	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.RDdhXe5JRnVd"
+1540650303188	Marionette	INFO	Listening on port 51168
+1540650303455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650303498	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650303502	Marionette	DEBUG	[6442450945] Frame script registered
+1540650303814	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650304100	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650304107	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/
+1540650304160	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/
+1540650307953	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51157/
+1540650308168	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51157/
+1540650308168	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51157/
+1540650308173	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/login_action/
+1540650308198	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/login_action/
+1540650310510	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51157/login_action/
+1540650310521	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51157/login_action/
+1540650310527	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/
+1540650310546	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/
+1540650311636	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51157/
+1540650311665	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51157/
+1540650311666	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51157/
+1540650311679	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/login_action/
+1540650311714	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/login_action/
+1540650313991	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51157/login_action/
+1540650314003	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51157/login_action/
+1540650314012	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/
+1540650314045	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/
+1540650315160	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51157/
+1540650315562	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51157/
+1540650315563	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51157/
+1540650315567	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51157/manage/project_manage/
+1540650315591	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51157/manage/project_manage/
+1540650317661	Marionette	INFO	Stopped listening on port 51168
+1540650318435	geckodriver	INFO	geckodriver 0.19.1
+1540650318453	geckodriver	INFO	Listening on 127.0.0.1:51266
+1540650320492	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.cbleHUHg819m"
+1540650324125	Marionette	INFO	Listening on port 51276
+1540650324603	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650324636	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650324636	Marionette	DEBUG	[6442450945] Frame script registered
+1540650324843	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650325114	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650325129	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/
+1540650325197	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/
+1540650329183	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/
+1540650329421	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/
+1540650329423	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51265/
+1540650329427	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/manage/project_manage/
+1540650329448	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/manage/project_manage/
+1540650329475	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/manage/project_manage/
+1540650329496	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/manage/project_manage/
+1540650329496	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51265/manage/project_manage/
+1540650329506	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/manage/add_project/
+1540650329532	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/manage/add_project/
+1540650333690	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/manage/add_project/
+1540650333717	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/manage/add_project/
+1540650333718	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51265/manage/add_project/
+1540650333724	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/manage/project_manage/
+1540650333747	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/manage/project_manage/
+1540650335964	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/manage/project_manage/
+1540650335976	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/manage/project_manage/
+1540650335981	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/
+1540650336002	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/
+1540650337106	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/
+1540650337315	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/
+1540650337316	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51265/
+1540650337322	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/manage/project_manage/
+1540650337342	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/manage/project_manage/
+1540650337363	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51265/manage/project_manage/
+1540650337385	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51265/manage/project_manage/
+1540650337386	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51265/manage/project_manage/
+1540650337391	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51265/manage/edit_project/6/
+1540650337413	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51265/manage/edit_project/6/
+1540650339472	Marionette	INFO	Stopped listening on port 51276
+1540650400123	geckodriver	INFO	geckodriver 0.19.1
+1540650400135	geckodriver	INFO	Listening on 127.0.0.1:51460
+1540650402209	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.2V3s8rRHMh7y"
+1540650405622	Marionette	INFO	Listening on port 51468
+1540650405830	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650405873	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650405874	Marionette	DEBUG	[6442450945] Frame script registered
+1540650406076	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650406379	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650406389	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/
+1540650406468	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/
+1540650410483	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/
+1540650411021	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/
+1540650411021	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51459/
+1540650411027	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/manage/project_manage/
+1540650411051	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/manage/project_manage/
+1540650411075	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/manage/project_manage/
+1540650411103	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/manage/project_manage/
+1540650411104	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51459/manage/project_manage/
+1540650411108	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/manage/add_project/
+1540650411134	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/manage/add_project/
+1540650415286	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/manage/add_project/
+1540650415321	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/manage/add_project/
+1540650415322	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51459/manage/add_project/
+1540650415328	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/manage/project_manage/
+1540650415353	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/manage/project_manage/
+1540650417590	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/manage/project_manage/
+1540650417602	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/manage/project_manage/
+1540650417608	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/
+1540650417626	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/
+1540650418718	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/
+1540650418932	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/
+1540650418932	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51459/
+1540650418936	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/manage/project_manage/
+1540650418962	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/manage/project_manage/
+1540650418983	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51459/manage/project_manage/
+1540650418999	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51459/manage/project_manage/
+1540650419000	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51459/manage/project_manage/
+1540650419005	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51459/manage/edit_project/3/
+1540650419032	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51459/manage/edit_project/3/
+1540650421080	Marionette	INFO	Stopped listening on port 51468
+1540650525684	geckodriver	INFO	geckodriver 0.19.1
+1540650525691	geckodriver	INFO	Listening on 127.0.0.1:51721
+1540650527779	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.zW40eUKcxuBA"
+1540650531508	Marionette	INFO	Listening on port 51732
+1540650531892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650531923	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650531924	Marionette	DEBUG	[6442450945] Frame script registered
+1540650532219	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650532521	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650532531	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/
+1540650532736	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/
+1540650535424	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/
+1540650535880	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/
+1540650535881	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51720/
+1540650535887	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/manage/project_manage/
+1540650535908	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/manage/project_manage/
+1540650535930	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/manage/project_manage/
+1540650535960	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/manage/project_manage/
+1540650535960	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51720/manage/project_manage/
+1540650535964	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/manage/add_project/
+1540650535986	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/manage/add_project/
+1540650540092	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/manage/add_project/
+1540650540143	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/manage/add_project/
+1540650540144	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51720/manage/add_project/
+1540650540157	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/manage/project_manage/
+1540650540191	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/manage/project_manage/
+1540650542421	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/manage/project_manage/
+1540650542434	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/manage/project_manage/
+1540650542439	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/
+1540650542457	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/
+1540650543565	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/
+1540650543777	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/
+1540650543777	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51720/
+1540650543783	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/manage/project_manage/
+1540650543805	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/manage/project_manage/
+1540650543831	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51720/manage/project_manage/
+1540650543845	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51720/manage/project_manage/
+1540650543845	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51720/manage/project_manage/
+1540650543855	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51720/manage/edit_project/3/
+1540650543878	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51720/manage/edit_project/3/
+1540650556021	Marionette	INFO	Stopped listening on port 51732
+1540650616750	geckodriver	INFO	geckodriver 0.19.1
+1540650616759	geckodriver	INFO	Listening on 127.0.0.1:51934
+1540650618837	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.WR43oazmrvGa"
+1540650622094	Marionette	INFO	Listening on port 51943
+1540650622448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540650622494	Marionette	DEBUG	[6442450945] Frame script loaded
+1540650622496	Marionette	DEBUG	[6442450945] Frame script registered
+1540650622706	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540650623000	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540650623010	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/
+1540650623061	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/
+1540650627178	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/
+1540650627581	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/
+1540650627581	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/
+1540650627587	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/project_manage/
+1540650627611	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/project_manage/
+1540650627632	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/manage/project_manage/
+1540650627660	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/manage/project_manage/
+1540650627661	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/manage/project_manage/
+1540650627665	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/add_project/
+1540650627690	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/add_project/
+1540650631845	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/manage/add_project/
+1540650631890	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/manage/add_project/
+1540650631891	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/manage/add_project/
+1540650631899	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/project_manage/
+1540650631932	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/project_manage/
+1540650634160	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/manage/project_manage/
+1540650634172	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/manage/project_manage/
+1540650634179	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/
+1540650634197	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/
+1540650635300	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/
+1540650635514	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/
+1540650635514	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/
+1540650635521	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/project_manage/
+1540650635544	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/project_manage/
+1540650635564	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/manage/project_manage/
+1540650635587	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/manage/project_manage/
+1540650635587	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/manage/project_manage/
+1540650635592	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/edit_project/3/
+1540650635612	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/edit_project/3/
+1540650637824	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:51933/manage/edit_project/3/
+1540650637846	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:51933/manage/edit_project/3/
+1540650637847	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:51933/manage/edit_project/3/
+1540650637853	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:51933/manage/project_manage/
+1540650637879	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:51933/manage/project_manage/
+1540650639930	Marionette	INFO	Stopped listening on port 51943
+1540651011542	geckodriver	INFO	geckodriver 0.19.1
+1540651011557	geckodriver	INFO	Listening on 127.0.0.1:52621
+1540651013486	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.ffOlEzHBsQwv"
+1540651017483	Marionette	INFO	Listening on port 52633
+1540651017608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651017639	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651017640	Marionette	DEBUG	[6442450945] Frame script registered
+1540651017850	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651018172	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651018183	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/
+1540651018245	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/
+1540651022252	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/
+1540651022658	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/
+1540651022659	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/
+1540651022663	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/project_manage/
+1540651022690	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/project_manage/
+1540651022713	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/project_manage/
+1540651022737	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/project_manage/
+1540651022739	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/manage/project_manage/
+1540651022744	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/add_project/
+1540651022764	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/add_project/
+1540651026869	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/add_project/
+1540651026913	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/add_project/
+1540651026915	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/manage/add_project/
+1540651026927	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/project_manage/
+1540651026978	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/project_manage/
+1540651029291	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/project_manage/
+1540651029303	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/project_manage/
+1540651029308	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/
+1540651029325	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/
+1540651030430	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/
+1540651030747	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/
+1540651030749	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/
+1540651030755	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/project_manage/
+1540651030775	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/project_manage/
+1540651041090	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/project_manage/
+1540651041101	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/project_manage/
+1540651041107	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/
+1540651041127	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/
+1540651042251	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/
+1540651042486	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/
+1540651042487	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/
+1540651042492	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/project_manage/
+1540651042521	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/project_manage/
+1540651042542	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/project_manage/
+1540651042566	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/project_manage/
+1540651042566	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/manage/project_manage/
+1540651042571	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/edit_project/4/
+1540651042598	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/edit_project/4/
+1540651044719	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52620/manage/edit_project/4/
+1540651044742	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52620/manage/edit_project/4/
+1540651044743	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52620/manage/edit_project/4/
+1540651044748	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52620/manage/project_manage/
+1540651044772	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52620/manage/project_manage/
+1540651046821	Marionette	INFO	Stopped listening on port 52633
+1540651136776	geckodriver	INFO	geckodriver 0.19.1
+1540651136784	geckodriver	INFO	Listening on 127.0.0.1:52912
+1540651138713	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.Eq3BHKnlx6b6"
+1540651142736	Marionette	INFO	Listening on port 52923
+1540651142836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651142868	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651142869	Marionette	DEBUG	[6442450945] Frame script registered
+1540651143071	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651143382	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651143392	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/
+1540651143449	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/
+1540651148207	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/
+1540651148706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/
+1540651148706	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/
+1540651148713	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/project_manage/
+1540651148737	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/project_manage/
+1540651148766	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/project_manage/
+1540651148801	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/project_manage/
+1540651148801	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/manage/project_manage/
+1540651148805	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/add_project/
+1540651148834	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/add_project/
+1540651152974	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/add_project/
+1540651153016	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/add_project/
+1540651153017	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/manage/add_project/
+1540651153028	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/project_manage/
+1540651153076	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/project_manage/
+1540651155385	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/project_manage/
+1540651155397	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/project_manage/
+1540651155403	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/
+1540651155422	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/
+1540651156534	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/
+1540651156754	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/
+1540651156755	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/
+1540651156759	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/project_manage/
+1540651156778	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/project_manage/
+1540651156996	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/project_manage/
+1540651157003	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/project_manage/
+1540651157009	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/
+1540651157026	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/
+1540651158117	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/
+1540651158334	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/
+1540651158335	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/
+1540651158341	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/project_manage/
+1540651158364	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/project_manage/
+1540651158384	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/project_manage/
+1540651158401	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/project_manage/
+1540651158401	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/manage/project_manage/
+1540651158411	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/edit_project/4/
+1540651158432	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/edit_project/4/
+1540651160514	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:52911/manage/edit_project/4/
+1540651160541	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:52911/manage/edit_project/4/
+1540651160542	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:52911/manage/edit_project/4/
+1540651160547	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:52911/manage/project_manage/
+1540651160570	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:52911/manage/project_manage/
+1540651162626	Marionette	INFO	Stopped listening on port 52923
+[Parent 5280, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1540651585053	geckodriver	INFO	geckodriver 0.19.1
+1540651585070	geckodriver	INFO	Listening on 127.0.0.1:53673
+1540651587145	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.NrZF23Q36nLE"
+1540651590769	Marionette	INFO	Listening on port 53681
+1540651591266	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651591337	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651591338	Marionette	DEBUG	[6442450945] Frame script registered
+1540651591554	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651591863	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651591877	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/
+1540651592086	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/
+1540651595284	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/
+1540651595699	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/
+1540651595700	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/
+1540651595705	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/project_manage/
+1540651595731	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/project_manage/
+1540651595754	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/project_manage/
+1540651595782	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/project_manage/
+1540651595782	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/manage/project_manage/
+1540651595786	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/add_project/
+1540651595812	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/add_project/
+1540651599957	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/add_project/
+1540651599987	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/add_project/
+1540651599988	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/manage/add_project/
+1540651599993	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/project_manage/
+1540651600016	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/project_manage/
+1540651602246	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/project_manage/
+1540651602257	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/project_manage/
+1540651602263	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/
+1540651602280	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/
+1540651603378	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/
+1540651603599	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/
+1540651603599	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/
+1540651603605	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/project_manage/
+1540651603630	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/project_manage/
+1540651603879	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/project_manage/
+1540651603890	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/project_manage/
+1540651603895	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/
+1540651603911	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/
+1540651605007	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/
+1540651605240	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/
+1540651605240	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/
+1540651605245	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/project_manage/
+1540651605266	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/project_manage/
+1540651605292	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/project_manage/
+1540651605309	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/project_manage/
+1540651605310	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/manage/project_manage/
+1540651605315	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/edit_project/4/
+1540651605335	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/edit_project/4/
+1540651607417	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53672/manage/edit_project/4/
+1540651607441	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53672/manage/edit_project/4/
+1540651607441	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53672/manage/edit_project/4/
+1540651607446	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53672/manage/project_manage/
+1540651607474	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53672/manage/project_manage/
+1540651609531	Marionette	INFO	Stopped listening on port 53681
+1540651637840	geckodriver	INFO	geckodriver 0.19.1
+1540651637847	geckodriver	INFO	Listening on 127.0.0.1:53842
+1540651640013	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.jH2xxMHbQteI"
+1540651643473	Marionette	INFO	Listening on port 53852
+1540651643636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651643676	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651643678	Marionette	DEBUG	[6442450945] Frame script registered
+1540651643891	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651644189	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651644199	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/
+1540651644300	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/
+1540651646023	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/
+1540651646698	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/
+1540651646698	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/
+1540651646702	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/project_manage/
+1540651646726	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/project_manage/
+1540651646744	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/project_manage/
+1540651646769	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/project_manage/
+1540651646769	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/manage/project_manage/
+1540651646774	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/add_project/
+1540651646798	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/add_project/
+1540651650935	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/add_project/
+1540651650968	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/add_project/
+1540651650969	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/manage/add_project/
+1540651650976	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/project_manage/
+1540651650999	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/project_manage/
+1540651653215	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/project_manage/
+1540651653227	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/project_manage/
+1540651653232	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/
+1540651653250	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/
+1540651654366	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/
+1540651654673	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/
+1540651654673	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/
+1540651654679	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/project_manage/
+1540651654701	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/project_manage/
+1540651654957	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/project_manage/
+1540651654967	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/project_manage/
+1540651654975	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/
+1540651654991	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/
+1540651656090	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/
+1540651656304	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/
+1540651656305	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/
+1540651656310	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/project_manage/
+1540651656331	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/project_manage/
+1540651656359	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/project_manage/
+1540651656375	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/project_manage/
+1540651656375	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/manage/project_manage/
+1540651656379	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/edit_project/4/
+1540651656404	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/edit_project/4/
+1540651658489	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:53841/manage/edit_project/4/
+1540651658515	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:53841/manage/edit_project/4/
+1540651658516	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:53841/manage/edit_project/4/
+1540651658524	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:53841/manage/project_manage/
+1540651658547	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:53841/manage/project_manage/
+1540651660599	Marionette	INFO	Stopped listening on port 53852
+1540651761860	geckodriver	INFO	geckodriver 0.19.1
+1540651761869	geckodriver	INFO	Listening on 127.0.0.1:54120
+1540651763955	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.rTWTQcLMgHhX"
+1540651766641	Marionette	INFO	Listening on port 54130
+1540651767093	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651767129	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651767132	Marionette	DEBUG	[6442450945] Frame script registered
+1540651767333	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651767624	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651767633	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/
+1540651767728	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/
+1540651768870	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/
+1540651769576	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/
+1540651769577	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/
+1540651769584	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651769693	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651769738	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651769769	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651769769	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/manage/project_manage/
+1540651769775	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/add_project/
+1540651769887	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/add_project/
+1540651773981	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/add_project/
+1540651774007	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/add_project/
+1540651774008	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/manage/add_project/
+1540651774015	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651774041	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651776273	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651776285	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651776290	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/
+1540651776309	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/
+1540651777391	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/
+1540651777669	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/
+1540651777670	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/
+1540651777674	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651777698	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651777719	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651777742	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651777743	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/manage/project_manage/
+1540651777749	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651777768	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651780046	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651780057	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651780064	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/
+1540651780082	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/
+1540651781188	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/
+1540651781485	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/
+1540651781485	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/
+1540651781490	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651781515	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651781755	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651781763	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651781769	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/
+1540651781784	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/
+1540651782872	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/
+1540651783090	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/
+1540651783090	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/
+1540651783096	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651783117	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651783137	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/project_manage/
+1540651783152	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/project_manage/
+1540651783153	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/manage/project_manage/
+1540651783157	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/edit_project/5/
+1540651783183	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/edit_project/5/
+1540651785290	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54119/manage/edit_project/5/
+1540651785317	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54119/manage/edit_project/5/
+1540651785317	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54119/manage/edit_project/5/
+1540651785322	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54119/manage/project_manage/
+1540651785349	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54119/manage/project_manage/
+1540651787399	Marionette	INFO	Stopped listening on port 54130
+1540651841429	geckodriver	INFO	geckodriver 0.19.1
+1540651841451	geckodriver	INFO	Listening on 127.0.0.1:54351
+1540651843540	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.LJyPSUUXRkzW"
+1540651846491	Marionette	INFO	Listening on port 54359
+1540651846650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651846680	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651846680	Marionette	DEBUG	[6442450945] Frame script registered
+1540651846892	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651847201	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651847213	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/
+1540651847499	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/
+1540651848648	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/
+1540651849280	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/
+1540651849281	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/
+1540651849285	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651849396	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651849434	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651849462	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651849463	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/manage/project_manage/
+1540651849467	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/add_project/
+1540651849495	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/add_project/
+1540651853632	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/add_project/
+1540651853676	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/add_project/
+1540651853677	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/manage/add_project/
+1540651853684	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651853775	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651856108	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651856121	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651856126	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/
+1540651856143	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/
+1540651857263	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/
+1540651857564	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/
+1540651857565	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/
+1540651857571	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651857590	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651857611	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651857640	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651857641	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/manage/project_manage/
+1540651857645	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651857665	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651859937	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651859947	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651859955	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/
+1540651859972	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/
+1540651861073	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/
+1540651861369	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/
+1540651861370	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/
+1540651861374	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651861397	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651861636	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651861643	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651861650	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/
+1540651861669	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/
+1540651862748	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/
+1540651863047	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/
+1540651863047	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/
+1540651863054	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651863073	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651863093	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/project_manage/
+1540651863108	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/project_manage/
+1540651863109	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/manage/project_manage/
+1540651863113	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/edit_project/5/
+1540651863137	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/edit_project/5/
+1540651865240	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54350/manage/edit_project/5/
+1540651865263	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54350/manage/edit_project/5/
+1540651865265	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54350/manage/edit_project/5/
+1540651865271	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54350/manage/project_manage/
+1540651865293	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54350/manage/project_manage/
+1540651867396	Marionette	INFO	Stopped listening on port 54359
+1540651887380	geckodriver	INFO	geckodriver 0.19.1
+1540651887385	geckodriver	INFO	Listening on 127.0.0.1:54534
+1540651889471	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.MWtGeKBwTCkK"
+1540651892180	Marionette	INFO	Listening on port 54545
+1540651892583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651892627	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651892630	Marionette	DEBUG	[6442450945] Frame script registered
+1540651892839	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651893141	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651893149	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/
+1540651893303	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/
+1540651894423	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54533/
+1540651894715	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54533/
+1540651894716	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54533/
+1540651894721	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/login_action/
+1540651894743	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/login_action/
+1540651896995	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54533/login_action/
+1540651897007	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54533/login_action/
+1540651897013	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/
+1540651897028	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/
+1540651898119	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54533/
+1540651898132	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54533/
+1540651898133	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54533/
+1540651898144	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/login_action/
+1540651898176	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/login_action/
+1540651900494	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54533/login_action/
+1540651900506	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54533/login_action/
+1540651900512	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/
+1540651900528	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/
+1540651901628	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54533/
+1540651902127	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54533/
+1540651902127	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54533/
+1540651902131	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54533/manage/project_manage/
+1540651902164	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54533/manage/project_manage/
+1540651904252	Marionette	INFO	Stopped listening on port 54545
+1540651904995	geckodriver	INFO	geckodriver 0.19.1
+1540651905009	geckodriver	INFO	Listening on 127.0.0.1:54632
+1540651907054	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\程一川\\AppData\\Local\\Temp\\rust_mozprofile.eOjDPNwiHKdV"
+1540651909790	Marionette	INFO	Listening on port 54640
+1540651910187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540651910227	Marionette	DEBUG	[6442450945] Frame script loaded
+1540651910229	Marionette	DEBUG	[6442450945] Frame script registered
+1540651910453	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1540651910786	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1540651910805	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/
+1540651910864	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/
+1540651912011	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/
+1540651912559	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/
+1540651912561	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/
+1540651912576	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651912611	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651912636	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651912706	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651912706	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/manage/project_manage/
+1540651912710	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/add_project/
+1540651912735	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/add_project/
+1540651916888	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/add_project/
+1540651916932	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/add_project/
+1540651916933	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/manage/add_project/
+1540651916938	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651916966	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651919241	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651919251	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651919256	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/
+1540651919274	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/
+1540651920372	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/
+1540651920591	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/
+1540651920591	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/
+1540651920598	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651920622	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651920643	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651920671	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651920671	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/manage/project_manage/
+1540651920675	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651920696	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651922967	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651922977	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651922984	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/
+1540651923001	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/
+1540651924105	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/
+1540651924335	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/
+1540651924335	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/
+1540651924340	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651924366	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651924611	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651924618	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651924624	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/
+1540651924643	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/
+1540651925717	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/
+1540651925922	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/
+1540651925922	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/
+1540651925928	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651925953	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651925971	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/project_manage/
+1540651925991	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/project_manage/
+1540651925992	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/manage/project_manage/
+1540651925999	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/edit_project/8/
+1540651926020	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/edit_project/8/
+1540651928140	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://localhost:54631/manage/edit_project/8/
+1540651928167	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://localhost:54631/manage/edit_project/8/
+1540651928167	Marionette	DEBUG	[6442450945] Received DOM event unload for http://localhost:54631/manage/edit_project/8/
+1540651928172	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://localhost:54631/manage/project_manage/
+1540651928199	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://localhost:54631/manage/project_manage/
+1540651930398	Marionette	INFO	Stopped listening on port 54640

@@ -85,3 +85,18 @@ class LoginActionTest(TestCase):
         response = self.client.post('/login_action/',data=login_data)
         login_html = response.content.decode("utf-8")
         self.assertEqual(response.status_code, 302)
+
+class LogoutActionTest(TestCase):
+    def setUp(self):
+        User.objects.create_user("test001", "test001@mail.com", "test123456")
+        self.client = Client()
+        login_data = {"username": "test001", "password": "test123456"}
+        response = self.client.post('/login_action/', data=login_data)
+        self.assertEqual(response.status_code, 302)
+
+    def test_logout(self):
+        """登录后退出"""
+
+        response = self.client.post('/logout/')
+        login_html = response.content.decode("utf-8")
+        self.assertEqual(response.status_code, 302)
