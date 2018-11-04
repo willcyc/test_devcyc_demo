@@ -30,11 +30,11 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">项目管理</a></li>
+            <li><a href="/manage/project_manage/">项目管理</a></li>
             <li><a href="/manage/module_manage/">模块管理</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="/interface/case_manage/">用例管理</a></li>
+            <li class="active"><a href="#">用例管理</a></li>
             <li><a href="/interface/task_manage/">任务管理</a></li>
           </ul>
           <ul class="nav nav-sidebar">
@@ -45,10 +45,10 @@
 
         {% if type == 'list' %}
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h3 class="sub-header">项目列表
+          <h3 class="sub-header">用例列表
             <button type="button" class="btn btn-default" id="CreateButton"
                     style="float: right;"
-                    onclick="window.location.href='/manage/add_project/'">创建</button>
+                    onclick="window.location.href='/interface/debug/'">调试</button>
           </h3>
           <div class="table-responsive">
             <table class="table table-striped" id="list">
@@ -82,25 +82,12 @@
         </div>
         {% endif %}
 
-        {% if type == 'add' %}
+        {% if type == 'debug' %}
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h3 class="sub-header">添加项目
-             <button class="btn btn-default"
-                     onclick="window.location.href='/manage/project_manage/'"
-                     style="margin-left: 180px;">取消
-            </button>
-          </h3>
+          <!--<h3 class="sub-header">在线postman接口</h3>-->
 
           <div class="row">
-            <div class="col-md-6">
-                <div class="table-responsive">
-                    <form action="/manage/add_project/" method="post">
-                        {% csrf_token %}
-                        {{ form.as_p }}
-                        <button type="submit" class="btn btn-success" id="Create">创建</button>
-                    </form>
-                </div>
-            </div>
+                {% block api_debug %}{% endblock %}
           </div>
         </div>
         {% endif %}
