@@ -9,6 +9,16 @@
         <div style="width:80%; margin-left: 20px;">
         <form action="/debug/" method="get" class="bs-example bs-example-form" role="form" style="margin-top: 30px">
 
+            <div class="form-group" style="height: 20px;">
+                <label>项目:</label>
+                <select id="project_name"></select>
+            </div>
+
+            <div class="form-group">
+                <label>模块:</label>
+                <select id="module_name"></select>
+            </div>
+
             <div class="input-group">
                 <span class="input-group-addon">名称</span>
                 <input id="req_name" type="text" class="form-control" placeholder="name">
@@ -60,6 +70,7 @@
             <p style="color:#8B8989">说明：以字典的方式设置参数，如：{"id":1, "name":"名称"}</p>
             <div style="width: 100%; height: 60px;">
                 <button type="button" class="btn btn-success" id="send" style="float: right;margin-right: 10px;">调试</button>
+                <button type="button" class="btn btn-success" id="save" style="float: right;margin-right: 10px;">保存</button>
             </div>
 
         </form>
@@ -75,14 +86,22 @@
 
     <!--添加jQuery cdn：https://www.bootcdn.cn/jquery/-->
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        <!--jQuery选择器:www.runoob.com/jquery/jquery-selectors.html-->
+    <!--jQuery选择器:www.runoob.com/jquery/jquery-selectors.html-->
+    <script type="text/javascript">
+
+        //初始化菜单，二级联动
+        ProjectInit('project_name','module_name')
+        //三级联动例子：http://www.cnblogs.com/wyp-AY/p/9363178.html
+
         $(document).ready(function(){
             $("#send").click(function(){
                 <!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
                 let url = $("#req_url").val();
                 let method = $('input[name="req_method"]:checked').val();
-                let parameter = $("#req_parameter").val()
+                let parameter = $("#req_parameter").val();
+                let req_type = $('input[name="req_type"]:checked').val();
+                let header = $("#req_header").val();
+
                 //console.log(url,method)
                 //window.alert("hello jq");
                 if(url === ""){
@@ -101,6 +120,46 @@
                      "req_parameter":parameter
                  },function(result){
                     $("#result").html(result);
+                  });
+            });
+
+            $("#save").click(function(){
+                <!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
+                let name = $("#req_name").val();
+                let url = $("#req_url").val();
+                let method = $('input[name="req_method"]:checked').val();
+                let parameter = $("#req_parameter").val();
+                let req_type = $('input[name="req_type"]:checked').val();
+                let header = $("#req_header").val();
+                let module_name = $('select[id="module_name"]').val();
+
+                console.log("类型",req_type)
+                console.log("头部",header)
+                console.log("模块",module_name)
+                //window.alert("hello jq");
+                if(name === ""){
+                    window.alert("名称不能为空");
+                }
+                else if(url === ""){
+                    window.alert("url不能为空");
+                }else if(method === ""){
+                    window.alert("方法为必选项");
+                }else if(parameter === ""){
+                    parameter = "{}";
+                }
+
+                <!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
+                //向后端发送post请求
+                 $.post("/interface/save_case/",{
+                     "name":name,
+                     "req_url":url,
+                     "req_method":method,
+                     "req_parameter":parameter,
+                     "req_type":req_type,
+                     "header":header,
+                     "module":module_name
+                 },function(req){
+                    $("#result").html(req);
                   });
             });
         });
