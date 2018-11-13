@@ -76,18 +76,21 @@ def debug(request):
         return render(request,"api_debug.html",{'form':form,"type":"debug"})
     else:
         return HttpResponse("404")
+        
 #调试接口
 def api_debug(request):
     if request.method == "POST":
         url = request.POST.get("req_url")
         method = request.POST.get("req_method")
         parameter = request.POST.get("req_parameter")
-        payload = json.loads(parameter.replace("'","\"")) #loads()：将字符串转换为字典;replace()：将单引号替换为双引号
+        header = request.POST.get("header")
+        headers = json.loads(header.replace("'","\""))
+        payload = json.loads(parameter.replace("'", "\"")) #loads()：将字符串转换为字典;replace()：将单引号替换为双引号
 
         if method == "get":
-            r = requests.get(url,params=payload)
+            r = requests.get(url,headers = headers,params=payload)
         elif method == "post":
-            r = requests.post(url,json=payload)
+            r = requests.post(url,headers = headers,data=payload)
 
         return HttpResponse(r.text)
     else:
@@ -104,7 +107,7 @@ def save_case(request):
         header = request.POST.get("header","")
         module_name = request.POST.get("module","")
 
-        if url == "" or method == "" or req_type == "" or module_name == "":
+        if name == "" or url == "" or method == "" or req_type == "" or module_name == "":
             return HttpResponse("参数不能为空！")
         elif parameter == "":
             parameter = "{}"

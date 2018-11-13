@@ -1,3 +1,12 @@
+###保存用例
+1、保存用例
+（1）urls.py
+```
+path('save_case/',views.save_case),
+```
+
+（2）api_debug.html
+```
 {% extends "case_manage.html" %}
 {% block api_debug %}
 
@@ -8,16 +17,6 @@
 
         <div style="width:80%; margin-left: 20px;">
         <form action="/debug/" method="get" class="bs-example bs-example-form" role="form" style="margin-top: 30px">
-
-            <div class="form-group" style="height: 20px;">
-                <label>项目:</label>
-                <select id="project_name"></select>
-            </div>
-
-            <div class="form-group">
-                <label>模块:</label>
-                <select id="module_name"></select>
-            </div>
 
             <div class="input-group">
                 <span class="input-group-addon">名称</span>
@@ -87,11 +86,6 @@
     <!--添加jQuery cdn：https://www.bootcdn.cn/jquery/-->
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <!--jQuery选择器:www.runoob.com/jquery/jquery-selectors.html-->
-    <script type="text/javascript">
-
-        //初始化菜单，二级联动
-        ProjectInit('project_name','module_name')
-        //三级联动例子：http://www.cnblogs.com/wyp-AY/p/9363178.html
 
         $(document).ready(function(){
             $("#send").click(function(){
@@ -174,8 +168,41 @@
                     $("#result").html(req);
                   });
             });
+
         });
     </script>
-
-
+    
 {% endblock %}
+```
+
+（3）views.py
+```
+#保存用例
+def save_case(request):
+    if request.method == "POST":
+        name = request.POST.get("name","")
+        url = request.POST.get("req_url","")
+        method = request.POST.get("req_method","")
+        parameter = request.POST.get("req_parameter","")
+        req_type = request.POST.get("req_type","")
+        header = request.POST.get("header","")
+        module_name = request.POST.get("module","")
+
+        if name == "" or url == "" or method == "" or req_type == "" or module_name == "":
+            return HttpResponse("参数不能为空！")
+        elif parameter == "":
+            parameter = "{}"
+        elif header == "":
+            header = "{}"
+
+        module_obj = Module.objects.get(name=module_name)
+        case = TestCase.objects.create(module=module_obj,name=name,url=url,
+                                       req_method=method,req_type=req_type,
+                                       req_header=header,req_parameter=parameter
+                                       )
+        if case is not None:
+            return HttpResponse("保存成功！")
+
+    else:
+        return HttpResponse("404")
+```
