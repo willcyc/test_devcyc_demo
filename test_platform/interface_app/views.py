@@ -50,6 +50,8 @@ def case_manage(request):
 def search_case_name(request):
     if request.method == 'GET':
         case_name = request.GET.get('case_name','')
+        case_method = request.GET.get('case_method','')
+
         cases = TestCase.objects.filter(name__contains=case_name).order_by("id")
 
         paginator = Paginator(cases, 3)  # 每页3条数据
@@ -63,7 +65,8 @@ def search_case_name(request):
 
         return render(request, "case_manage.html", {"type": "list",
                                                     "testcases": contacts,
-                                                    "case_name": case_name
+                                                    "case_name": case_name,
+                                                    "case_method":case_method
                                                     })
 
     else:

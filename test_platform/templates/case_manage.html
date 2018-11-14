@@ -53,12 +53,53 @@
 
           <div class="table-responsive">
 
-            <!--列表搜索-->
+            <!--列表搜索
             <form class="navbar-form" method="get" action="/interface/search_case_name/">
                     <div class="form-group">
+                        <label for="">用例名称:</label>
                         <input name="case_name" type="text" placeholder="用例名称" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-success">搜索</button>
+            </form>
+            -->
+
+            <form method="get" class="form-horizontal" action="/interface/search_case_name/" data-bv-message="This value is not valid" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+              <div class="row margin-bottom-10 margin-top-10 text_field">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: right;">
+                  
+                    <div class="form-group col-lg-3 col-md-3 col-sm-3">
+                      <label class="col-lg-4 col-md-4 col-sm-5 control-label no-padding-right">用例名称:</label>
+                      <div class="input-group col-lg-8 col-md-8 col-sm-7"> 
+                        <input autocomplete="off" type="text" class="form-control" name="case_name" placeholder="用例名称">
+                      </div>
+                    </div>
+                  
+                    <!--输入框
+                    <div class="form-group col-lg-3 col-md-3 col-sm-3">
+                      <label class="col-lg-4 col-md-4 col-sm-5 control-label no-padding-right">请求方法:</label>
+                      <div class="input-group col-lg-8 col-md-8 col-sm-7"> 
+                        <input autocomplete="off" type="text" class="form-control" name="case_method" placeholder="请求方法">
+                      </div>
+                    </div>
+                  -->
+                  <!--下拉框-->
+                  <div class="form-group col-lg-3 col-md-3 col-sm-3" >
+                    <label class="col-lg-4 col-md-5 col-sm-5 control-label no-padding-right">请求方法</label>
+                    <div class="input-group col-lg-8 col-md-7 col-sm-7">
+                      <select name="status" class="form-control" id="status">
+                        <option value="" selected="">全部</option>
+                            <option value="1">post</option>
+                            <option value="0">get</option>
+                      </select>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-6" style="text-align: right;">
+                    <button type="submit" class="btn btn-primary margin-top-10">搜索</button>
+                    <button type="submit" class="btn btn-primary margin-top-10">重置</button>
+                  </div>
+                </div>
+              </div>
             </form>
 
             <table class="table table-striped" id="list">
@@ -69,6 +110,7 @@
                   <th>URL</th>
                   <th>请求方法</th>
                   <th>创建时间</th>
+                  <th>所属模块</th>
                   <th>操作</th>
                 </tr>
               </thead>
@@ -80,6 +122,7 @@
                   <td>{{ case.url }}</td>
                   <td>{{ case.req_method }}</td>
                   <td>{{ case.create_time }}</td>
+                  <td>{{ case.module }}</td>
                   <td>
                       <a href="/interface_app/edit_project/{{ project.id }}/" id="update">编辑</a>
                       <a href="/manage/delete_project/{{ project.id }}/" id="delete">删除</a>
