@@ -1,0 +1,222 @@
+{% extends "case_manage.html" %}
+{% block debug_case %}
+
+    <fieldset>
+        <div id="legend" class="">
+            <legend class="">调试用例</legend>
+        </div>
+
+        <div style="width:80%; margin-left: 20px;">
+        <form action="/debug/" method="get" class="bs-example bs-example-form" role="form" style="margin-top: 30px">
+
+            <div class="form-group" style="height: 20px;">
+                <label>项目:</label>
+                <select id="project_name"></select>
+            </div>
+
+            <div class="form-group">
+                <label>模块:</label>
+                <select id="module_name"></select>
+            </div>
+
+            <div class="input-group">
+                <span class="input-group-addon">名称</span>
+                <input id="req_name" type="text" class="form-control" placeholder="name">
+            </div>
+            <br>
+
+            <div class="input-group">
+                <span class="input-group-addon">URL</span>
+                <input id="req_url" type="text" class="form-control" placeholder="url">
+            </div>
+            <br>
+            <div>
+                <label>请求方法：</label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_method" id="get" value="get" checked> GET
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_method" id="post" value="post"> POST
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_method" id="pub" value="put"> PUT
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_method" id="delete" value="delete"> DELETE
+                </label>
+            </div>
+
+            <div style="margin-top: 10px;">
+                <label>参数类型：</label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_type" id="from" value="from" checked> form-data
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="req_type" id="json" value="json"> JSON
+                </label>
+            </div>
+
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon">Header</span>
+                <input id="req_header" type="text" class="form-control">
+            </div>
+            <p style="color:#8B8989">说明：以字典的方式设置参数，如：{"content-type": "application/json"}</p>
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon">参数</span>
+                <input id="req_parameter" type="text" class="form-control">
+            </div>
+            <p style="color:#8B8989">说明：以字典的方式设置参数，如：{"id":1, "name":"名称"}</p>
+
+            <p>验证结果：</p>
+            <div style="height: 100px">
+                <div style="float: left;width: 80%;">
+                    <textarea id="assert_text" class="form-control" rows="3" name=textarea></textarea>
+                </div>
+                <div style="float: right;margin-right: 10px;margin-top: 40px;">
+                    <button type="button" class="btn btn-success" id="assert" style="float: right;margin-right: 10px;">验证</button>
+                </div>
+            </div>
+            <div style="width: 100%; height: 60px;">
+                <button type="button" class="btn btn-success" id="send" style="float: right;margin-right: 10px;">调试</button>
+                <button type="button" class="btn btn-success" id="save" style="float: right;margin-right: 10px;">保存</button>
+            </div>
+
+        </form>
+
+        </div>
+
+        <div style="width:80%; margin-left: 20px;">
+            <p>返回结果：</p>
+            <textarea id="result" class="form-control" rows="10" name=textarea></textarea>
+        </div>
+
+    </fieldset>
+
+    <!--添加jQuery cdn：https://www.bootcdn.cn/jquery/-->
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <!--jQuery选择器:www.runoob.com/jquery/jquery-selectors.html-->
+    <script type="text/javascript">
+
+        //初始化菜单，二级联动
+        //ProjectInit('project_name','module_name')
+        //三级联动例子：http://www.cnblogs.com/wyp-AY/p/9363178.html
+
+        let url_path = document.location.pathname;  //获取当前路径地址
+        let case_id = url_path.split("/")[3];
+        //window.alert(case_id);
+        //调用获取用例信息的方法
+        CaseInit(case_id)
+
+
+        $(document).ready(function(){
+            //点击发送接口请求
+            $("#send").click(function(){
+                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
+                let name = $("#req_name").val();
+                let url = $("#req_url").val();
+                let method = $('input[name="req_method"]:checked').val();
+                let parameter = $("#req_parameter").val();
+                let req_type = $('input[name="req_type"]:checked').val();
+                let header = $("#req_header").val();
+
+                //console.log(url,method)
+                //window.alert("hello jq");
+                if(name ===""){
+                    window.alert("用例名称不能为空");
+                }else if(url === ""){
+                    window.alert("url不能为空");
+                }else if(method === ""){
+                    window.alert("请求方法为必选项");
+                }else if(parameter === ""){
+                    parameter = "{}";
+                }else if(req_type === ""){
+                    window.alert("参数类型为必选项");
+                }else if(header === ""){
+                    header = "{}";
+                }
+
+                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
+                //向后端发送post请求
+                 $.post("/interface/api_debug/",{
+                     "req_url":url,
+                     "req_method":method,
+                     "header":header,
+                     "req_parameter":parameter
+                 },function(result){
+                    $("#result").html(result);
+                  });
+            });
+
+            //点击保存数据接口
+            $("#save").click(function(){
+                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
+                let name = $("#req_name").val();
+                let url = $("#req_url").val();
+                let method = $('input[name="req_method"]:checked').val();
+                let parameter = $("#req_parameter").val();
+                let req_type = $('input[name="req_type"]:checked').val();
+                let header = $("#req_header").val();
+                let module_name = $('select[id="module_name"]').val();
+
+                console.log("类型",req_type)
+                console.log("头部",header)
+                console.log("模块",module_name)
+                //window.alert("hello jq");
+                if(name === ""){
+                    window.alert("名称不能为空");
+                }
+                else if(url === ""){
+                    window.alert("url不能为空");
+                }else if(method === ""){
+                    window.alert("方法为必选项");
+                }else if(parameter === ""){
+                    parameter = "{}";
+                }else if(req_type === ""){
+                    window.alert("参数类型为必选项");
+                }else if(header === ""){
+                    header = "{}";
+                }
+
+                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
+                //向后端发送post请求
+                 $.post("/interface/save_case/",{
+                     "name":name,
+                     "req_url":url,
+                     "req_method":method,
+                     "req_parameter":parameter,
+                     "req_type":req_type,
+                     "header":header,
+                     "module":module_name
+                 },function(req){
+                    $("#result").html(req);
+                  });
+            });
+
+            //验证数据接口
+            $("#assert").click(function(){
+                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
+                let result = $("#result").val();
+                let assert = $("#assert_text").val();
+
+                //console.log(result,assert)
+                //window.alert("hello jq");
+                if(result ==="" || assert===""){
+                    window.alert("接口/验证数据不能为空");
+                }
+
+                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
+                //向后端发送post请求
+                 $.post("/interface/api_assert/",{
+                     "result":result,
+                     "assert":assert,
+                 },function(resp){
+                    window.alert(resp.message);
+                  });
+            });
+        });
+    </script>
+
+
+{% endblock %}

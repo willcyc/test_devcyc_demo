@@ -72,11 +72,11 @@ def search_case_name(request):
     else:
         return HttpResponse("404")
 
-#创建/调试接口
-def debug(request):
+#创建/调试用例
+def add_case(request):
     if request.method == 'GET':
         form = TestCaseForm()
-        return render(request,"api_debug.html",{'form':form,"type":"debug"})
+        return render(request,"add_case.html",{'form':form,"type":"add"})
     else:
         return HttpResponse("404")
         
@@ -97,7 +97,7 @@ def api_debug(request):
 
         return HttpResponse(r.text)
     else:
-        return render(request,"api_debug.html",{"type":"debug"})
+        return render(request,"add_case.html",{"type":"debug"})
 
 #保存用例
 def save_case(request):
@@ -125,5 +125,65 @@ def save_case(request):
         if case is not None:
             return HttpResponse("保存成功！")
 
+    else:
+        return HttpResponse("404")
+
+#编辑/调试用例
+def debug_case(request,cid):
+    #print("调试用例id:",cid)
+    if request.method == 'GET':
+        form = TestCaseForm()
+        return render(request,"debug_case.html",{'form':form,"type":"debug"})
+    else:
+        return HttpResponse("404")
+
+#获取接口信息
+def get_case_info(request):
+    if request.method == "POST":
+        case_id = request.POST.get("caseId","")
+        #print(case_id)
+        case_obj = TestCase.objects.get(pk=case_id)
+
+        mid = case_obj.module_id    #获取模块id
+        #print("模块id:",mid)
+        module_obj = Module.objects.get(id=mid)
+        module_name = module_obj.name   #获取模块名称
+
+        pid = module_obj.project_id   #获取项目id
+        #print("项目id：",pid)
+        project_obj = Project.objects.get(id=pid)
+        project_name = project_obj.name   #获取项目名称
+
+        if case_id == "":
+            return JsonResponse({"success":"false","message":"case id Null"})
+        else:
+            case_info = {
+                "project_name":project_name,
+                "module_name":module_name,
+                "name":case_obj.name,
+                "url":case_obj.url,
+                "req_method":case_obj.req_method,
+                "req_type":case_obj.req_type,
+                "req_header":case_obj.req_header,
+                "req_parameter":case_obj.req_parameter,
+            }
+            return JsonResponse({"success": "true", "message": "ok","data":case_info})
+    else:
+        return HttpResponse("404")
+
+#验证预期结果
+def api_assert(request):
+    if request.method == 'POST':
+        result_text = request.POST.get("result","")
+        assert_text = request.POST.get("assert","")
+
+        if result_text == "" or assert_text == "":
+            return JsonResponse({"success":"false","message":"验证数据不能为空！"})
+        try:
+            assert assert_text in result_text
+        except AssertionError:
+            return JsonResponse({"success": "false", "message": "验证失败！"})
+        else:
+            return JsonResponse({"success": "true", "message": "验证成功！"})
     else:
         return HttpResponse("404")
