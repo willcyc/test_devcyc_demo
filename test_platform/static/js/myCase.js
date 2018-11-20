@@ -11,17 +11,19 @@ var CaseInit = function (case_id) {
                 console.log("结果",result);
                 document.getElementById("req_name").value = result.name;  //用js在用例名称输入框中输入内容
                 document.getElementById("req_url").value = result.url;
-                document.getElementById("req_header").value = result.req_header;
-                document.getElementById("req_parameter").value = result.req_parameter;
-                if(result.req_method == 'post'){
+                document.getElementById("req_header").value = result.reqHeader;
+                document.getElementById("req_parameter").value = result.reqParameter;
+                document.getElementById("assert_text").value = result.assertText;
+
+                if(result.reqMethod  == 'post'){
                     document.getElementById("post").setAttribute("checked","");  //用js给标签添加属性
                 }
-                if (result.req_type == 'json'){
+                if (result.reqType  == 'json'){
                     document.getElementById("json").setAttribute("checked","");
                 }
 
                 //初始化菜单
-                ProjectInit('project_name','module_name',result.project_name,result.module_name);
+                ProjectInit('project_name','module_name',result.projectName,result.moduleName);
             }else{
                 window.alert("用例id不存在！");
             }

@@ -3,7 +3,7 @@
 
     <fieldset>
         <div id="legend" class="">
-            <legend class="">调试用例</legend>
+            <legend class="">调试接口用例</legend>
         </div>
 
         <div style="width:80%; margin-left: 20px;">
@@ -71,10 +71,10 @@
 
             <p>验证结果：</p>
             <div style="height: 100px">
-                <div style="float: left;width: 80%;">
+                <div style="float: left;width: 90%;">
                     <textarea id="assert_text" class="form-control" rows="3" name=textarea></textarea>
                 </div>
-                <div style="float: right;margin-right: 10px;margin-top: 40px;">
+                <div style="float: right;margin-top: 40px;width: 10%;">
                     <button type="button" class="btn btn-success" id="assert" style="float: right;margin-right: 10px;">验证</button>
                 </div>
             </div>
@@ -142,10 +142,15 @@
                  $.post("/interface/api_debug/",{
                      "req_url":url,
                      "req_method":method,
+                     "req_type":req_type,
                      "header":header,
                      "req_parameter":parameter
-                 },function(result){
-                    $("#result").html(result);
+                 },function(resp){
+                     if(resp.success === "true"){
+                         $("#result").html(resp.data);
+                     }else{
+                         window.alert(resp.message);
+                     }
                   });
             });
 
@@ -159,6 +164,7 @@
                 let req_type = $('input[name="req_type"]:checked').val();
                 let header = $("#req_header").val();
                 let module_name = $('select[id="module_name"]').val();
+                let assert_text = $("#assert_text").val();
 
                 console.log("类型",req_type)
                 console.log("头部",header)
@@ -175,8 +181,6 @@
                     parameter = "{}";
                 }else if(req_type === ""){
                     window.alert("参数类型为必选项");
-                }else if(header === ""){
-                    header = "{}";
                 }
 
                 //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
@@ -188,9 +192,14 @@
                      "req_parameter":parameter,
                      "req_type":req_type,
                      "header":header,
-                     "module":module_name
-                 },function(req){
-                    $("#result").html(req);
+                     "module":module_name,
+                     "assert_text":assert_text
+                 },function(resp){
+                     if(resp.success === "true"){
+                        window.alert(resp.message);
+                     }else{
+                         window.alert(resp.message);
+                     }
                   });
             });
 
@@ -200,7 +209,8 @@
                 let result = $("#result").val();
                 let assert = $("#assert_text").val();
 
-                //console.log(result,assert)
+                console.log("验证内容：",assert)
+                console.log("请求数据：",result)
                 //window.alert("hello jq");
                 if(result ==="" || assert===""){
                     window.alert("接口/验证数据不能为空");
