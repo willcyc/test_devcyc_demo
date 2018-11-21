@@ -69,7 +69,10 @@ def api_assert(request):
         if result_text == "" or assert_text == "":
             return common.response_failed("验证的数据不能为空！")
         try:
-            assert assert_text in result_text
+            assertList = assert_text.split()
+            #print("assertList:", assertList)
+            for asserttext in assertList:
+                assert asserttext in result_text
         except AssertionError:
             return common.response_failed("验证失败!")
         else:
