@@ -40,10 +40,15 @@ def api_debug(request):
         if url == "" or method == "" or type == "":
             return common.response_failed("必传参数不能为空！")
 
-        payload = json.loads(parameter.replace("'", "\""))  # loads()：将字符串转换为字典;replace()：将单引号替换为双引号
+        try:
+            header_dict = json.loads(header.replace("'", "\""))
+            payload = json.loads(parameter.replace("'", "\""))  # loads()：将字符串转换为字典;replace()：将单引号替换为双引号
+        except json.decoder.JSONDecodeError:
+            return common.response_failed("格式解析错误，请检查header或参数的格式是否正确!")
+
         if method == "get":
             if type == "from":
-                r = requests.get(url,params=payload)
+                r = requests.get(url,headers=header_dict,params=payload)
             else:
                 return common.response_failed("参数类型错误!")
 
@@ -124,7 +129,10 @@ def get_case_info(request):
         if case_id == "":
             return common.response_failed("用例id为空")
 
-        case_obj = TestCase.objects.get(pk=case_id)
+        try:
+            case_obj = TestCase.objects.get(pk=case_id)
+        except TestCase.DoesNotExist:
+            return common.response_failed("该用例id不存在！")
 
         mid = case_obj.module_id    #获取模块id
         #print("模块id:",mid)
