@@ -97,9 +97,15 @@ def save_case(request):
             header = "{}"
 
         module_obj = Module.objects.get(name=module_name)
-        case = TestCase.objects.create(module=module_obj,name=name,url=url,
-                                       req_method=method,req_type=req_type,
-                                       req_header=header,req_parameter=parameter,resp_assert=assert_text
+        case = TestCase.objects.create(
+                                    module=module_obj,
+                                    name=name,
+                                    url=url,
+                                    req_method=method,
+                                    req_type=req_type,
+                                    req_header=header,
+                                    req_parameter=parameter,
+                                    resp_assert=assert_text
                                        )
         if case is not None:
             return common.response_succeed("保存成功！")
@@ -141,3 +147,46 @@ def get_case_info(request):
         return common.response_succeed(data=case_info)
     else:
         return common.response_failed("请求方法错误！")
+
+#更新用例接口
+def update_case(request):
+    if request.method == "POST":
+        case_id = request.POST.get("cid","")
+        name = request.POST.get("name","")
+        url = request.POST.get("req_url","")
+        method = request.POST.get("req_method","")
+        parameter = request.POST.get("req_parameter","")
+        req_type = request.POST.get("req_type","")
+        header = request.POST.get("header","")
+        module_name = request.POST.get("module","")
+        assert_text = request.POST.get("assert_text","")
+        print("接口ID：",case_id)
+
+        if name == "" or url == "" or method == "" or req_type == "" or module_name == "" or assert_text == "":
+            return common.response_failed("必传参数不能为空！")
+        elif parameter == "":
+            parameter = "{}"
+        elif header == "":
+            header = "{}"
+
+        module_obj = Module.objects.get(name=module_name)
+        case_obj = TestCase.objects.filter(id=case_id).update(
+                module=module_obj,
+                name=name,
+                url=url,
+                req_method=method, 
+                req_header=header,
+                req_type=req_type,
+                req_parameter=parameter,
+                resp_assert=assert_text
+            )
+        print("case_obj：",case_obj)
+        if case_obj == 1:
+            return common.response_succeed("更新成功！")
+        else:
+            return common.response_failed("更新失败！")
+
+    else:
+        return common.response_failed("请求方法错误！")
+
+

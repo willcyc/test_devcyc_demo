@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse,HttpResponseRedirect
 #from interface_app.forms import TestCaseForm
 from interface_app.models import TestCase
 #from project_app.models import Module,Project
@@ -68,3 +68,13 @@ def debug_case(request,cid):
         return render(request,"debug_case.html",{"type":"debug"})
     else:
         return HttpResponse("404")
+
+#删除用例
+def delete_case(request,cid):
+    """删除用例"""
+    print("cid:",cid)
+    if cid is not None:
+        TestCase.objects.get(id=cid).delete()
+        return HttpResponseRedirect('/interface/case_manage/')
+    else:
+        return HttpResponseRedirect('/interface/case_manage/')
