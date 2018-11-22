@@ -36,27 +36,30 @@ def api_debug(request):
         type = request.POST.get("req_type","")
         parameter = request.POST.get("req_parameter","")
         header = request.POST.get("req_header","")
-
+        print("parameter123:",parameter)
+        print("header123:",header)
         if url == "" or method == "" or type == "":
             return common.response_failed("必传参数不能为空！")
 
         try:
-            header_dict = json.loads(header.replace("'", "\""))
+            headers = json.loads(header.replace("'", "\""))
             payload = json.loads(parameter.replace("'", "\""))  # loads()：将字符串转换为字典;replace()：将单引号替换为双引号
+            print("payload123:",payload)
+            print("headers123:",headers)
         except json.decoder.JSONDecodeError:
             return common.response_failed("格式解析错误，请检查header或参数的格式是否正确!")
 
         if method == "get":
             if type == "from":
-                r = requests.get(url,headers=header_dict,params=payload)
+                r = requests.get(url,headers=headers,params=payload)
             else:
                 return common.response_failed("参数类型错误!")
 
         elif method == "post":
             if type == "from":
-                r = requests.post(url, data=payload)
+                r = requests.post(url, headers=headers,data=payload)
             elif type == "json":
-                r = requests.post(url, json=payload)
+                r = requests.post(url,headers=headers,json=payload)
             else:
                 return common.response_failed("参数类型错误!")
 
@@ -97,12 +100,14 @@ def save_case(request):
         module_name = request.POST.get("module","")
         assert_text = request.POST.get("assert_text","")
 
-        if name == "" or url == "" or method == "" or req_type == "" or module_name == "" or assert_text == "":
+        if name == "" or url == "" or method == "" or req_type == "" or module_name == "":
             return common.response_failed("必传参数不能为空！")
         elif parameter == "":
             parameter = "{}"
         elif header == "":
             header = "{}"
+        elif assert_text == "":
+            return common.response_failed("保存前，请先进行验证操作！")
 
         module_obj = Module.objects.get(name=module_name)
         case = TestCase.objects.create(
@@ -173,12 +178,14 @@ def update_case(request):
         assert_text = request.POST.get("assert_text","")
         print("接口ID：",case_id)
 
-        if name == "" or url == "" or method == "" or req_type == "" or module_name == "" or assert_text == "":
+        if name == "" or url == "" or method == "" or req_type == "" or module_name == "":
             return common.response_failed("必传参数不能为空！")
         elif parameter == "":
             parameter = "{}"
         elif header == "":
             header = "{}"
+        elif assert_text == "":
+            return common.response_failed("保存前，请先进行验证操作！")
 
         module_obj = Module.objects.get(name=module_name)
         case_obj = TestCase.objects.filter(id=case_id).update(

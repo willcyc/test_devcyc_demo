@@ -75,12 +75,13 @@
             <div style="height: 100px">
                 <div style="float: left;width: 90%;">
                     <textarea id="assert_text" class="form-control" rows="3" name=textarea></textarea>
+                    <p style="color:#8B8989">说明：保存前请先进行验证操作！</p>
                 </div>
                 <div style="float: right;width: 10%;margin-top: 40px;">
                     <button type="button" class="btn btn-success" id="assert" style="float: right;margin-right: 10px;">验证</button>
                 </div>
             </div>
-            <div style="width: 100%; height: 60px;">
+            <div style="width: 100%; height: 60px;padding-top: 10px;">
                 <button type="button" class="btn btn-success" id="send" style="float: right;margin-right: 10px;">调试</button>
                 <button type="button" class="btn btn-success" id="save" style="float: right;margin-right: 10px;">保存</button>
             </div>
@@ -115,8 +116,8 @@
                 let req_type = $('input[name="req_type"]:checked').val();
                 let header = $("#req_header").val();
 
-                console.log(url,method,req_type)
-                console.log("parameter:",parameter)
+                //console.log(url,method,req_type)
+                //console.log("parameter:",parameter)
                 //window.alert("hello jq");
                 if(name ===""){
                     window.alert("用例名称不能为空");
@@ -139,8 +140,8 @@
                     parameter = "{}";
                 }
 
-                console.log("header:",header)
-                console.log("parameter:",parameter)
+                //console.log("header:",header)
+                //console.log("parameter:",parameter)
 
                 //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
                 //向后端发送post请求
@@ -172,12 +173,13 @@
                 let module_name = $('select[id="module_name"]').val();
                 let assert_text = $("#assert_text").val();
 
-                console.log("类型",req_type)
-                console.log("头部",header)
-                console.log("模块",module_name)
+                //console.log("类型",req_type)
+                //console.log("头部",header)
+                //console.log("模块",module_name)
                 //window.alert("hello jq");
                 if(name === ""){
                     window.alert("名称不能为空");
+                    return;
                 }
                 else if(url === ""){
                     window.alert("url不能为空");
@@ -185,13 +187,16 @@
                 }else if(method === ""){
                     window.alert("方法为必选项");
                     return;
-                }else if(parameter === ""){
-                    parameter = "{}";
                 }else if(req_type === ""){
                     window.alert("参数类型为必选项");
                     return;
+                }else if(header === "" && parameter === "" ){
+                    header = "{}";
+                    parameter = "{}";
                 }else if(header === ""){
                     header = "{}";
+                }else if(parameter === ""){
+                    parameter = "{}";
                 }
 
                 //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
