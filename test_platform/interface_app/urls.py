@@ -1,5 +1,5 @@
 from django.urls import path
-from interface_app.views import testcase_views,testcase_api,testtask_views
+from interface_app.views import testcase_views,testcase_api,testtask_views,testtask_api
 urlpatterns = [
     #用例管理
     path('case_manage/',testcase_views.case_manage),
@@ -23,4 +23,5 @@ urlpatterns = [
 
     # 任务管理--由JS调用的接口
     path('get_case_list', testcase_api.get_case_list),
+    path('save_task_data/',testtask_api.save_task_data),
 ]

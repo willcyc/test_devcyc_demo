@@ -220,7 +220,11 @@ def get_case_list(request):
                 cases = TestCase.objects.filter(module_id=module.id)
                 for case in cases:
                     case_info = project.name + "->" + module.name + "->" +case.name
-                    cases_list.append(case_info)
+                    cases_dict = {
+                        "id":case.id,
+                        "name":case_info
+                    }
+                    cases_list.append(cases_dict)
 
         return common.response_succeed(data=cases_list)
 

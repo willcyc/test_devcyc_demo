@@ -87,14 +87,14 @@
             </form>
             -->
 
-            <form method="get" class="form-horizontal" action="/interface/search_case_name/" data-bv-message="This value is not valid" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
+            <form method="get" class="form-horizontal" action="/interface/search_task_name/" data-bv-message="This value is not valid" data-bv-feedbackicons-valid="glyphicon glyphicon-ok" data-bv-feedbackicons-invalid="glyphicon glyphicon-remove" data-bv-feedbackicons-validating="glyphicon glyphicon-refresh">
               <div class="row margin-bottom-10 margin-top-10 text_field">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: right;">
 
                     <div class="form-group col-lg-3 col-md-3 col-sm-3">
-                      <label class="col-lg-4 col-md-4 col-sm-5 control-label no-padding-right">任务名称:</label>
+                      <label class="col-lg-4 col-md-4 col-sm-5 control-label no-padding-right" style=" padding-left: 13px;">任务名称:</label>
                       <div class="input-group col-lg-8 col-md-8 col-sm-7">
-                        <input autocomplete="off" type="text" class="form-control" name="case_name" placeholder="任务名称">
+                        <input autocomplete="off" type="text" class="form-control" name="task_name" placeholder="任务名称">
                       </div>
                     </div>
 
@@ -106,7 +106,7 @@
                       </div>
                     </div>
                   -->
-                  <!--下拉框-->
+                  <!--下拉框
                   <div class="form-group col-lg-3 col-md-3 col-sm-3" >
                     <label class="col-lg-4 col-md-5 col-sm-5 control-label no-padding-right">请求方法</label>
                     <div class="input-group col-lg-8 col-md-7 col-sm-7">
@@ -117,7 +117,7 @@
                       </select>
                     </div>
                   </div>
-
+                  -->
                   <div class="col-sm-6" style="text-align: right;">
                     <button type="submit" class="btn btn-primary margin-top-10">搜索</button>
                     <button type="submit" class="btn btn-primary margin-top-10">重置</button>
@@ -171,16 +171,16 @@
                 <span class="step-links">
                     <ul class="pagination">
                         {% if testtasks.has_previous %} <!--是否有上一页-->
-                            <li><a href="?case_name={{ case_name }}&page={{ testcases.previous_page_number }}">&laquo;</a></li>
-                        {% endif %}                                 <!--testcases.previous_page_number：上一页是第几页-->
+                            <li><a href="?task_name={{ task_name }}&page={{ testtasks.previous_page_number }}">&laquo;</a></li>
+                        {% endif %}                                 <!--testtasks.previous_page_number：上一页是第几页-->
 
-                        <li><a href="#">{{ testtasks.number }}</a></li>  <!--testcases.number：当前页是第几页-->
+                        <li><a href="#">{{ testtasks.number }}</a></li>  <!--testtasks.number：当前页是第几页-->
 
                         {% if testtasks.has_next %} <!--是否有下一页-->
-                            {% if case_name %}
-                                <li><a href="?case_name={{ case_name }}&page={{ testcases.next_page_number }}">&raquo;</a></li>
-                            {% else %}                               <!--testcases.previous_page_number：下一页是第几页-->
-                                <li><a href="?page={{ testcases.next_page_number }}">&raquo;</a></li>
+                            {% if task_name %}
+                                <li><a href="?task_name={{ task_name }}&page={{ testtasks.next_page_number }}">&raquo;</a></li>
+                            {% else %}                               <!--testtasks.previous_page_number：下一页是第几页-->
+                                <li><a href="?page={{ testtasks.next_page_number }}">&raquo;</a></li>
                             {% endif %}
                         {% endif %}
                         <li><a href="#">共：{{ testtasks.paginator.num_pages }} 页</a></li>

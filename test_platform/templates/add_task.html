@@ -10,21 +10,25 @@
             </legend>
         </div>
         <div style="width:80%; margin-left: 20px;">
-        <form action="/debug/" method="get" class="bs-example bs-example-form" role="form" style="margin-top: 30px">
+        <form method="get" class="bs-example bs-example-form" role="form" style="margin-top: 30px">
 
             <div class="form-group">
                 <label>名称:</label>
-                <input type="text" class="form-control">
+                <input type="text" id="taskName" class="form-control">
             </div>
 
             <div class="form-group">
                 <label>描述:</label>
-                <textarea id="result" class="form-control" rows="3" name=textarea></textarea>
+                <textarea id="taskDescribe" class="form-control" rows="3" name=textarea></textarea>
             </div>
 
             <div class="form-group">
                 <label>用例:</label>
-                <p>用例。。。</p>
+                <div class="caselist" style="overflow-y:scroll;height: 100px;
+                    background: #ffff;height: 100px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;">
+
+                </div>
+
             </div>
 
             <div style="width: 100%; height: 60px;padding-top: 10px;">
@@ -42,148 +46,50 @@
     <!--jQuery选择器:www.runoob.com/jquery/jquery-selectors.html-->
     <script type="text/javascript">
 
-        //初始化菜单，二级联动
-        ProjectInit('project_name','module_name')
-        //三级联动例子：http://www.cnblogs.com/wyp-AY/p/9363178.html
+        //初始化用例列表
+        CaseListInit()
 
-        $(document).ready(function(){
-            $("#send").click(function(){
+            //保存任务
+            $("#saveTask").click(function(){
                 //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
-                let name = $("#req_name").val();
-                let url = $("#req_url").val();
-                let method = $('input[name="req_method"]:checked').val();
-                let parameter = $("#req_parameter").val();
-                let req_type = $('input[name="req_type"]:checked').val();
-                let header = $("#req_header").val();
+                let tName = $("#taskName").val();
+                let tDescribe = $("#taskDescribe").val();
 
-                //console.log(url,method,req_type)
-                //console.log("parameter:",parameter)
+                console.log("任务名称：",tName)
+                console.log("任务描述：",tDescribe)
                 //window.alert("hello jq");
-                if(name ===""){
-                    window.alert("用例名称不能为空");
+                if(tName === ""){
+                    window.alert("任务名称不能为空！");
                     return;
-                }else if(url === ""){
-                    window.alert("url不能为空");
-                    return;
-                }else if(method === ""){
-                    window.alert("请求方法为必选项");
-                    return;
-                }else if(req_type === ""){
-                    window.alert("参数类型为必选项");
-                    return;
-                }else if(header === "" && parameter === "" ){
-                    header = "{}";
-                    parameter = "{}";
-                }else if(header === ""){
-                    header = "{}";
-                }else if(parameter === ""){
-                    parameter = "{}";
                 }
 
-                //console.log("header:",header)
-                //console.log("parameter:",parameter)
+                let selectCases = document.querySelectorAll("div.caselist >input")   //获取前台用例列表
+                //var selectCaseId = new Array()   //js 定义数组
+                var selectCaseId = "";
+                for(let i=0; i<selectCases.length;i++){
+                    if(selectCases[i].checked === true){         //.checked，来判断用例列表中的复选框是否为勾选状态
+                        let case_id = selectCases[i].value;      //.value，获取勾选的用例的id
+                        //console.log("选中的用例id:",case_id);
+                        //selectCaseId.push(case_id);
+                        selectCaseId = selectCaseId + case_id + ",";
+                    }
+                }
+                console.log("选中的用例id:",selectCaseId)
 
                 //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
                 //向后端发送post请求
-                 $.post("/interface/api_debug/",{
-                     "req_url":url,
-                     "req_method":method,
-                     "req_type":req_type,
-                     "req_header":header,
-                     "req_parameter":parameter
-                 },function(resp){
-                     if(resp.success === "true"){
-                         $("#result").html(resp.data);
-                     }else{
-                         window.alert(resp.message);
-                         return;
-                     }
-
-                  });
-            });
-
-            $("#save").click(function(){
-                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
-                let name = $("#req_name").val();
-                let url = $("#req_url").val();
-                let method = $('input[name="req_method"]:checked').val();
-                let parameter = $("#req_parameter").val();
-                let req_type = $('input[name="req_type"]:checked').val();
-                let header = $("#req_header").val();
-                let module_name = $('select[id="module_name"]').val();
-                let assert_text = $("#assert_text").val();
-
-                //console.log("类型",req_type)
-                //console.log("头部",header)
-                //console.log("模块",module_name)
-                //window.alert("hello jq");
-                if(name === ""){
-                    window.alert("名称不能为空");
-                    return;
-                }
-                else if(url === ""){
-                    window.alert("url不能为空");
-                    return;
-                }else if(method === ""){
-                    window.alert("方法为必选项");
-                    return;
-                }else if(req_type === ""){
-                    window.alert("参数类型为必选项");
-                    return;
-                }else if(header === "" && parameter === "" ){
-                    header = "{}";
-                    parameter = "{}";
-                }else if(header === ""){
-                    header = "{}";
-                }else if(parameter === ""){
-                    parameter = "{}";
-                }
-
-                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
-                //向后端发送post请求
-                 $.post("/interface/save_case/",{
-                     "name":name,
-                     "req_url":url,
-                     "req_method":method,
-                     "req_parameter":parameter,
-                     "req_type":req_type,
-                     "header":header,
-                     "module":module_name,
-                     "assert_text": assert_text,
+                 $.post("/interface/save_task_data/",{
+                     "task_name":tName,
+                     "task_describe":tDescribe,
+                     "task_cases":selectCaseId
                  },function(resp){
                      if(resp.success === "true"){
                          window.alert(resp.message);
                      }else{
                          window.alert(resp.message);
-                         return;
                      }
                   });
             });
-
-            //验证数据接口
-            $("#assert").click(function(){
-                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
-                let result = $("#result").val();
-                let assert = $("#assert_text").val();
-
-                console.log("验证内容：",assert)
-                console.log("请求数据：",result)
-                //window.alert("hello jq");
-                if(result === "" || assert=== ""){
-                    window.alert("接口/验证数据不能为空");
-                    return;
-                }
-
-                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
-                //向后端发送post请求
-                 $.post("/interface/api_assert/",{
-                     "result":result,
-                     "assert":assert,
-                 },function(resp){
-                    window.alert(resp.message);
-                  });
-            });
-        });
     </script>
 
 

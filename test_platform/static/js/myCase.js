@@ -35,3 +35,39 @@ var CaseInit = function (case_id) {
     getCaseInfo();
 
 }
+
+//获取用例列表
+var CaseListInit = function () {
+
+    var options = "";
+    function getCaseListInfo(){
+        // 获取用例列表的信息
+        $.get("/interface/get_case_list", {}, function (resp) {
+            if(resp.success === "true"){
+                console.log(resp.data);
+                let cases = resp.data;
+                for(let i=0; i<cases.length;i++){
+                    let option = '<input type="checkbox" name=" ' + cases[i].name +
+                        ' " value="' + cases[i].id + '"/> ' + cases[i].name + '<br>'
+                    //console.log("123->",option)
+
+                    options = options + option;
+                }
+
+                //console.log("结果：",options);
+
+                let devCaselist = document.querySelector(".caselist");  //在add_task.html页面中找到caselist属性
+                devCaselist.innerHTML = options;    //将options内容插入到caselist属性所在的标签中
+
+
+            }else{
+                window.alert(resp.message);
+                return;
+            }
+            //$("#result").html(resp);
+        });
+    }
+    // 调用getCaseListInfo函数
+    getCaseListInfo();
+
+}
