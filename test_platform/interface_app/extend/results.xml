@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="1" name="MyTest-20181208220947" skipped="0" tests="2" time="2.502" timestamp="2018-12-08T22:09:50">
+		<testcase classname="MyTest" name="test_dicts_extracted_into_kwargs_2" time="0.935" timestamp="2018-12-08T22:09:50"/>
+		<testcase classname="MyTest" name="test_dicts_extracted_into_kwargs_1" time="1.567" timestamp="2018-12-08T22:09:49">
+			<failure message="3 != 4" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:/git/test_devcyc_demo/test_platform/interface_app/extend/task_run.py", line 20, in test_dicts_extracted_into_kwargs
+    self.assertEqual(2+1,4)
+AssertionError: 3 != 4
+]]>			</failure>
+		</testcase>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testsuite>
+</testsuites>

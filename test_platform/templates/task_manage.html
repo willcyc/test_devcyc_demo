@@ -157,8 +157,15 @@
 
                   <td>{{ task.create_time }}</td>
                   <td>
-                      <a href="/interface/debug_case/{{ case.id }}/" id="update">调试</a>
-                      <a href="/interface/delete_case/{{ case.id }}/" id="delete">删除</a>
+                      <a href="/interface/debug_case/{{ case.id }}/" id="update" style="margin-right: 8px;">
+                          <span class="glyphicon glyphicon-pencil"></span>
+                      </a>
+                      <a href="/interface/run_task/{{ task.id }}/" id="update" style="margin-right: 8px;">
+                          <span class="glyphicon glyphicon-play"></span>
+                      </a>
+                      <a href="/interface/delete_case/{{ case.id }}/" id="delete">
+                          <span class="glyphicon glyphicon-trash"></span>
+                      </a>
                   </td>
                 </tr>
                 {% endfor %}

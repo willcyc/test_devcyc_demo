@@ -24,6 +24,7 @@
 
             <div class="form-group">
                 <label>用例:</label>
+                <input type="checkbox" id="selectAll">全选/取消</input>
                 <div class="caselist" style="overflow-y:scroll;height: 100px;
                     background: #ffff;height: 100px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;">
 
@@ -49,47 +50,65 @@
         //初始化用例列表
         CaseListInit()
 
-            //保存任务
-            $("#saveTask").click(function(){
-                //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
-                let tName = $("#taskName").val();
-                let tDescribe = $("#taskDescribe").val();
+        //保存任务
+        $("#saveTask").click(function(){
+            //<!--jQuery val()方法:www.runoob.com/jquery/html-val.html-->
+            let tName = $("#taskName").val();
+            let tDescribe = $("#taskDescribe").val();
 
-                console.log("任务名称：",tName)
-                console.log("任务描述：",tDescribe)
-                //window.alert("hello jq");
-                if(tName === ""){
-                    window.alert("任务名称不能为空！");
-                    return;
+            console.log("任务名称：",tName)
+            console.log("任务描述：",tDescribe)
+            //window.alert("hello jq");
+            if(tName === ""){
+                window.alert("任务名称不能为空！");
+                return;
+            }
+
+            let selectCases = document.querySelectorAll("div.caselist >input")   //获取前台用例列表
+            //var selectCaseId = new Array()   //js 定义数组
+            var selectCaseId = "";
+            for(let i=0; i<selectCases.length;i++){
+                if(selectCases[i].checked === true){         //.checked，来判断用例列表中的复选框是否为勾选状态
+                    let case_id = selectCases[i].value;      //.value，获取勾选的用例的id
+                    //console.log("选中的用例id:",case_id);
+                    //selectCaseId.push(case_id);
+                    selectCaseId = selectCaseId + case_id + ",";
                 }
+            }
+            console.log("选中的用例id:",selectCaseId)
 
-                let selectCases = document.querySelectorAll("div.caselist >input")   //获取前台用例列表
-                //var selectCaseId = new Array()   //js 定义数组
-                var selectCaseId = "";
-                for(let i=0; i<selectCases.length;i++){
-                    if(selectCases[i].checked === true){         //.checked，来判断用例列表中的复选框是否为勾选状态
-                        let case_id = selectCases[i].value;      //.value，获取勾选的用例的id
-                        //console.log("选中的用例id:",case_id);
-                        //selectCaseId.push(case_id);
-                        selectCaseId = selectCaseId + case_id + ",";
-                    }
-                }
-                console.log("选中的用例id:",selectCaseId)
-
-                //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
-                //向后端发送post请求
-                 $.post("/interface/save_task_data/",{
-                     "task_name":tName,
-                     "task_describe":tDescribe,
-                     "task_cases":selectCaseId
-                 },function(resp){
-                     if(resp.success === "true"){
-                         window.alert(resp.message);
-                     }else{
-                         window.alert(resp.message);
-                     }
-                  });
+            //<!--jQuery ajax - post()方法:www.w3school.com.cn/jquery/ajax_post.asp-->
+            //向后端发送post请求
+             $.post("/interface/save_task_data/",{
+                 "task_name":tName,
+                 "task_describe":tDescribe,
+                 "task_cases":selectCaseId
+             },function(resp){
+                 if(resp.success === "true"){
+                     window.alert(resp.message);
+                 }else{
+                     window.alert(resp.message);
+                 }
+              });
             });
+
+        //全选/取消勾选
+        $("#selectAll").click(function(){
+            var selectAll = document.querySelector("#selectAll"); //获取全选/取消勾选框
+            var allCases = document.querySelectorAll(".caselist > input");  //获取用例列表中所有用例
+            if(selectAll.checked === true){
+                for(let i=0;i<allCases.length;i++){
+                   allCases[i].checked = true;
+                }
+            }else{
+                for(let i=0;i<allCases.length;i++){
+                   allCases[i].checked = false;
+                }
+            }
+
+        });
+
+
     </script>
 
 

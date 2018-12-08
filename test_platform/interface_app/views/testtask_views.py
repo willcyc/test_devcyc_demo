@@ -1,12 +1,11 @@
+import os
 from django.shortcuts import render
 from django.http import HttpResponse,HttpResponseRedirect
-#from interface_app.forms import TestCaseForm
 from interface_app.models import TestTask
-#from project_app.models import Module,Project
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from interface_app.extend.task_run import run_cases
 
 # Create your views here.
-
 
 #任务列表
 def task_manage(request):
@@ -32,3 +31,20 @@ def add_task(request):
         return render(request,"add_task.html",{"type":"add"})
     else:
         return HttpResponse("404")
+
+#运行任务
+def run_task(request,tid):
+    if request.method == 'GET':
+        task_obj = TestTask.objects.get(id=tid)
+        #print(task_obj.cases)
+        case_list = task_obj.cases.split(",")
+        case_list.pop(-1)
+        #print(case_list)
+        os.system("python D:/git/test_devcyc_demo/test_platform/interface_app/extend/task_run.py") #运行用例
+
+        return HttpResponseRedirect("/interface/task_manage/")
+
+    else:
+        return HttpResponse("404")
+
+#运行某任务下的用例cases --单元测试框架 + 数据驱动
