@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite errors="0" failures="0" name="MyTest-20181209221432" skipped="0" tests="2" time="1.755" timestamp="2018-12-09T22:14:34">
+		<testcase classname="MyTest" name="test_demo_00001_45" time="0.732" timestamp="2018-12-09T22:14:33"/>
+		<testcase classname="MyTest" name="test_demo_00002_44" time="1.023" timestamp="2018-12-09T22:14:34"/>
+		<system-out>
+<![CDATA[]]>		</system-out>
+		<system-err>
+<![CDATA[]]>		</system-err>
+	</testsuite>
+</testsuites>
