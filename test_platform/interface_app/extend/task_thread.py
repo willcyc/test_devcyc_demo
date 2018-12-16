@@ -56,6 +56,31 @@ class TaskThread():
         print("failures：",ts[0].getAttribute("failures"))
         print("tests：",ts[0].getAttribute("tests"))
 
+        errors = ts[0].getAttribute("errors")
+        failures = ts[0].getAttribute("failures")
+        skipped = ts[0].getAttribute("skipped")
+        tests = ts[0].getAttribute("tests")
+        name = ts[0].getAttribute("name")
+        run_time = ts[0].getAttribute("time")
+
+        with(open(TASK_PATH + 'results.xml',"r",encoding="utf-8")) as f:
+            result_text = f.read()
+
+        print(result_text)
+        print(type(result_text))
+
+        ret = TestResult.objects.create(
+            name = name,
+            error = errors,
+            failure = failures,
+            skipped = skipped,
+            tests = tests,
+            task_id = self.tid,
+            run_time = run_time,
+            result = result_text
+        )
+        print(ret)
+
     #创建线程
     def run(self):
         threads = []
