@@ -157,16 +157,16 @@
 
                   <td>{{ task.create_time }}</td>
                   <td>
-                      <a href="/interface/debug_case/{{ case.id }}/" id="update" style="margin-right: 8px;">
+                      <a href="/interface/task_edit/{{ task.id }}/" id="edit" style="margin-right: 8px;">
                           <span class="glyphicon glyphicon-pencil"></span>
                       </a>
-                      <a href="/interface/run_task/{{ task.id }}/" id="update" style="margin-right: 8px;">
+                      <a href="/interface/run_task/{{ task.id }}/" id="runTask" style="margin-right: 8px;">
                           <span class="glyphicon glyphicon-play"></span>
                       </a>
-                      <a href="/interface/delete_case/{{ case.id }}/" id="delete" style="margin-right: 8px;">
+                      <a href="/interface/delete_task/{{ task.id }}/" id="delete" style="margin-right: 8px;">
                           <span class="glyphicon glyphicon-trash"></span>
                       </a>
-                      <a href="/interface/task_result_list/{{ task.id }}/" id="delete">
+                      <a href="/interface/task_result_list/{{ task.id }}/" id="taskTesult">
                           <span class="glyphicon glyphicon-list-alt"></span>
                       </a>
                   </td>
@@ -219,6 +219,17 @@
 
           <div class="row">
                 {% block task_result_list %}{% endblock %}  <!--引用task_result.html页面-->
+          </div>
+        </div>
+        {% endif %}
+
+        <!--编辑/调试任务-->
+        {% if type == 'debug' %}
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <!--<h3 class="sub-header">在线postman接口</h3>-->
+
+          <div class="row">
+                {% block debug_task %}{% endblock %}   <!--引用debug_case.html页面-->
           </div>
         </div>
         {% endif %}

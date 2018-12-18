@@ -160,6 +160,7 @@ def get_case_info(request):
             "reqParameter":case_obj.req_parameter,
             "assertText":case_obj.resp_assert,
         }
+        print(case_info)
         return common.response_succeed(data=case_info)
     else:
         return common.response_failed("请求方法错误！")

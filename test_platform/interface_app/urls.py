@@ -22,10 +22,16 @@ urlpatterns = [
     path('add_task/',testtask_views.add_task),
     path('run_task/<int:tid>/',testtask_views.run_task),
     path('task_result_list/<int:tid>/',testtask_views.task_result_list),
+    path('task_edit/<int:tid>/',testtask_views.task_edit),
+    path('delete_task/<int:tid>/',testtask_views.delete_task),
+    
 
 
     # 任务管理--由JS调用的接口
     path('get_case_list', testcase_api.get_case_list),
     path('save_task_data/',testtask_api.save_task_data),
     path('task_result/',testtask_api.task_result),
+    path('get_task_info/',testtask_api.get_task_info),
+    path('update_task_data/',testtask_api.update_task_data),
+
 ]

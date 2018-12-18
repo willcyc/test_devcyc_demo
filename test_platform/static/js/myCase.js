@@ -44,11 +44,11 @@ var CaseListInit = function () {
         // 获取用例列表的信息
         $.get("/interface/get_case_list", {}, function (resp) {
             if(resp.success === "true"){
-                console.log(resp.data);
+                //console.log(resp.data);
                 let cases = resp.data;
                 for(let i=0; i<cases.length;i++){
-                    let option = '<input type="checkbox" name=" ' + cases[i].name +
-                        ' " value="' + cases[i].id + '"/> ' + cases[i].name + '<br>'
+                    let option = '<input type="checkbox" name="' + cases[i].name +
+                        '" value="' + cases[i].id + '" id="caseid' + i + '" /> ' + cases[i].name + '<br>'
                     //console.log("123->",option)
 
                     options = options + option;
@@ -70,4 +70,40 @@ var CaseListInit = function () {
     // 调用getCaseListInfo函数
     getCaseListInfo();
 
+}
+
+//获取指定任务信息
+var TaskListInit = function (task_id) {
+    function getTaskInfo(){
+
+        //初始化菜单
+        CaseListInit();
+
+        // 获取任务的信息
+        $.post("/interface/get_task_info/", {
+            "taskId":task_id,
+        }, function (resp) {
+            if(resp.success === "true"){
+
+                let result = resp.data;
+                console.log("result:",result)
+
+                document.getElementById("taskName").value = result.name;
+                document.getElementById("taskDescribe").value = result.describe;
+
+                for(let i=0;i<result.taskList.length;i++){
+                    case_value = result.taskList[i]['taskInfo']
+                    console.log("case_value:",case_value)
+                    document.getElementsByName(case_value)[0].checked=true;
+                }
+
+            }else{
+                window.alert(resp.message);
+                return;
+            }
+            //$("#result").html(resp);
+        });
+    }
+    // 调用getCaseInfo函数
+    getTaskInfo();
 }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite errors="0" failures="0" name="MyTest-20181215220914" skipped="0" tests="2" time="2.137" timestamp="2018-12-15T22:09:16">
-		<testcase classname="MyTest" name="test_demo_00001_45" time="1.126" timestamp="2018-12-15T22:09:15"/>
-		<testcase classname="MyTest" name="test_demo_00002_44" time="1.011" timestamp="2018-12-15T22:09:16"/>
+	<testsuite errors="0" failures="0" name="MyTest-20181218162145" skipped="0" tests="5" time="3.364" timestamp="2018-12-18T16:21:48">
+		<testcase classname="MyTest" name="test_demo_00001_45" time="1.005" timestamp="2018-12-18T16:21:46"/>
+		<testcase classname="MyTest" name="test_demo_00002_46" time="0.827" timestamp="2018-12-18T16:21:47"/>
+		<testcase classname="MyTest" name="test_demo_00003_43" time="0.723" timestamp="2018-12-18T16:21:47"/>
+		<testcase classname="MyTest" name="test_demo_00004_39" time="0.405" timestamp="2018-12-18T16:21:48"/>
+		<testcase classname="MyTest" name="test_demo_00005_40" time="0.404" timestamp="2018-12-18T16:21:48"/>
 		<system-out>
 <![CDATA[]]>		</system-out>
 		<system-err>

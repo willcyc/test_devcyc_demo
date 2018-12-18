@@ -55,3 +55,19 @@ def task_result_list(request,tid):
 
     else:
         return HttpResponse("404")
+
+#编辑任务
+def task_edit(request,tid):
+    if request.method == 'GET':
+        return render(request,"debug_task.html",{"type":"debug"})
+    else:
+        return HttpResponse("404")
+
+#删除任务
+def delete_task(request,tid):
+    print("tid:",tid)
+    if tid is not None:
+        TestTask.objects.get(id=tid).delete()
+        return HttpResponseRedirect('/interface/task_manage/')
+    else:
+        return HttpResponseRedirect('/interface/task_manage/')
