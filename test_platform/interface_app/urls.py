@@ -20,10 +20,8 @@ urlpatterns = [
     #任务管理
     path('task_manage/',testtask_views.task_manage),
     path('add_task/',testtask_views.add_task),
-    path('run_task/<int:tid>/',testtask_views.run_task),
     path('task_result_list/<int:tid>/',testtask_views.task_result_list),
     path('task_edit/<int:tid>/',testtask_views.task_edit),
-    path('delete_task/<int:tid>/',testtask_views.delete_task),
     
 
 
@@ -33,5 +31,7 @@ urlpatterns = [
     path('task_result/',testtask_api.task_result),
     path('get_task_info/',testtask_api.get_task_info),
     path('update_task_data/',testtask_api.update_task_data),
+    path('delete_task/',testtask_api.delete_task),
+    path('run_task/',testtask_api.run_task),
 
 ]

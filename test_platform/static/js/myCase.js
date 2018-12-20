@@ -48,7 +48,7 @@ var CaseListInit = function () {
                 let cases = resp.data;
                 for(let i=0; i<cases.length;i++){
                     let option = '<input type="checkbox" name="' + cases[i].name +
-                        '" value="' + cases[i].id + '" id="caseid' + i + '" /> ' + cases[i].name + '<br>'
+                        '" value="' + cases[i].id + '"/> ' + cases[i].name + '<br>'
                     //console.log("123->",option)
 
                     options = options + option;
@@ -74,11 +74,9 @@ var CaseListInit = function () {
 
 //获取指定任务信息
 var TaskListInit = function (task_id) {
+
+    var options = "";
     function getTaskInfo(){
-
-        //初始化菜单
-        CaseListInit();
-
         // 获取任务的信息
         $.post("/interface/get_task_info/", {
             "taskId":task_id,
@@ -91,11 +89,21 @@ var TaskListInit = function (task_id) {
                 document.getElementById("taskName").value = result.name;
                 document.getElementById("taskDescribe").value = result.describe;
 
-                for(let i=0;i<result.taskList.length;i++){
-                    case_value = result.taskList[i]['taskInfo']
-                    console.log("case_value:",case_value)
-                    document.getElementsByName(case_value)[0].checked=true;
+                let cases = result.cases;
+                for(let i=0;i<cases.length;i++){
+                    var option = "";
+                    if(cases[i].status === true){
+                        option = '<input type="checkbox" checked="1"  name="' + cases[i].name
+                            + '" value="' + cases[i].id + '" /> ' + cases[i].name + '<br>'
+                    }else{
+                        option = '<input type="checkbox"  name="' + cases[i].name
+                            + '" value="' + cases[i].id + '" /> ' + cases[i].name + '<br>'
+                        }
+                    options = options + option;
                 }
+
+                let devCaselist = document.querySelector(".caselist");
+                devCaselist.innerHTML = options;
 
             }else{
                 window.alert(resp.message);

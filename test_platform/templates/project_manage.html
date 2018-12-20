@@ -95,8 +95,12 @@
                   <td>{{ project.status }}</td>
                   <td>{{ project.create_time }}</td>
                   <td>
-                      <a href="/manage/edit_project/{{ project.id }}/" id="update">编辑</a>
-                      <a href="/manage/delete_project/{{ project.id }}/" id="delete">删除</a>
+                      <a href="/manage/edit_project/{{ project.id }}/" id="update">
+                          <span class="glyphicon glyphicon-edit"></span>
+                      </a>
+                      <a href="/manage/delete_project/{{ project.id }}/" id="delete">
+                          <span class="glyphicon glyphicon-trash"></span>
+                      </a>
                   </td>
                 </tr>
                 {% endfor %}

@@ -34,14 +34,6 @@ def add_task(request):
     else:
         return HttpResponse("404")
 
-#运行任务
-def run_task(request,tid):
-    if request.method == 'GET':
-        TaskThread(tid).new_run()
-        return HttpResponseRedirect("/interface/task_manage/")
-
-    else:
-        return HttpResponse("404")
 
 #查看任务结果列表
 def task_result_list(request,tid):
@@ -59,15 +51,8 @@ def task_result_list(request,tid):
 #编辑任务
 def task_edit(request,tid):
     if request.method == 'GET':
-        return render(request,"debug_task.html",{"type":"debug"})
+        task_obj = TestTask.objects.get(id=tid)
+        return render(request,"debug_task.html",{"type":"debug","task":task_obj})
     else:
         return HttpResponse("404")
 
-#删除任务
-def delete_task(request,tid):
-    print("tid:",tid)
-    if tid is not None:
-        TestTask.objects.get(id=tid).delete()
-        return HttpResponseRedirect('/interface/task_manage/')
-    else:
-        return HttpResponseRedirect('/interface/task_manage/')

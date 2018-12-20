@@ -148,8 +148,12 @@
                   <td>{{ case.create_time }}</td>
                   <td>{{ case.module }}</td>
                   <td>
-                      <a href="/interface/debug_case/{{ case.id }}/" id="update">调试</a>
-                      <a href="/interface/delete_case/{{ case.id }}/" id="delete">删除</a>
+                      <a href="/interface/debug_case/{{ case.id }}/" id="update">
+                          <span class="glyphicon glyphicon-edit"></span>
+                      </a>
+                      <a href="/interface/delete_case/{{ case.id }}/" id="delete">
+                          <span class="glyphicon glyphicon-trash"></span>
+                      </a>
                   </td>
                 </tr>
                 {% endfor %}

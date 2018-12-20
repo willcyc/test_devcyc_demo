@@ -95,8 +95,12 @@
                   <td>{{ module.project }}</td>
                   <td>{{ module.create_time }}</td>
                   <td>
-                      <a href="/manage/edit_module/{{ module.id }}/">编辑</a>
-                      <a href="/manage/delete_module/{{ module.id }}/">删除</a>
+                      <a href="/manage/edit_module/{{ module.id }}/">
+                          <span class="glyphicon glyphicon-edit"></span>
+                      </a>
+                      <a href="/manage/delete_module/{{ module.id }}/">
+                          <span class="glyphicon glyphicon-trash"></span>
+                      </a>
                   </td>
                 </tr>
                 {% endfor %}

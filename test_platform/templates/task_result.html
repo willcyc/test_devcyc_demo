@@ -37,11 +37,11 @@
                       <!--<a href="/interface/task_result_list/{{ result.id }}/">
                           <span class="glyphicon glyphicon-eye-open"></span>
                       </a>-->
-                      <input type="button" value="查看" onclick="Go('{{ result.id }}')"
-                                            data-toggle="modal"
-                                            data-target="#myModal"
-                                            class="btn btn-primary margin-top-10"
-                      />
+                      <a  href="#" onclick="SeeResult('{{result.id}}')"
+                        data-toggle="modal"
+                        data-target="#myModal" >
+                        <i class="glyphicon glyphicon-eye-open"></i>
+                      </a>
                   </td>
                 </tr>
                 {% endfor %}
@@ -61,7 +61,7 @@
                             {{ task_name }}
                         </h4>
                     </div>
-                    <div class="modal-body" id="resultText">
+                    <div class="modal-body" id="resultText" style="max-height: 300px; overflow-y: scroll;">
                         添加测试结果
                     </div>
                     <div class="modal-footer">
@@ -81,13 +81,13 @@
 
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript">
-        function Go(rid){
+        function SeeResult(rid){
             $.post("/interface/task_result/",{
                  "result_id":rid,
              },function(resp){
                  if(resp.success === "true"){
                      console.log(resp.data.result);
-                     document.querySelector("#resultText").innerText="<h1>" + resp.data.result + "</h1>"
+                     document.querySelector("#resultText").innerText= resp.data.result;
                  }else{
                      window.alert(resp.message);
                  }

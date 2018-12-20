@@ -37,12 +37,15 @@ class MyTest(unittest.TestCase):
 		if method == "get":
 			if type_ == "from":
 				r = requests.get(url, headers=header_dict, params=parameter_dict)
+				self.assertIn(assert_, r.text)
 
 		elif method == "post":
 			if type_ == "from":
 				r = requests.post(url, headers=header_dict, data=parameter_dict)
+				self.assertIn(assert_, r.text)
 			elif type_ == "json":
 				r = requests.post(url, headers=header_dict, json=parameter_dict)
+				self.assertIn(assert_, r.text)
 
 #运行测试用例
 def run_cases():

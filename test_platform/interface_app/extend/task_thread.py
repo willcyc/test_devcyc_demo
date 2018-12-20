@@ -14,7 +14,6 @@ class TaskThread():
     def run_cases(self,tid):
         task_obj = TestTask.objects.get(id=tid)
         cases_list = task_obj.cases.split(",")
-        cases_list.pop(-1)
         print(cases_list)
 
         task_obj.status = 1  # 修改任务执行状态为执行中
@@ -79,7 +78,7 @@ class TaskThread():
             run_time = run_time,
             result = result_text
         )
-        print(ret)
+        print("ret:",ret)
 
     #创建线程
     def run(self):

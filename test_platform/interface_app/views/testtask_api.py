@@ -3,6 +3,8 @@ import requests
 from test_platform import common
 from interface_app.models import TestCase,TestTask,TestResult
 from project_app.models import Project, Module
+from interface_app.views.testcase_api import return_cases_list
+from interface_app.extend.task_thread import TaskThread
 
 #保存任务
 def save_task_data(request):
@@ -16,6 +18,10 @@ def save_task_data(request):
 
         if name == "":
             return common.response_failed("任务名称不能为空！")
+
+        # 去掉最后一个字符
+        if cases[-1] == ",":
+            cases = cases[:-1]
 
         #保存到数据库
         task = TestTask.objects.create(name=name,describe=describe,cases=cases)
@@ -40,72 +46,107 @@ def task_result(request):
     else:
         return common.response_failed("请求方法错误！")
 
-#获取指定任务信息
-def get_task_info(request):
+#运行任务
+def run_task(request):
     if request.method == "POST":
-        task_id = request.POST.get("taskId","")
+        tid = request.POST.get("task_id", "")
 
-        if task_id == "":
-            return common.response_failed("任务id为空")
+        if tid == "":
+            return common.response_failed("任务id不能为空")
 
-        try:
-            task_obj = TestTask.objects.get(pk=task_id)
-            task_name = task_obj.name
-            task_describe = task_obj.describe
-        except TestCase.DoesNotExist:
-            return common.response_failed("该任务id不存在！")
+        task_list = TestTask.objects.all()
 
-        cases_id = task_obj.cases.split(",")
-        cases_id.pop(-1)
-
-        tasks_list = []
-        for case_id in cases_id:
-            case_obj = TestCase.objects.get(id=case_id)
-            case_name = case_obj.name
-
-            module_obj = Module.objects.get(name=case_obj.module)
-            module_name = module_obj.name
-
-            project_obj = Project.objects.get(name=module_obj.project)
-            project_name = project_obj.name
-            task_info = project_name + "->" + module_name + "->" + case_name
-
-            tasks_dict = {
-                "caseId":case_id,
-                "taskInfo":task_info
-            }
-            tasks_list.append(tasks_dict)
-            tasks_info = {
-                "taskId":task_id,
-                "name": task_name,
-                "describe": task_describe,
-                "taskList":tasks_list
-            }
-        print(tasks_info)
-        return common.response_succeed(data=tasks_info)
+        running_task = 0
+        for task in task_list:
+            if task.status == 1:
+                running_task = 1;
+                break
+        if running_task == 1:
+            return common.response_failed("当前有任务正在执行...")
+        else:
+            TaskThread(tid).new_run()
+            return common.response_succeed(message="已执行")
     else:
         return common.response_failed("请求方法错误")
 
+#获取指定任务信息
+def get_task_info(request):
+    if request.method == "POST":
+        tid = request.POST.get("taskId","")
+
+        if tid == "":
+            return common.response_failed("任务id为空")
+
+        try:
+            task_obj = TestTask.objects.get(id=tid)
+        except TestTask.DoesNotExist:
+            return common.response_failed("该任务id不存在！")
+
+        task_info = {
+            "id":task_obj.id,
+            "name":task_obj.name,
+            "describe":task_obj.describe
+        }
+        cases_id = task_obj.cases.split(",")
+        print("cases_id:",cases_id)
+
+        cases_list = return_cases_list()
+        print(cases_list)
+
+        for i in range(len(cases_list)):
+            for cid in cases_id:
+                if int(cid) == int(cases_list[i]["id"]):
+                    cases_list[i]["status"] = True
+                    break
+                else:
+                    cases_list[i]["status"] = False
+        task_info["cases"] = cases_list
+
+        return common.response_succeed(message="获取成功！", data=task_info)
+    else:
+        return common.response_failed("请求方法错误")
+
+#更新任务
 def update_task_data(request):
     if request.method == "POST":
-        task_id = request.POST.get("tid", "")
+        tid = request.POST.get("tid", "")
         name = request.POST.get("task_name", "")
         describe = request.POST.get("task_describe", "")
         cases = request.POST.get("task_cases", "")
-        print("接口ID：", task_id)
+        print("接口ID：", tid)
 
         print("用例id",cases)
         print(type(cases))
 
-        if name == "":
-            return common.response_failed("任务名称不能为空！")
+        if tid == "":
+            return common.response_failed("任务id不能为空！")
 
-        #保存到数据库
-        task_obj = TestTask.objects.filter(id=task_id).update(name=name,describe=describe,cases=cases)
+        # 去掉最后一个字符
+        if cases[-1] == ",":
+            cases = cases[:-1]
+
+        task_obj = TestTask.objects.get(id=tid)
+        task_obj.name = name
+        task_obj.describe = describe
+        task_obj.cases = cases
+        task_obj.save()
+
         print(task_obj)
-        if task_obj == 1:
-            return common.response_succeed(message="更新任务成功!")
-        else:
-            return common.response_failed("请重新创建任务！")
+
+        return common.response_succeed(message="更新任务成功!")
+
+    else:
+        return common.response_failed("请求方法错误！")
+
+#删除任务
+def delete_task(request):
+    if request.method == "POST":
+        tid = request.POST.get("task_id", "")
+        if tid == "":
+            return common.response_failed("任务id不能为空")
+
+        task_obj = TestTask.objects.get(id=tid)
+        task_obj.delete()
+        return common.response_succeed(message="删除成功！")
     else:
         return common.response_failed("请求方法错误！")
