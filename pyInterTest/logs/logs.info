@@ -5107,3 +5107,772 @@ Traceback (most recent call last):
     if req.has_key("pId"):
 AttributeError: 'dict' object has no attribute 'has_key'
 ERROR 2018-12-23 20:09:34,608 C:\Users\≥Ã“ª¥®\.virtualenvs\pyInterTest-DqbhI4fj\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /setting/assert/list HTTP/1.1" 500 20385
+INFO 2018-12-25 14:16:57,171 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-25 14:16:57,232 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 14:16:57,340 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 14:16:57,347 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 14:16:57,382 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 14:16:57,407 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 14:16:57,414 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 14:16:57,414 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 14:16:57,422 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 14:16:57,424 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 14:16:57,425 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 14:16:57,431 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 14:16:57,437 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 14:16:57,449 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 14:16:57,453 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 14:16:57,461 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 14:16:57,481 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 14:16:57,487 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 14:17:05,711 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:17:09,067 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:17:14,092 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:17:18,731 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /register HTTP/1.1" 200 119
+INFO 2018-12-25 14:17:22,035 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:17:31,952 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-25 14:17:36,041 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-25 14:17:36,061 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-25 14:17:36,083 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-25 14:17:36,089 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-25 14:17:36,094 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-25 14:17:36,095 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-25 14:17:36,121 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-25 14:17:36,125 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-25 14:17:36,155 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-25 14:17:36,169 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-25 14:17:36,171 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-25 14:17:36,173 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-25 14:17:36,214 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-25 14:17:40,351 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 14:17:49,506 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /project/1 HTTP/1.1" 200 127288
+INFO 2018-12-25 14:17:49,543 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/morris.css HTTP/1.1" 200 632
+INFO 2018-12-25 14:17:49,544 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/select/bootstrap-select.css HTTP/1.1" 200 8060
+INFO 2018-12-25 14:17:49,545 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12757
+INFO 2018-12-25 14:17:49,546 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/css/zTreeStyle/zTreeStyle.css HTTP/1.1" 200 6319
+INFO 2018-12-25 14:17:49,548 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/morris.min.js HTTP/1.1" 200 32156
+INFO 2018-12-25 14:17:49,552 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/raphael-min.js HTTP/1.1" 200 83931
+INFO 2018-12-25 14:17:49,590 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/chart-master/Chart.js HTTP/1.1" 200 45928
+INFO 2018-12-25 14:17:49,595 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/bootstrap-datetimepicker.js HTTP/1.1" 200 72074
+INFO 2018-12-25 14:17:49,603 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 751
+INFO 2018-12-25 14:17:49,604 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/select/bootstrap-select.js HTTP/1.1" 200 70786
+INFO 2018-12-25 14:17:49,656 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.excheck.min.js HTTP/1.1" 200 11008
+INFO 2018-12-25 14:17:49,656 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.core.min.js HTTP/1.1" 200 32055
+INFO 2018-12-25 14:17:49,663 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.all.min.js HTTP/1.1" 200 63878
+INFO 2018-12-25 14:17:49,699 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.exedit.min.js HTTP/1.1" 200 20807
+INFO 2018-12-25 14:17:49,700 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.exhide.min.js HTTP/1.1" 200 5312
+INFO 2018-12-25 14:17:49,725 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterChart.js HTTP/1.1" 200 4032
+INFO 2018-12-25 14:17:49,732 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/zTree/zTreeHandle.js HTTP/1.1" 200 6282
+INFO 2018-12-25 14:17:49,802 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterTasks.js HTTP/1.1" 200 27433
+INFO 2018-12-25 14:17:49,822 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterDebug.js HTTP/1.1" 200 13432
+INFO 2018-12-25 14:17:49,823 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterCase.js HTTP/1.1" 200 22493
+INFO 2018-12-25 14:17:49,824 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterSetting.js HTTP/1.1" 200 24616
+INFO 2018-12-25 14:17:49,825 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterSuite.js HTTP/1.1" 200 33224
+INFO 2018-12-25 14:17:49,830 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterApi.js HTTP/1.1" 200 39492
+INFO 2018-12-25 14:17:50,020 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 200 1060
+ERROR 2018-12-25 14:19:21,329 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:21,329 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:21,349 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76403
+WARNING 2018-12-25 14:19:25,779 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+INFO 2018-12-25 14:19:31,850 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-25 14:19:36,078 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+ERROR 2018-12-25 14:19:44,529 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:44,529 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:44,536 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76047
+INFO 2018-12-25 14:19:59,052 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 14:23:16,308 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-25 14:23:20,441 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 14:23:28,041 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+ERROR 2018-12-25 14:23:28,072 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 500 59
+INFO 2018-12-25 14:23:32,030 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-25 14:23:36,346 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 14:24:11,403 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-25 14:24:11,411 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 14:24:11,538 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 14:24:11,542 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 14:24:11,543 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 14:24:11,546 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 14:24:11,549 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 14:24:11,549 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 14:24:11,551 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 14:24:11,552 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 14:24:11,561 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 14:24:11,585 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 14:24:11,587 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 14:24:11,587 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 14:24:11,590 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 14:24:11,651 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 14:24:11,652 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 14:24:11,666 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 14:38:57,455 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:51,892 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:52,525 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:52,919 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:53,110 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:53,270 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:53,437 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 14:43:58,293 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:21,218 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:21,958 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:22,139 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:22,347 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:22,549 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:22,890 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:23,099 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:29,209 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:29,963 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:30,168 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:32,673 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:33,475 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:07:40,721 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /register HTTP/1.1" 200 133
+INFO 2018-12-25 15:07:44,762 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9048
+INFO 2018-12-25 15:07:44,781 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-25 15:07:44,787 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-25 15:07:44,795 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-25 15:07:44,801 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-25 15:07:44,804 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-25 15:07:44,815 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-25 15:07:44,826 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-25 15:07:44,830 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-25 15:07:44,832 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-25 15:07:44,833 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-25 15:07:44,833 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-25 15:07:44,840 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-25 15:07:49,061 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 15:07:50,142 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 200 1060
+INFO 2018-12-25 15:08:01,857 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-25 15:08:01,865 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 15:08:01,889 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 15:08:01,902 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 15:08:01,915 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 15:08:01,920 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 15:08:01,927 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 15:08:01,929 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 15:08:01,930 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 15:08:01,940 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 15:08:01,941 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 15:08:01,944 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 15:08:01,944 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 15:08:01,945 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 15:08:01,952 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 15:08:01,953 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 15:08:01,955 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 15:08:02,043 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 15:08:25,257 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:26,875 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:57,259 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:57,850 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:58,035 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:58,204 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:58,370 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:08:59,190 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 15:08:59,232 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 15:08:59,240 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 15:08:59,240 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 15:08:59,241 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 15:08:59,241 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 15:08:59,248 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 15:08:59,250 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 15:08:59,251 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 15:08:59,258 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 15:08:59,372 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 15:08:59,396 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 15:08:59,396 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 15:08:59,396 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 15:08:59,406 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 15:08:59,408 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 15:08:59,428 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 15:08:59,530 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-25 15:09:03,420 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:26,401 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 15:09:26,428 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 15:09:26,439 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 15:09:26,443 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 15:09:26,444 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 15:09:26,444 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 15:09:26,448 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 15:09:26,463 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 15:09:26,471 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 15:09:26,483 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 15:09:26,485 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 15:09:26,492 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 15:09:26,493 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 15:09:26,495 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 15:09:26,497 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 15:09:26,509 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 15:09:26,511 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 15:09:26,608 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-25 15:09:26,612 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 15:09:26,644 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 15:09:26,645 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 15:09:26,647 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 15:09:26,653 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 15:09:26,659 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 15:09:26,662 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 15:09:26,664 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 15:09:26,672 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 15:09:26,672 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 15:09:26,672 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 15:09:26,677 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 15:09:26,687 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 15:09:26,688 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 15:09:26,690 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 15:09:26,692 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 15:09:26,723 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 15:09:30,726 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:31,842 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:32,265 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:32,451 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:32,619 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:53,483 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:53,987 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:54,183 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:54,328 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:54,540 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 15:09:55,594 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 15:09:55,633 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 15:09:55,637 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 15:09:55,638 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 15:09:55,639 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 15:09:55,639 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 15:09:55,641 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 15:09:55,656 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 15:09:55,657 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 15:09:55,665 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 15:09:55,667 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 15:09:55,673 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 15:09:55,676 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 15:09:55,677 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 15:09:55,677 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 15:09:55,678 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 15:09:55,706 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 15:09:55,805 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-25 15:09:59,622 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 16:10:03,862 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 16:10:03,971 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-25 16:10:17,007 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /register HTTP/1.1" 200 133
+INFO 2018-12-25 16:10:21,050 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9046
+INFO 2018-12-25 16:10:21,099 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-25 16:10:21,106 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-25 16:10:21,137 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-25 16:10:21,146 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-25 16:10:21,152 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-25 16:10:21,153 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-25 16:10:21,196 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-25 16:10:21,197 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-25 16:10:21,198 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-25 16:10:21,199 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-25 16:10:21,210 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-25 16:10:21,230 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-25 16:10:25,494 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 18:52:27,442 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 302 0
+INFO 2018-12-25 18:52:27,456 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 18:52:27,478 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 18:52:27,481 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 18:52:27,491 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 18:52:27,497 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 18:52:27,505 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 18:52:27,512 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 18:52:27,514 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 18:52:27,518 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 18:52:27,519 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 18:52:27,527 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 18:52:27,528 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 18:52:27,532 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 18:52:27,535 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 18:52:27,536 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 18:52:27,541 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 18:52:27,604 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 18:52:33,620 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 18:52:34,895 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 132
+INFO 2018-12-25 18:52:46,702 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-25 18:52:50,742 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-25 18:52:50,788 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-25 18:52:50,822 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-25 18:52:50,826 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-25 18:52:50,835 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-25 18:52:50,848 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-25 18:52:50,851 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-25 18:52:50,860 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-25 18:52:50,876 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-25 18:52:50,882 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-25 18:52:50,889 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-25 18:52:50,909 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-25 18:52:50,914 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-25 18:52:55,200 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 18:55:50,694 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 302 0
+INFO 2018-12-25 18:55:50,700 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 18:55:50,723 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 18:55:50,739 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 18:55:50,752 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 18:55:50,753 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 18:55:50,759 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 18:55:50,766 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 18:55:50,767 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 18:55:50,767 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 18:55:50,770 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 18:55:50,772 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 18:55:50,779 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 18:55:50,787 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 18:55:50,790 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 18:55:50,791 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 18:55:50,791 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 18:55:50,840 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 18:56:03,422 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /register HTTP/1.1" 200 119
+INFO 2018-12-25 18:56:05,487 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /register HTTP/1.1" 200 119
+INFO 2018-12-25 19:35:28,114 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 19:35:28,141 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 19:35:28,154 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 19:35:28,157 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 19:35:28,169 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 19:35:28,175 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 19:35:28,179 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 19:35:28,180 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 19:35:28,180 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 19:35:28,180 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 19:35:28,184 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 19:35:28,197 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 19:35:28,201 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 19:35:28,201 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 19:35:28,202 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 19:35:28,202 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 19:35:28,248 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 19:35:28,288 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 19:35:28,358 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 19:35:28,366 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 19:35:28,367 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 19:35:28,367 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 19:35:28,368 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 19:35:28,374 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 19:35:28,375 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 19:35:28,385 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 19:35:28,389 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 19:35:28,395 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 19:35:28,397 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 19:35:28,404 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 19:35:28,404 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 19:35:28,405 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 19:35:28,410 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 19:35:28,446 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 19:35:28,461 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-25 19:35:28,557 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-25 19:35:28,567 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-25 19:35:28,567 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-25 19:35:28,568 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-25 19:35:28,579 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-25 19:35:28,579 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-25 19:35:28,591 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-25 19:35:28,597 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-25 19:35:28,611 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-25 19:35:28,624 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-25 19:35:28,627 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-25 19:35:28,628 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-25 19:35:28,631 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-25 19:35:28,638 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-25 19:35:28,638 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-25 19:35:28,658 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-25 19:35:28,737 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+ERROR 2018-12-25 19:35:40,067 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /login
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view itest.views.login_views.login didn't return an HttpResponse object. It returned None instead.
+ERROR 2018-12-25 19:35:40,067 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /login
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view itest.views.login_views.login didn't return an HttpResponse object. It returned None instead.
+ERROR 2018-12-25 19:35:40,070 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 500 18672
+INFO 2018-12-25 19:44:09,923 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-25 19:44:13,981 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-25 19:44:14,009 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-25 19:44:14,011 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-25 19:44:14,012 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-25 19:44:14,035 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-25 19:44:14,036 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-25 19:44:14,042 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-25 19:44:14,044 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-25 19:44:14,051 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-25 19:44:14,051 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-25 19:44:14,056 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-25 19:44:14,058 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-25 19:44:14,060 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-25 19:44:18,268 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 19:49:52,598 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-25 19:49:52,824 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-25 19:49:56,818 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-25 19:55:04,492 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 200 1060
+ERROR 2018-12-25 19:55:09,883 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 19:55:09,883 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 19:55:09,889 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76052
+WARNING 2018-12-25 19:55:14,228 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+INFO 2018-12-26 09:13:01,726 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-26 09:13:01,808 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 09:13:01,913 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-26 09:13:01,945 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-26 09:13:01,948 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-26 09:13:01,950 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-26 09:13:01,959 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-26 09:13:01,959 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 200 97351
+INFO 2018-12-26 09:13:01,995 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-26 09:13:02,010 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 200 3238
+INFO 2018-12-26 09:13:02,038 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 200 11649
+INFO 2018-12-26 09:13:02,040 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-26 09:13:02,110 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-26 09:13:02,120 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-26 09:13:02,125 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-26 09:13:02,128 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-26 09:13:02,146 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 200 43572
+INFO 2018-12-26 09:13:02,147 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 200 2108
+INFO 2018-12-26 09:13:02,231 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/test.png HTTP/1.1" 200 941
+INFO 2018-12-26 09:13:13,691 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 09:13:17,746 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 09:13:17,794 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 200 6843
+INFO 2018-12-26 09:13:17,800 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 200 28727
+INFO 2018-12-26 09:13:17,820 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 200 77783
+INFO 2018-12-26 09:13:17,824 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 200 7457
+INFO 2018-12-26 09:13:17,833 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 200 581
+INFO 2018-12-26 09:13:17,841 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 200 705
+INFO 2018-12-26 09:13:17,849 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 200 1972
+INFO 2018-12-26 09:13:17,857 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 200 223
+INFO 2018-12-26 09:13:17,866 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 200 18845
+INFO 2018-12-26 09:13:17,876 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 200 93111
+INFO 2018-12-26 09:13:17,878 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 200 580
+INFO 2018-12-26 09:13:17,879 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 200 27731
+INFO 2018-12-26 09:13:17,886 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 200 2441
+INFO 2018-12-26 09:13:17,896 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 200 59477
+INFO 2018-12-26 09:13:17,908 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 200 9253
+INFO 2018-12-26 09:13:17,915 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 200 16145
+INFO 2018-12-26 09:13:17,918 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 200 110946
+INFO 2018-12-26 09:13:17,922 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 200 18546
+INFO 2018-12-26 09:13:17,938 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 200 4973
+INFO 2018-12-26 09:13:17,940 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 200 3733
+INFO 2018-12-26 09:13:17,945 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 200 4327
+INFO 2018-12-26 09:13:17,947 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 200 9846
+INFO 2018-12-26 09:13:17,962 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 200 389605
+INFO 2018-12-26 09:13:22,147 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 09:13:24,301 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 200 1060
+WARNING 2018-12-26 09:14:00,750 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery-1.10.2.min.map HTTP/1.1" 404 1696
+ERROR 2018-12-26 09:15:51,091 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 09:15:51,091 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 09:15:51,099 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75574
+WARNING 2018-12-26 09:15:55,169 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+INFO 2018-12-26 11:17:19,026 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /interface/get_case_list HTTP/1.1" 302 0
+WARNING 2018-12-26 11:17:19,068 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Forbidden (CSRF cookie not set.): /login
+WARNING 2018-12-26 11:17:19,070 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "task_id=3GET /login HTTP/1.1" 403 2868
+INFO 2018-12-26 11:17:24,789 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /interface/run_task/ HTTP/1.1" 302 0
+INFO 2018-12-26 11:17:24,790 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: code 400, message Bad request syntax ('----------------------------035352835635973524066488')
+WARNING 2018-12-26 11:17:24,790 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "----------------------------035352835635973524066488" 400 -
+INFO 2018-12-26 11:17:24,813 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 11:17:29,961 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /interface/run_task/ HTTP/1.1" 302 0
+INFO 2018-12-26 11:17:29,964 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: code 400, message Bad request syntax ('----------------------------185140331942412150749284')
+WARNING 2018-12-26 11:17:29,965 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "----------------------------185140331942412150749284" 400 -
+INFO 2018-12-26 11:23:53,665 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-26 11:23:53,679 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 11:23:53,706 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,711 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,716 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,718 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,723 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,730 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,732 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,733 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,733 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,734 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,734 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,736 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,742 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/cookie/jquery.cookie.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,743 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_login.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,744 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:23:53,919 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:05,887 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 11:24:09,930 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 11:24:09,947 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,950 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,950 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,963 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,963 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,964 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,964 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,965 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,974 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,979 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,980 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:09,985 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 304 0
+INFO 2018-12-26 11:24:14,119 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 11:24:28,284 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 304 0
+ERROR 2018-12-26 11:24:34,305 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:24:34,305 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:24:34,310 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75885
+WARNING 2018-12-26 11:24:38,614 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+INFO 2018-12-26 11:39:35,074 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 11:39:39,314 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 11:39:47,432 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 302 0
+INFO 2018-12-26 11:39:47,436 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 11:42:30,333 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 11:42:34,409 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 11:42:38,565 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+ERROR 2018-12-26 11:42:55,297 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:55,297 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:55,303 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75752
+ERROR 2018-12-26 11:42:55,321 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 59
+ERROR 2018-12-26 11:42:57,238 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:57,238 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:57,247 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75753
+INFO 2018-12-26 11:48:14,079 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 11:48:18,326 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+ERROR 2018-12-26 11:48:25,869 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES(globalVars.IToken):
+TypeError: 'dict' object is not callable
+ERROR 2018-12-26 11:48:25,869 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES(globalVars.IToken):
+TypeError: 'dict' object is not callable
+ERROR 2018-12-26 11:48:25,875 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75757
+INFO 2018-12-26 11:49:44,997 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 11:49:49,221 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 11:49:57,512 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 302 0
+INFO 2018-12-26 11:49:57,517 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 11:52:46,721 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 11:52:50,759 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 11:52:54,928 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 11:53:03,293 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 302 0
+INFO 2018-12-26 11:53:05,335 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-26 11:53:05,339 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 15:46:04,538 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-26 15:46:04,551 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 15:46:13,670 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 15:46:17,720 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 15:46:21,940 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 15:46:30,733 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 302 0
+INFO 2018-12-26 15:46:32,745 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 302 0
+INFO 2018-12-26 15:46:32,749 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /login HTTP/1.1" 200 3035
+INFO 2018-12-26 15:46:41,465 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 200 133
+INFO 2018-12-26 15:46:45,532 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /index HTTP/1.1" 200 9047
+INFO 2018-12-26 15:46:49,738 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 15:47:00,184 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /user_setting_page HTTP/1.1" 200 3324
+INFO 2018-12-26 15:47:00,232 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_user.js HTTP/1.1" 200 2863
+INFO 2018-12-26 15:47:18,245 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /reset_pwd HTTP/1.1" 200 46
+INFO 2018-12-26 15:47:25,110 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 15:47:25,133 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,134 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrap-reset.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,146 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/css/jquery.mloading.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,150 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,171 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,173 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,177 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/bootstrapValidator.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,186 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/loading/js/jquery.mloading.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,199 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,199 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterBase2.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,202 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/style-responsive.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,203 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/css/bootstrapValidator.min.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:25,275 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/font-awesome/font/fontawesome-webfontf77b.woff?v=3.2.1 HTTP/1.1" 304 0
+INFO 2018-12-26 15:47:29,386 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 15:47:31,708 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/about.png HTTP/1.1" 200 4219
+INFO 2018-12-26 15:49:08,855 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /user_setting_page HTTP/1.1" 200 3324
+INFO 2018-12-26 15:49:08,875 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.css HTTP/1.1" 304 0
+INFO 2018-12-26 15:49:08,880 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/gritter/js/jquery.gritter.js HTTP/1.1" 304 0
+INFO 2018-12-26 15:49:08,880 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/sweetalert/sweetalert.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:16,250 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /reset_pwd HTTP/1.1" 200 46
+INFO 2018-12-26 16:17:27,654 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 16:17:27,676 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/alert.css HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,694 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/css/my_style.css HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,707 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/jquery.dataTables.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,708 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.nicescroll.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,721 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInter_project.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,726 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/dynamic-table.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,743 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/head.png HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,743 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery.scrollTo.min.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,743 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/data-tables/DT_bootstrap.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:27,744 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/common-scripts.js HTTP/1.1" 304 0
+INFO 2018-12-26 16:17:32,100 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 16:54:46,063 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/img/arrow-up.png HTTP/1.1" 304 0
+INFO 2018-12-26 16:54:52,983 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /user_setting_page HTTP/1.1" 200 3324
+INFO 2018-12-26 16:55:08,150 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /reset_pwd HTTP/1.1" 200 46
+INFO 2018-12-26 16:55:15,841 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /reset_pwd HTTP/1.1" 200 46
+INFO 2018-12-26 16:55:21,042 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 200 9047
+INFO 2018-12-26 16:55:25,213 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238
+INFO 2018-12-26 16:56:39,150 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /project/1 HTTP/1.1" 200 127288
+INFO 2018-12-26 16:56:39,187 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/morris.css HTTP/1.1" 200 632
+INFO 2018-12-26 16:56:39,193 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/select/bootstrap-select.css HTTP/1.1" 200 8060
+INFO 2018-12-26 16:56:39,233 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/morris.min.js HTTP/1.1" 200 32156
+INFO 2018-12-26 16:56:39,234 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/chart-master/Chart.js HTTP/1.1" 200 45928
+INFO 2018-12-26 16:56:39,241 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/locales/bootstrap-datetimepicker.fr.js HTTP/1.1" 200 751
+INFO 2018-12-26 16:56:39,246 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/bootstrap-datetimepicker.css HTTP/1.1" 200 12757
+INFO 2018-12-26 16:56:39,249 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/assets/morris.js-0.4.3/raphael-min.js HTTP/1.1" 200 83931
+INFO 2018-12-26 16:56:39,249 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/datePicker/bootstrap-datetimepicker.js HTTP/1.1" 200 72074
+INFO 2018-12-26 16:56:39,250 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/css/zTreeStyle/zTreeStyle.css HTTP/1.1" 200 6319
+INFO 2018-12-26 16:56:39,253 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/select/bootstrap-select.js HTTP/1.1" 200 70786
+INFO 2018-12-26 16:56:39,291 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.exhide.min.js HTTP/1.1" 200 5312
+INFO 2018-12-26 16:56:39,292 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterChart.js HTTP/1.1" 200 4032
+INFO 2018-12-26 16:56:39,292 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.excheck.min.js HTTP/1.1" 200 11008
+INFO 2018-12-26 16:56:39,293 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.exedit.min.js HTTP/1.1" 200 20807
+INFO 2018-12-26 16:56:39,294 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.core.min.js HTTP/1.1" 200 32055
+INFO 2018-12-26 16:56:39,300 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/zTree/zTreeHandle.js HTTP/1.1" 200 6282
+INFO 2018-12-26 16:56:39,302 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/zTree/js/jquery.ztree.all.min.js HTTP/1.1" 200 63878
+INFO 2018-12-26 16:56:39,393 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterApi.js HTTP/1.1" 200 39492
+INFO 2018-12-26 16:56:39,403 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterCase.js HTTP/1.1" 200 22493
+INFO 2018-12-26 16:56:39,405 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterDebug.js HTTP/1.1" 200 13432
+INFO 2018-12-26 16:56:39,429 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterSetting.js HTTP/1.1" 200 24616
+INFO 2018-12-26 16:56:39,430 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterTasks.js HTTP/1.1" 200 27433
+INFO 2018-12-26 16:56:39,430 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/pyInter/js/pyInterSuite.js HTTP/1.1" 200 33224
+INFO 2018-12-26 16:56:45,232 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /project/lists HTTP/1.1" 200 238

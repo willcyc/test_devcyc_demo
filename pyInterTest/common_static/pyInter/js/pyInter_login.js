@@ -50,13 +50,13 @@ var LoginHandle = (function () {
             $.request_json(url, "post", {
                 "user": $("#input_user_name").val(),
                 "pwd": $("#input_user_pwd").val()
-            }, function (data) {
-                $("#message").html(data.message);
+            }, function (resp) {
+                $("#message").html(resp.message);
                 $("#div_message_boards").hide();
-                $.cookie(data.data.token_name, data.data.token, {expires: Number(data.data.token_expird), path: '/'});
+                $.cookie(resp.data.token_name, resp.data.token, {expires: Number(resp.data.token_expird), path: '/'});
                 window.location.href = "/index";
-            }, function (data) {
-                $("#message").html(data.message);
+            }, function (resp) {
+                $("#message").html(resp.message);
                 $("#div_message_boards").show();
             });
         }

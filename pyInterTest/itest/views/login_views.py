@@ -67,11 +67,11 @@ def login(request):
         pwd = tools.get_request_key(req, "pwd")
 
         if not user_name or not pwd:
-            return tools.response_failed(u"账号或者密码不能为空")
+            return tools.response_failed("账号或者密码不能为空")
 
         user = UsersDao.get_user(user_name, pwd)
         if user is None:
-            return tools.response_failed(u"账号或者密码错误，请重新输入!")
+            return tools.response_failed("账号或者密码错误，请重新输入!")
         else:
             now_30 = datetime.datetime.now() + datetime.timedelta(days=30)  # token有效时间是30天
             new_token = globalVars.generateToken(user_name)  # 生成token
@@ -84,7 +84,7 @@ def login(request):
                 cache.delete(token.Token)
                 re = TokenDao.update_token(token, new_token, now_30)
             if not re:
-                return tools.response_failed(u"数据库错误，登录失败")
+                return tools.response_failed("数据库错误，登录失败")
             else:
                 cache.set(token, now_30, settings.REDIS_TIMEOUT)
                 return tools.response_by_json(
@@ -100,12 +100,13 @@ def logout(request):
     :param request:
     :return:
     """
-    if not request.COOKIES.has_key(globalVars.IToken):
-        return HttpResponseRedirect(reverse('login'))
     token = request.COOKIES[globalVars.IToken]
+    if  token is None:
+        return HttpResponseRedirect('/')
+
     TokenDao.del_token(token)
     cache.delete(token)
-    return HttpResponseRedirect(reverse('login'))
+    return HttpResponseRedirect('/')
 
 
 def register(request):
@@ -185,9 +186,9 @@ def reset_pwd(request):
 
     user_obj = UsersDao.get_user_by_all(name, old_pwd, user_id)
     if user_obj is None:
-        return tools.response_failed(u"账号或者密码错误，请重新输入!")
+        return tools.response_failed("账号或者密码错误，请重新输入!")
 
     re = UsersDao.update_user_pwd(user_obj, new_pwd)
     if re is None:
-        return tools.response_failed(u"修改密码失败")
+        return tools.response_failed("修改密码失败")
     return tools.response_by_json()

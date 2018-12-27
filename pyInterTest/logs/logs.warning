@@ -2025,3 +2025,213 @@ Traceback (most recent call last):
     if req.has_key("pId"):
 AttributeError: 'dict' object has no attribute 'has_key'
 ERROR 2018-12-23 20:09:34,608 C:\Users\≥Ã“ª¥®\.virtualenvs\pyInterTest-DqbhI4fj\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /setting/assert/list HTTP/1.1" 500 20385
+ERROR 2018-12-25 14:19:21,329 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:21,329 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:21,349 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76403
+WARNING 2018-12-25 14:19:25,779 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+ERROR 2018-12-25 14:19:44,529 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:44,529 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 14:19:44,536 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76047
+ERROR 2018-12-25 14:23:28,072 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET / HTTP/1.1" 500 59
+ERROR 2018-12-25 19:35:40,067 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /login
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view itest.views.login_views.login didn't return an HttpResponse object. It returned None instead.
+ERROR 2018-12-25 19:35:40,067 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /login
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view itest.views.login_views.login didn't return an HttpResponse object. It returned None instead.
+ERROR 2018-12-25 19:35:40,070 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /login HTTP/1.1" 500 18672
+ERROR 2018-12-25 19:55:09,883 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 19:55:09,883 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-25 19:55:09,889 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 76052
+WARNING 2018-12-25 19:55:14,228 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+WARNING 2018-12-26 09:14:00,750 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /static/js/jquery-1.10.2.min.map HTTP/1.1" 404 1696
+ERROR 2018-12-26 09:15:51,091 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 09:15:51,091 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 09:15:51,099 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75574
+WARNING 2018-12-26 09:15:55,169 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+WARNING 2018-12-26 11:17:19,068 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Forbidden (CSRF cookie not set.): /login
+WARNING 2018-12-26 11:17:19,070 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "task_id=3GET /login HTTP/1.1" 403 2868
+WARNING 2018-12-26 11:17:24,790 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "----------------------------035352835635973524066488" 400 -
+WARNING 2018-12-26 11:17:29,965 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "----------------------------185140331942412150749284" 400 -
+ERROR 2018-12-26 11:24:34,305 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:24:34,305 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:24:34,310 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75885
+WARNING 2018-12-26 11:24:38,614 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "GET /favicon.ico HTTP/1.1" 404 15219
+ERROR 2018-12-26 11:42:55,297 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:55,297 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:55,303 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75752
+ERROR 2018-12-26 11:42:55,321 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 59
+ERROR 2018-12-26 11:42:57,238 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:57,238 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES.has_key(globalVars.IToken):
+AttributeError: 'dict' object has no attribute 'has_key'
+ERROR 2018-12-26 11:42:57,247 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75753
+ERROR 2018-12-26 11:48:25,869 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES(globalVars.IToken):
+TypeError: 'dict' object is not callable
+ERROR 2018-12-26 11:48:25,869 E:\python_anzhuang\lib\site-packages\django\utils\log.py log.py log log_response 228: Internal Server Error: /logout
+Traceback (most recent call last):
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python_anzhuang\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\git\test_devcyc_demo\pyInterTest\itest\views\login_views.py", line 103, in logout
+    if not request.COOKIES(globalVars.IToken):
+TypeError: 'dict' object is not callable
+ERROR 2018-12-26 11:48:25,875 E:\python_anzhuang\lib\site-packages\django\core\servers\basehttp.py basehttp.py basehttp log_message 136: "POST /logout HTTP/1.1" 500 75757

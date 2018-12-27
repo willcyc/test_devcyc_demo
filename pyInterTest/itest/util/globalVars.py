@@ -38,12 +38,11 @@ def generateToken(name):
 
 #结果响应的结果样式
 def responeContent(success="true",message="",data={}):
-    content = {}
-    content["success"] = success
-    content["message"] = message
-    content["data"] = data
-#     content["userId"] = data.userId
-#     content["userName"] = data.userName
+    content = {
+        "success":success,
+        "message":message,
+        "data":data
+    }
     return content
 
 def responseJson(success="true",message="",data={}):
