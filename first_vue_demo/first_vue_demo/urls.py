@@ -20,4 +20,6 @@ from first_vue_app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
+    path('demo/',views.demo),
+    path('demo2/',views.demo2),
 ]

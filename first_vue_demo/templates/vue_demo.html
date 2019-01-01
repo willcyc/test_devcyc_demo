@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+    {% verbatim myblock %}
+        <div id="app">
+            <!--<span v-once>{{ message }}</span>--> <!--属性值只更改一次-->
+            <span>{{ message + " world" }}</span><br>
+            <span>{{ 'message'==message ? 'YES' : 'NO' }}</span><br>
+            <span>{{ 'demo002'==message ? 'YES' : 'NO' }}</span><br>
+            <span>{{ message.split('').reverse().join('') }}</span><br>
+            <span>{{ add() }}</span><br>
+            <span>{{ html }}</span>
+            <span v-html="html" v-bind:id="id" v-bind:demo="id" v-bind:class="myclass"></span><br>
+            <span v-html="html" v-bind:id="id + '---AAA'" v-bind:demo="id" v-bind:class="myclass"></span><br>
+            <span v-html="html" :id="id" :demo="id" :class="myclass"></span><br>
+            <input v-model="message">
+            {{ add() }}
+        </div>
+
+    {% endverbatim myblock %}
+
+</body>
+<script>
+    var app = new Vue({
+        el:"#app",  //优先级：el < template < render
+        /*
+        template:'<div>这是template属性模板渲染。</div>',
+
+        render:function(h){
+            return h('div',{},'这是render属性方式渲染。')
+        },
+        */
+
+        data:{
+            message:"hello 123",
+            html:"<span style='color:red'>demo</span>",
+            id:'myid',
+            myclass:'class',
+
+        },
+        methods:{
+            add(){
+                return "XXX"
+            },
+        },
+        watch: {  //监控变量的变化
+            message:function (value) {
+                
+            },
+        },
+        computed:{ //计算属性的getter
+            reversedMessage:function(){  //this 指向vm实例  反转
+                return this.message.split('').reverse().join('')
+            },
+        },
+
+        beforeCreate:function(){
+            console.group('beforeCreate创建前状态=========>')
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+
+        },
+        created:function(){
+            console.group('created创建完毕状态=========>')
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+        beforeMount:function(){
+            console.group("beforeMount挂载前状态========>")
+            console.log("%c%s","color:red","el     :" + (this.$el));
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+        mounted:function(){
+            //this.message = "first_class";  //将初始化的变量“hello”更改为“first_class”
+            console.group("mounted挂载结束状态========>")
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+
+        },
+        beforeUpdate:function () {
+            console.group('beforeUpdate更新前状态========>');
+            //console.log(this.message);
+            console.log("%c%s","color:red","el     :" + (this.$el));
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+        updated:function () {
+            console.group('updated更新完成状态========>');
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+        beforeDestroy:function () {
+            console.group('beforeDestroy销毁前状态========>');
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+        destroyed:function () {
+            console.group('destroy销毁后状态========>');
+            console.log("%c%s","color:red","el     :" + this.$el);
+            console.log(this.$el);
+            console.log("%c%s","color:red","data   :" + this.$data);
+            console.log("%c%s","color:red","message:" + this.message);
+        },
+    });
+    console.log("message:",app.message);
+    app.message="demo001";
+    console.log("el属性：",app.$el);
+    console.log("data属性：",app.$data.message);
+    app.$data.message="demo002";
+    console.log("methods-add()属性：",app.add());
+    console.log("computed-reversedMessage属性：",app.reversedMessage);
+</script>
+
+<style>
+    .class{
+        font-size: 20px;
+    }
+</style>
+</html>
