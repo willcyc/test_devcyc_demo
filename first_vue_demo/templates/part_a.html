@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+
+<body>
+    {% verbatim myblock %}
+        <div id="app">
+            {{ message }}
+
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+
+            <ul>
+                <li v-for="item in fruits">{{ item }}</li>
+            </ul>
+
+            <ul>
+                <li v-for="(item,index) in fruits" :key="item" v-if="'apple' !== item">
+                    {{ index }}.{{ item }}
+                    <ul>
+                        <li v-for="char in tmps">{{ char }}</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li v-for="(item,index) in fruits" :key="item">
+                    {{ index }}.{{ item }}
+                </li>
+            </ul>
+
+        </div>
+    {% endverbatim myblock %}
+</body>
+
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            message:"hello",
+            fruits:["apple","orange","banana"],
+            tmps:["a","b","c","d"],
+        },
+        methods:{
+            add(){
+                return "XXX"
+            },
+        },
+    });
+</script>
+
+</html>

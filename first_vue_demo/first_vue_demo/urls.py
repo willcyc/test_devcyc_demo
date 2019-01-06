@@ -15,11 +15,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from first_vue_app import views
+from first_vue_app import views,part_a_views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
     path('demo/',views.demo),
     path('demo2/',views.demo2),
+    path('part_a/',part_a_views.part_a),
+    path('part_b/',part_a_views.part_b),
+    path('part_c/',part_a_views.part_c),
+    path('part_d/',part_a_views.part_d),
+    path('part_e/', part_a_views.part_e),
+    path('get_array/',part_a_views.get_array),
+    path('get_json/',part_a_views.get_json),
 ]
