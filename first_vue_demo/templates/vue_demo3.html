@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+</head>
+<body>
+    {% verbatim myblock %}
+        <div id="app">
+            firstName:<input v-model="firstName"><br/>
+            lastName:<input v-model="lastName"><br/>
+            fullNameComputed:{{ fullNameComputed }}<br/>
+            fullNameMethod:{{ fullNameMethod() }}<br/>
+
+            fullNameWatch:{{ fullNameWatch }}<br/>
+        </div>
+
+    {% endverbatim myblock %}
+
+</body>
+
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            firstName:"",
+            lastName:"",
+            fullNameWatch:"",
+        },
+        methods:{
+            fullNameMethod(){
+                return this.firstName + this.lastName;
+            }
+        },
+
+        watch: {  //监控变量的变化
+            firstName:function(value){
+                this.fullNameWatch = value + this.lastName;
+            },
+            lastName:function(value){
+                this.fullNameWatch = this.firstName + value;
+            }
+        },
+        computed:{ //计算属性：和上面的methods效果一样，
+                    // computed依赖缓存，而methods在重新渲染时，函数都会重新调用，computed性能会更好
+            fullNameComputed:function () {
+                return this.firstName + this.lastName;
+            }
+        },
+
+    });
+
+</script>
+
+</html>
