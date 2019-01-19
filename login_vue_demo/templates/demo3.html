@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/fetch/3.0.0/fetch.min.js"></script>
+
+    <!-- 引入样式 element-->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 element-->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+    {% verbatim myblock %}
+        <div id="app" class="login_main">
+            <div :style="{'color':colorValue}" style="font-size: 20px">
+                test1
+            </div>
+
+            <div :style="styleObject">
+                test2
+            </div>
+
+            <div :style="styleObject1">
+                test3
+            </div>
+
+            <div :style="[styleObject,styleObject2]">
+                test4
+            </div>
+            <el-button @click="changeColor">change</el-button>
+        </div>
+
+    {% endverbatim myblock %}
+
+</body>
+
+<script>
+    var app = new Vue({
+        el:"#app",
+        data: {
+            colorValue:"red",
+            styleObject1:{'color':"red"},
+            styleObject2:{'font-size':'20px'}
+        },
+
+        methods: {
+            changeColor(){
+                if('red' === this.colorValue){
+                    this.colorValue = 'blue'
+                }else {
+                    this.colorValue = 'red'
+                }
+            }
+        },
+
+        computed:{
+            styleObject:function(){
+                return {'color':this.colorValue}
+            }
+        }
+
+    });
+
+</script>
+
+<style>
+
+    .login_main{
+        width: 400px;
+        height: 400px;
+        {#border: 1px solid black;#}
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+</style>
+
+</html>

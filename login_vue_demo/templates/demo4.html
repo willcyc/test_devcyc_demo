@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/vue/2.4.2/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/fetch/3.0.0/fetch.min.js"></script>
+
+    <!-- 引入样式 element-->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 element-->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
+<body>
+    {% verbatim myblock %}
+
+        <!--定义模板-->
+        <template id="myAccount">
+            <div>使用id注册的组件</div>
+        </template>
+
+        <div id="app" class="login_main">
+            <runoob></runoob>
+            <button-counter></button-counter>
+            <button-counter></button-counter>
+            <runoob1></runoob1>
+            <runoob2></runoob2>
+        </div>
+
+        <div id="app1" class="login_main">
+            <runoob></runoob>
+            <button-counter></button-counter>
+            <button-counter></button-counter>
+            <runoob1></runoob1>  <!--局部组件不会展示在未定义的组件内-->
+        </div>
+
+    {% endverbatim myblock %}
+
+</body>
+
+<script>
+
+    Vue.component('runoob',{    //全局组件
+        template:'<h1>自定义全局组件</h1>',
+    });
+
+    Vue.component('button-counter',{
+        data:function(){
+            return{
+                count:0
+            }
+        },
+        template:'<button v-on:click="count++">You clicked me \{\{count \}\} times.</button>'
+    });
+
+    var appChild = {
+        template:'<h1>自定义局部组件</h1>'
+    }
+
+    var appChild1 = {
+        template:'#myAccount'
+    }
+
+    var app = new Vue({
+        el:"#app",
+        components:{
+            'runoob1':appChild,
+            'runoob2':appChild1,
+        },
+        data: {},
+        methods:{}
+    });
+
+    var app1 = new Vue({
+        el:"#app1",
+        components:{},
+        data: {},
+        methods:{}
+    });
+
+</script>
+
+<style>
+
+    .login_main{
+        width: 400px;
+        height: 400px;
+        {#border: 1px solid black;#}
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+</style>
+
+</html>
