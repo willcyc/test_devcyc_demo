@@ -21,6 +21,18 @@ def demo3(request):
 def demo4(request):
     return render(request,'demo4.html')
 
+def demo5(request):
+    return render(request,'demo5_chuandishuju.html')
+
+def demo6(request):
+    return render(request,'demo6_fuzujianchuandishuju.html')
+
+def demo7(request):
+    return render(request,'demo7_zizujianchuandishuju.html')
+
+def demo8(request):
+    return render(request,'demo8.html')
+
 def login_action(request):
     if "POST" == request.method:
         body = request.body

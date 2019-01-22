@@ -6,5 +6,9 @@ urlpatterns = [
     path('demo2/',views.demo2),
     path('demo3/',views.demo3),
     path('demo4/',views.demo4),
+    path('demo5/',views.demo5),
+    path('demo6/',views.demo6),
+    path('demo7/',views.demo7),
+    path('demo8/',views.demo8),
     path('login_action/',views.login_action)
 ]
