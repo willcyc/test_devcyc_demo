@@ -33,6 +33,12 @@ def demo7(request):
 def demo8(request):
     return render(request,'demo8.html')
 
+def demo9(request):
+    return render(request,'demo9.html')
+
+def demo10(request):
+    return render(request,'demo10.html')
+
 def login_action(request):
     if "POST" == request.method:
         body = request.body
