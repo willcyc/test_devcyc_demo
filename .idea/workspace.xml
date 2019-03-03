@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/test_devcyc_demo$manage.coverage" NAME="manage Coverage Results" MODIFIED="1551533512553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/first_vue_demo" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -24,16 +27,127 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="708001727">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.46" value="2" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="5" />
+          <entry key="py" value="898" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="898" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="test_devcyc_demo" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/my_project/dist/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state relative-caret-position="256">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_platform/test_platform/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding>
+                <element signature="e#636#668#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/views/user_views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1551585010271" expanded="true" signature="90:95" ph="..." />
+                <marker date="1551585010271" expanded="true" signature="264:269" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_platform/test_platform/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_platform/interface_app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -45,8 +159,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -83,56 +197,53 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/test_platform/user_app/views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/test_platform/common.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/manage.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/user_app/tests/tests_unit.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/project_app/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pyInterTest/itest/views/login_views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/views/user_views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/project_app/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/extend/task_run.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testtask_api.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_platform/user_app/tests/test_UI.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/theading_demo.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/templates/add_case.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/login_vue_demo/test_login/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/admin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/manage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/login_vue_demo/test_login/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/apps.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/urls.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_platform/templates/module_manage.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test_platform/templates/case_manage.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test_platform/notes/day05.md" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/user_app/admin.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/user_app/tests/tests_unit.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/test_platform/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/templates/add_case.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test_platform/user_app/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/user_app/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/project_app/views/module_views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/project_app/views/project_views.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/first_vue_demo/first_vue_demo/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/forms.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/test_platform/common.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/static/js/jsProject.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testcase_views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testcase_api.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testtask_views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/extend/task_thread.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/theading_demo.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/static/js/myCase.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_platform/templates/add_task.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_platform/templates/index.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test_platform/templates/case_manage.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/urls.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/test_platform/urls.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/templates/project_manage.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/test_platform/project_app/urls.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/notes/day05.md" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/project_app/forms.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/test_platform/project_app/admin.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/urls.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/templates/project_manage.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/test_platform/project_app/tests.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/project_app/models.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/project_app/views/project_views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/login_vue_demo/test_login/urls.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/project_app/views/module_views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/apps.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/static/js/jsProject.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/static/js/myCase.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/forms.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/admin.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/login_vue_demo/test_login/views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/models.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pyInterTest/itest/views/login_views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testcase_views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testtask_views.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testcase_api.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/views/testtask_api.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/extend/task_thread.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/interface_app/extend/task_run.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/user_app/admin.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/test_platform/user_app/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/test_platform/project_app/forms.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_platform/interface_app/views/testcase_api.py" />
-        <option value="$PROJECT_DIR$/test_platform/test_platform/settings.py" />
-        <option value="$PROJECT_DIR$/test_platform/static/js/myCase.js" />
-        <option value="$PROJECT_DIR$/test_platform/templates/debug_task.html" />
-        <option value="$PROJECT_DIR$/test_platform/interface_app/urls.py" />
         <option value="$PROJECT_DIR$/test_platform/interface_app/views/testtask_views.py" />
         <option value="$PROJECT_DIR$/test_platform/interface_app/views/testtask_api.py" />
         <option value="$PROJECT_DIR$/test_platform/templates/index.html" />
@@ -179,8 +290,33 @@
         <option value="$PROJECT_DIR$/login_vue_demo/templates/demo9.html" />
         <option value="$PROJECT_DIR$/login_vue_demo/templates/demo10.html" />
         <option value="$USER_HOME$/my_project/dist/index.html" />
+        <option value="$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/urls.py" />
+        <option value="$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/views/user_views.py" />
+        <option value="$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/urls.py" />
+        <option value="$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/settings.py" />
+        <option value="$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/common.py" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/first_vue_project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/impi_project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/interface_manager/frontend/impi_project/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/first_vue_project/package.json" />
+      <path value="$PROJECT_DIR$/impi_project/package.json" />
+      <path value="$PROJECT_DIR$/interface_manager/frontend/impi_project/package.json" />
+      <path value="$PROJECT_DIR$/pyInterTest/common_static/cookie/package.json" />
+      <path value="$PROJECT_DIR$/pyInterTest/common_static/zTree/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="60" />
@@ -210,40 +346,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="login_vue_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="login_vue_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="login_vue_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="login_vue_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="login_vue_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="test_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -303,6 +405,77 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="impi_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="impi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="impi_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="impi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="impi_project" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_devcyc_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_devcyc_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+              <item name="test_platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,17 +487,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views" />
+      <recent name="E:\git\test_devcyc_demo\test_platform\interface_app\views" />
+      <recent name="D:\git\test_devcyc_demo\test_platform\user_app\tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\test_devcyc_demo\login_vue_demo\templates" />
       <recent name="D:\git\test_devcyc_demo\first_vue_demo\templates" />
       <recent name="E:\git\test_devcyc_demo\test_platform\static\image" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\git\test_devcyc_demo\test_platform\interface_app\views" />
-      <recent name="D:\git\test_devcyc_demo\test_platform\user_app\tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,7 +514,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="test_devcyc_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -384,6 +559,15 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.theading_demo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -404,8 +588,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.14332893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.1769437" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.17493297" />
       <window_info id="Favorites" order="2" sideWeight="0.50070924" side_tool="true" weight="0.17493297" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,60 +618,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyInterTest/itest/templates/user_setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyInterTest/common_static/pyInter/js/pyInter_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyInterTest/itest/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_veu_demo/first_vue_demo/urls.py" />
-    <entry file="file://$PROJECT_DIR$/pyInterTest/common_static/pyInter/js/pyInterBase2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="250" column="46" selection-start-line="250" selection-start-column="46" selection-end-line="250" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyInterTest/itest/models/daos/users_dao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_platform/interface_app/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_vue_demo/first_vue_app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first_vue_demo/first_vue_app/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first_vue_demo/first_vue_app/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -607,38 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_platform/test_platform/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_platform/interface_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_platform/test_platform/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_platform/project_app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -681,13 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="26" column="51" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_vue_demo/test_login/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -737,16 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-          <folding>
-            <marker date="1548247631968" expanded="true" signature="904:909" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -757,10 +847,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/my_project/dist/index.html">
+    <entry file="file://$USER_HOME$/my_project/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_vue_demo/test_login/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login_vue_demo/login_vue_demo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_platform/test_platform/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python3.5/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="315" column="9" selection-start-line="315" selection-start-column="8" selection-end-line="315" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/views.py" />
+    <entry file="file://$PROJECT_DIR$/test_platform/test_platform/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="e#636#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_platform/test_platform/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_platform/interface_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/impi_project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/views/user_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_manager/backend/impi_project/interface_app/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1551585010271" expanded="true" signature="90:95" ph="..." />
+            <marker date="1551585010271" expanded="true" signature="264:269" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
