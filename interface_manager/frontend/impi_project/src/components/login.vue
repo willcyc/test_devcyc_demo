@@ -22,7 +22,8 @@
 </template>
 
 <script>
-  import {register,login} from "@/requests/user";
+  import {register,login} from "@/requests/user"
+  import VueCookies from 'vue-cookies'
 
   export default {
     name: 'login',
@@ -51,6 +52,9 @@
             login(this.rule_form.name,this.rule_form.pwd).then(data=>{
               if(true === data.success){
                 //this.$message.info('login success')
+                let session = data.data.session;
+                VueCookies.set('token',session,1209600);
+                console.log("cookie:",document.cookie);
                 this.$router.push('/index')   //登录成功后重定向到首页，window.location='/index'也可以，但不如该方法快
               }else {
                 this.$message.error('login failed')
@@ -68,6 +72,9 @@
             register(this.rule_form.name,this.rule_form.pwd).then(data=>{
               if(true === data.success){
                 //this.$message.info('register success')
+                let session = data.data.session;
+                VueCookies.set('token',session,1209600);
+                // console.log(document.cookie)
                 this.$router.push('/index')   //注册成功后重定向到首页
               }else {
                 this.$message.error('register failed')
