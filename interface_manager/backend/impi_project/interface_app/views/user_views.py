@@ -1,79 +1,86 @@
 import json
 from django.contrib.sessions.models import Session
-from django.http import HttpResponse
+#from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login
 from interface_app import common
+from interface_app.form.user import UserForm
+from django.views.generic import View
+from interface_app.my_exception import MyException
 
-def register_user(request):
-    if "POST" == request.method:
-       body = request.body
-       params = json.loads(body)
-       if "name" in params and "" != str(params["name"]) and "pwd" in params and "" != str(params["pwd"]):
-           # user = User(username=str(params["name"]),password=str(params["pwd"]))
-           # user.save()   该方法的password没有加密、且不能使用一些属性，不如User.objects.create_user()方法
-
-           user = User.objects.create_user(username=str(params["name"]), password=str(params["pwd"]))
-           if user:
-               login(request, user)   #表示创建的session
-               session = request.session.session_key   #获取session值
-               return common.response_success({"session":session})
-           else:
-               return common.response_failed("注册失败！")
-       else:
-           return common.response_failed("参数不正确")
-
-    else:
-        return HttpResponse(status=404)
-
-def login_user(request):
-    if "POST" == request.method:
-       body = request.body
-       params = json.loads(body)
-       if "name" in params and ""!=str(params["name"]) and "pwd" in params and ""!=str(params["pwd"]):
-           user = authenticate(username=params["name"], password=str(params["pwd"]))
-           if user:
-                login(request,user)  #表示创建的session
-                session = request.session.session_key  # 获取session值
-                #print("session:",session)
-                return common.response_success({"session": session})
-           else:
-                return common.response_failed("登录失败！")
-       else:
-            return common.response_failed("参数不正确")
-    else:
-        return HttpResponse(status=404)
-
-def get_user(request):
-    if "GET" == request.method:
-        # user = request.user
-        # print("user:",user)
-        # if user.is_authenticated:
-        #     return common.response_success({"username":user.username,"id":user.id})
-        # else:
-        #    return common.response_failed("用户未登录！")
-
-        token = request.META.get("HTTP_TOKEN",None)   #根据HTTP的head获取token
+class UserViews(View):
+    def get(self,request,*args,**kwargs):
+        #raise MyException("这是一主动抛出的异常")
+        token = request.META.get("HTTP_TOKEN", None)  # 根据HTTP的head获取token
         if token is None:
-            return common.response_failed("用户未登录！")
+            #return common.response_failed("用户未登录！")
+            raise MyException("用户未登录！")
         else:
             try:
-                session = Session.objects.get(pk=token)  #获取session的对象
+                session = Session.objects.get(pk=token)  # 获取session的对象
             except Session.DoesNotExist:
-                return common.response_failed("session失效！")
-            except Exception as e:
-                print(e)
-                return common.response_failed("未知错误！")
+                #return common.response_failed("session失效！")
+                raise MyException("session失效！")
+            # except Exception as e:   #因为有全局异常捕获，且在全局异常捕获里有这个功能，此处可以省略
+            #     print(e)
+            #     return common.response_failed("未知错误！")
             else:
-                user_id = session.get_decoded().get('_auth_user_id',None)  #diango的session固定获取用户的user_id
+                user_id = session.get_decoded().get('_auth_user_id', None)  # diango的session固定获取用户的user_id
                 if user_id is None:
-                    return common.response_failed("用户id失效！")
+                    #return common.response_failed("用户id失效！")
+                    raise MyException("用户id失效！")
                 try:
-                    user = User.objects.get(pk=user_id)   #根据id获取用户
+                    user = User.objects.get(pk=user_id)  # 根据id获取用户
                 except User.DoesNotExist:
-                    return common.response_failed("用户不存在！")
+                    #return common.response_failed("用户不存在！")
+                    raise MyException("用户不存在！")
                 else:
-                    return common.response_success({"username":user.username,"id":user.id})
+                    return common.response_success({"username": user.username, "id": user.id})
 
-    else:
-        return HttpResponse(status=404)
+    def post(self,request,*args,**kwargs):
+        body = request.body
+        params = json.loads(body)
+        form = UserForm(params)
+        result = form.is_valid()
+        if result:
+            # user = User.objects.create_user(username=str(params["username"]), password=str(params["password"]))
+            user = User.objects.create_user(username=form.cleaned_data["username"],
+                                            password=form.cleaned_data["password"])
+            if user:
+                login(request, user)  # 表示创建的session
+                session = request.session.session_key  # 获取session值
+                return common.response_success({"session": session})
+            else:
+                #return common.response_failed("注册失败！")
+                raise MyException("注册失败！")
+        else:
+            print(form.errors.as_json())
+            #return common.response_failed("参数不正确")
+            raise MyException()  #my_exception.MyException中默认就是参数错误，所以括号内可以不添加内容
+
+    def put(self,request,*args,**kwargs):
+        body = request.body
+        params = json.loads(body)
+        form = UserForm(params)
+        result = form.is_valid()
+        if result:
+            # user = authenticate(username=params["username"], password=str(params["password"]))
+            user = authenticate(username=form.cleaned_data["username"], password=str(form.cleaned_data["password"]))
+            if user:
+                login(request, user)  # 表示创建的session
+                session = request.session.session_key  # 获取session值
+                # print("session:",session)
+                return common.response_success({"session": session})
+            else:
+                #return common.response_failed("登录失败！")
+                raise MyException("登录失败！")
+        else:
+            print(form.errors.as_json())
+            #return common.response_failed("参数不正确")
+            raise MyException()  #my_exception.MyException中默认就是参数错误，所以括号内可以不添加内容
+
+    # def delete(self,request,*args,**kwargs):
+    #     return common.response_success({'method': 'delete'})
+    #
+    # def patch(self,request,*args,**kwargs):
+    #     return common.response_success({'method': 'patch'})
