@@ -10,6 +10,7 @@ from interface_app.my_exception import MyException
 
 class UserViews(View):
     def get(self,request,*args,**kwargs):
+        #common.logger.info('Hello logs')
         #raise MyException("这是一主动抛出的异常")
         token = request.META.get("HTTP_TOKEN", None)  # 根据HTTP的head获取token
         if token is None:

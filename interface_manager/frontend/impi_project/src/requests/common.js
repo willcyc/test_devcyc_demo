@@ -30,6 +30,20 @@ export const put_code = function(url,params){
   })
 };
 
+export const delete_code = function(url,params){
+  let body = JSON.stringify(params);
+  return fetch(host + url,{
+    method:'DELETE',
+    body:body,
+    credentials:"include",   //fetch函数中带上cookie值
+    headers:{
+      'token':VueCookies.get('token'),   //前端在请求的时候，把session放在headers
+    }
+  }).then(response =>{
+    return response.json()
+  })
+};
+
 export const get_code = function(url){
   return fetch(host + url,{
     method:'GET',

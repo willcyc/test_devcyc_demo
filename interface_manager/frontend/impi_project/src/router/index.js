@@ -10,9 +10,15 @@ export default new Router({
   mode:'history',
   routes: [
     {
-      path: '/index',
+      path: '/',
+      name: 'default',
+      redirect:'/index/1'  //自动重定向
+    },
+    {
+      path: '/index/:tab',
       name: 'index',
-      component: index
+      component: index,
+      props:true,  //必须写，才能把tab参数传进组件index里面
     },
     {
       path: '/test',
