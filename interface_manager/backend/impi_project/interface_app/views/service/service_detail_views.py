@@ -7,6 +7,7 @@ from interface_app.models.service import Service
 from django.views.generic import View
 from interface_app.my_exception import MyException
 
+#service获取、修改或删除接口
 class ServiceDetailViews(View):
     def get(self,request,pk,*args,**kwargs):
         """获取单个服务"""

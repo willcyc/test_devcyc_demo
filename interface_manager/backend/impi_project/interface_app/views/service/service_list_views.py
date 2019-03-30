@@ -9,6 +9,7 @@ from interface_app.utils.service_utils import ServiceUtils
 from django.views.generic import View
 from interface_app.my_exception import MyException
 
+#service的列表获取和创建的接口
 class ServiceListViews(View):
     """获取服务列表"""
     def get(self,request,*args,**kwargs):

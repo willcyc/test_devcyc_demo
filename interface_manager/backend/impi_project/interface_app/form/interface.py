@@ -8,7 +8,7 @@ class InterfaceForm(forms.Form):
     host = forms.CharField(max_length=200,required=False)
     url = forms.CharField(max_length=500,required=True)
     method = forms.CharField(required=True,max_length=20)
-    headers = ObjectField(required=False)
+    header = ObjectField(required=False)
     parameter = ObjectField(required=False)
     parameter_type = forms.CharField(required=False)
 
@@ -17,7 +17,7 @@ class InterfaceForm(forms.Form):
 
     service_id = forms.IntegerField(required=True)
 
-    asserts = ObjectField(required=False)
+    assertion = ObjectField(required=False)
 
     #Django之form表单验证顺序:https://www.cnblogs.com/ccorz/p/5868380.html
 
