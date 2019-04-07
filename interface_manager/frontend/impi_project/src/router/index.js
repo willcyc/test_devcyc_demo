@@ -5,7 +5,7 @@ import test from '../components/test'    //..表示使用相对路径
 import login from '@/components/login'
 import edit_interface from '../components/interface/edit_interface'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   mode:'history',
@@ -24,6 +24,12 @@ export default new Router({
     {
       path: '/add/interface',
       name: 'add_interface',
+      component: edit_interface,
+      props:true,  //必须写，才能把tab参数传进组件index里面
+    },
+    {
+      path: '/edit/interface',
+      name: 'edit_interface',
       component: edit_interface,
       props:true,  //必须写，才能把tab参数传进组件index里面
     },

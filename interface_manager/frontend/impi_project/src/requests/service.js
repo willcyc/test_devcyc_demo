@@ -20,3 +20,8 @@ export const update_services = function (service_id,name,description,parent) {
 export const delete_services = function (service_id) {
   return delete_code(services_path + service_id)
 };
+
+//获取某个服务下面的服务接口列表
+export const get_service_interfaces = function (service_id) {
+  return get_code(services_path + service_id + '/interfaces')
+}

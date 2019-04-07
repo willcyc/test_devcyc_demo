@@ -45,26 +45,26 @@
       return {
         current_user:{},
         isCollapse:true,
-        active_tab:1,
+        active_tab:'1',
         }
     },
 
-  methods:{
-    handle_select(index,index_path){
-      this.$router.push('/index/' + index)
-    }
-  },
-  mounted() {
-    get_user().then(data=>{
-      if(true === data.success){
-        this.current_user = data.data
-      }else{
-        this.$router.push('/login')
-        //this.$message.error(data.message)
+    methods:{
+      handle_select(index,index_path){
+        this.$router.push('/index/' + index)
       }
-    });
-    this.active_tab = this.tab
-  }
+    },
+    mounted() {
+      get_user().then(data=>{
+        if(true === data.success){
+          this.current_user = data.data
+        }else{
+          this.$router.push('/login')
+          //this.$message.error(data.message)
+        }
+      });
+      this.active_tab = this.tab
+    }
   }
 </script>
 

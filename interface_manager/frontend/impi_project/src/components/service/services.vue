@@ -10,6 +10,7 @@
         default-expand-all
         draggable
         @node-drop="drop_service"
+        @node-click="select_service"
         :expand-on-click-node="false">
         <span class="custom-tree-node" slot-scope="{ node, data }">
           <span>{{ node.label }}</span>
@@ -28,7 +29,7 @@
     </div>
 
     <div class="interface-tree">
-      context
+      <interface_list @update="update_service_interfaces" :interfaces="service_interfaces" :service_id="service_id"></interface_list>
     </div>
 
     <el-dialog
@@ -57,10 +58,19 @@
 </template>
 
 <script>
-  import {create_services,get_services_tree,update_services,delete_services} from "../../requests/service";
+  import {
+    create_services,
+    get_services_tree,
+    update_services,
+    delete_services,
+    get_service_interfaces} from "../../requests/service";
+  import interface_list from '../interface/interface_list'
 
   export default {
     name: 'services',
+    components:{
+      interface_list
+    },
     data () {
       return {
         services_tree:[
@@ -92,6 +102,9 @@
             {required:true,message:'请输入服务描述',trigger:'blur'},
           ]
         },
+
+        service_interfaces:[],
+        service_id:1,
       }
     },
 
@@ -225,7 +238,24 @@
     drop_service(node1,node2,position,event){
       this.init_drop_service(node1.data,node2.data);
       this.update_service_req();
-    }
+    },
+
+    select_service(data){
+      this.service_id = data.id;
+      this.get_interfaces_func();
+    },
+
+    get_interfaces_func(){
+      get_service_interfaces(this.service_id).then(data=>{
+        if(true === data.success){
+          this.service_interfaces = data.data;
+        }
+      });
+    },
+
+    update_service_interfaces(){
+      this.get_interfaces_func();
+    },
   },
 
   mounted() {
