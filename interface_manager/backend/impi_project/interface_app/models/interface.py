@@ -19,7 +19,7 @@ class Interface(models.Model,Base):
 
     service = models.ForeignKey(Service,blank=False,related_name='service_interfaces',on_delete=models.SET_DEFAULT,default=0)
 
-    assertion = ObjectField('assertion', default={})
+    assertion = ObjectField('assertion', default=[])
 
     def __str__(self):
         return self.name

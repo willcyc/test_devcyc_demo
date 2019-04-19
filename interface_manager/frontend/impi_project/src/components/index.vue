@@ -25,7 +25,8 @@
 
 
     <div class="index-context">
-      <services></services>
+      <services v-if="'1' === tab"></services>
+      <debug_url v-if="'4' === tab"></debug_url>
     </div>
 
   </div>
@@ -34,12 +35,14 @@
 <script>
   import {get_user} from "../requests/user";
   import services from "./service/services"
+  import debug_url from "./debug/debug_url"
 
   export default {
     name: 'index',
     props:['tab'],  //url里面的参数
     components:{
       services,
+      debug_url,
     },
     data () {
       return {

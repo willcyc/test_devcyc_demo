@@ -6,6 +6,8 @@ from interface_app.views.service.service_list_views import ServiceListViews
 from interface_app.views.interface.interface_list_views import InterfaceListViews
 from interface_app.views.interface.interface_detail_views import InterfaceDetailViews
 from interface_app.views.service.service_interface_detail_views import ServiceInterfaceDetailViews
+from interface_app.views.debug.debug_list_views import DebugListViews
+from interface_app.views.debug.test_list_views import TestListViews
 
 urlpatterns = [
     # path('user/register',user_views.register_user),
@@ -21,4 +23,6 @@ urlpatterns = [
 
     path('interfaces/', InterfaceListViews.as_view()),
     path('interfaces/<int:pk>', InterfaceDetailViews.as_view()),
+    path('debug/', DebugListViews.as_view()),
+    path('test/', TestListViews.as_view()),
 ]

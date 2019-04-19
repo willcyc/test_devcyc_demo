@@ -877,3 +877,185 @@
 2019-04-07 18:25:15,744 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 4040
 2019-04-07 18:25:34,243 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/11/interfaces HTTP/1.1" 200 0
 2019-04-07 18:25:34,252 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-04-14 16:28:50,040 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-14 16:28:50,022 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-04-14 16:28:50,745 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 16:28:50,750 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 16:28:55,953 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/2/interfaces HTTP/1.1" 200 0
+2019-04-14 16:28:56,024 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 4040
+2019-04-14 16:28:57,715 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 4040
+2019-04-14 16:28:58,969 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/11/interfaces HTTP/1.1" 200 0
+2019-04-14 16:28:59,081 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-04-14 16:28:59,981 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 4040
+2019-04-14 16:29:07,353 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/interfaces/2 HTTP/1.1" 200 0
+2019-04-14 16:29:09,711 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "DELETE /interface/interfaces/2 HTTP/1.1" 200 44
+2019-04-14 16:29:09,727 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-04-14 17:00:18,961 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-04-14 17:00:18,979 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:00:20,771 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/1/interfaces HTTP/1.1" 200 0
+2019-04-14 17:00:20,886 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/1/interfaces HTTP/1.1" 200 44
+2019-04-14 17:00:21,252 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/2/interfaces HTTP/1.1" 200 0
+2019-04-14 17:00:21,261 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-04-14 17:00:21,954 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/10/interfaces HTTP/1.1" 200 0
+2019-04-14 17:00:21,970 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/10/interfaces HTTP/1.1" 200 44
+2019-04-14 17:00:22,434 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/11/interfaces HTTP/1.1" 200 0
+2019-04-14 17:00:22,442 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-04-14 17:00:22,959 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-04-14 17:00:23,624 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-04-14 17:00:28,531 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:01:51,137 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-14 17:01:51,146 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:01:51,153 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:02:01,383 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:02:01,385 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:04:30,683 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:04:30,685 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:04:44,970 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:04:44,972 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:05:41,703 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:05:41,703 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:06:45,502 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:06:59,143 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:07:02,539 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:40:33,812 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug HTTP/1.1" 200 0
+2019-04-14 17:40:33,945 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:40:33,953 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72640
+2019-04-14 17:41:14,662 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:41:14,669 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72640
+2019-04-14 17:41:36,519 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:41:36,526 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72640
+2019-04-14 17:47:15,774 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:47:15,777 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72640
+2019-04-14 17:47:39,081 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:47:39,088 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72641
+2019-04-14 17:58:08,222 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-14 17:58:08,223 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-04-14 17:58:08,355 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 17:58:08,359 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-14 17:58:25,104 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug HTTP/1.1" 200 0
+2019-04-14 17:58:25,148 ERROR    C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Internal Server Error: /interface/debug
+Traceback (most recent call last):
+  File "C:\python3.5\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\python3.5\lib\site-packages\django\utils\deprecation.py", line 90, in __call__
+    response = self.process_request(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 53, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\python3.5\lib\site-packages\django\middleware\common.py", line 93, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/interface/debug/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2019-04-14 17:58:25,154 ERROR    C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug HTTP/1.1" 500 72640
+2019-04-14 17:59:41,306 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-14 17:59:41,311 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-14 18:00:13,384 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-14 20:52:05,974 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-14 20:52:05,986 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-14 20:52:47,266 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-14 20:53:14,457 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-14 21:57:03,436 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-14 21:57:03,589 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-14 21:58:07,518 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-14 21:58:10,248 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 50268
+2019-04-14 22:12:40,567 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-14 22:12:40,683 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 64
+2019-04-19 20:17:35,381 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-19 20:17:35,358 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-04-19 20:17:36,671 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-19 20:17:36,675 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/services/ HTTP/1.1" 200 502
+2019-04-19 20:21:05,028 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-19 20:21:05,245 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 64
+2019-04-19 20:22:02,546 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 64
+2019-04-19 20:22:36,192 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 64
+2019-04-19 20:37:13,558 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-19 20:37:13,576 WARNING  C:\python3.5\lib\site-packages\django\views\generic\base.py[line:93] Method Not Allowed (GET): /interface/test/
+2019-04-19 20:37:13,577 WARNING  C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Method Not Allowed: /interface/test/
+2019-04-19 20:37:13,578 WARNING  C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/test/?test=1 HTTP/1.1" 405 0
+2019-04-19 20:37:13,580 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-19 20:40:55,385 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:43:38,132 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:44:10,494 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:46:37,414 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:47:07,727 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-19 20:47:07,776 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-19 20:47:20,118 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-19 20:47:20,129 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/test?test=1 HTTP/1.1" 301 0
+2019-04-19 20:47:20,133 WARNING  C:\python3.5\lib\site-packages\django\views\generic\base.py[line:93] Method Not Allowed (GET): /interface/test/
+2019-04-19 20:47:20,135 WARNING  C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Method Not Allowed: /interface/test/
+2019-04-19 20:47:20,136 WARNING  C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/test/?test=1 HTTP/1.1" 405 0
+2019-04-19 20:47:20,137 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 44
+2019-04-19 20:47:22,602 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/test?test=1 HTTP/1.1" 301 0
+2019-04-19 20:47:22,671 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 4299
+2019-04-19 20:47:38,853 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:47:49,070 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:49:11,068 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:51:56,445 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 20:53:42,263 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 21:01:27,997 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-19 21:01:28,010 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 21:05:12,448 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 575
+2019-04-19 21:05:48,693 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 579
+2019-04-19 21:10:01,054 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-04-19 21:10:01,213 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "GET /interface/user HTTP/1.1" 200 74
+2019-04-19 21:10:17,256 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/test/ HTTP/1.1" 200 53
+2019-04-19 21:10:17,258 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 107
+2019-04-19 21:10:29,865 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/test/ HTTP/1.1" 200 55
+2019-04-19 21:10:29,867 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 109
+2019-04-19 21:12:02,334 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "OPTIONS /interface/debug/ HTTP/1.1" 200 0
+2019-04-19 21:12:02,359 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "DELETE /interface/test/ HTTP/1.1" 200 55
+2019-04-19 21:12:02,360 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 109
+2019-04-19 21:12:14,627 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "DELETE /interface/test/ HTTP/1.1" 200 55
+2019-04-19 21:12:14,629 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 109
+2019-04-19 21:12:37,154 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "PUT /interface/test/ HTTP/1.1" 200 58
+2019-04-19 21:12:37,155 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 112
+2019-04-19 21:13:13,435 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "PUT /interface/test/ HTTP/1.1" 200 69
+2019-04-19 21:13:13,436 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 127
