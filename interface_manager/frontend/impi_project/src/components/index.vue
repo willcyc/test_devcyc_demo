@@ -27,6 +27,7 @@
     <div class="index-context">
       <services v-if="'1' === tab"></services>
       <debug_url v-if="'4' === tab"></debug_url>
+      <tasks v-if="'2' === tab"></tasks>
     </div>
 
   </div>
@@ -36,6 +37,7 @@
   import {get_user} from "../requests/user";
   import services from "./service/services"
   import debug_url from "./debug/debug_url"
+  import tasks from "./task/task_list"
 
   export default {
     name: 'index',
@@ -43,6 +45,7 @@
     components:{
       services,
       debug_url,
+      tasks,
     },
     data () {
       return {

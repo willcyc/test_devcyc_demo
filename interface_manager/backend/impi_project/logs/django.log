@@ -1059,3 +1059,293 @@ RuntimeError: You called this URL via POST, but the URL doesn't end in a slash a
 2019-04-19 21:12:37,155 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 112
 2019-04-19 21:13:13,435 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "PUT /interface/test/ HTTP/1.1" 200 69
 2019-04-19 21:13:13,436 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:124] "POST /interface/debug/ HTTP/1.1" 200 127
+2019-06-01 17:09:21,099 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:13:48,196 WARNING  C:\python3.5\lib\site-packages\django\utils\log.py[line:228] Not Found: /
+2019-06-01 17:13:48,201 WARNING  C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET / HTTP/1.1" 404 2037
+2019-06-01 17:16:24,102 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:16:39,017 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-01 17:16:39,068 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:16:40,316 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/11/interfaces HTTP/1.1" 200 0
+2019-06-01 17:16:40,324 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 17:16:41,258 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/2/interfaces HTTP/1.1" 200 0
+2019-06-01 17:16:41,266 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:17:37,571 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:17:52,703 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:17:54,102 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:17:54,935 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:17:57,024 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:18:02,396 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:18:03,259 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/10/interfaces HTTP/1.1" 200 0
+2019-06-01 17:18:03,265 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/10/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:03,790 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:18:08,317 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:08,892 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:18:09,917 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/10/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:10,357 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:11,303 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:11,708 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:18:12,197 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/10/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:12,588 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 17:18:12,940 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:18:14,417 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 17:18:15,262 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 17:22:47,980 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:22:49,275 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:23:49,127 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:23:50,227 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:23:52,492 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:23:53,570 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:24:19,473 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:24:20,737 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:24:27,563 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:24:28,642 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:27:28,283 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:33:24,549 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:34:45,842 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:34:46,932 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:35:13,765 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:35:14,815 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:36:05,451 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:36:06,497 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:36:16,172 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:36:17,249 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:36:23,792 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:36:24,871 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:37:43,902 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\task.py changed, reloading.
+2019-06-01 17:37:45,023 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:38:23,275 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\__init__.py changed, reloading.
+2019-06-01 17:38:24,421 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 17:39:34,810 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 19:31:27,158 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\__init__.py changed, reloading.
+2019-06-01 19:31:35,265 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 19:47:02,224 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 19:49:32,627 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\models\__init__.py changed, reloading.
+2019-06-01 19:49:33,741 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:12:50,924 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-01 20:12:51,109 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 20:40:23,051 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:40:24,218 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:41:11,586 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:41:12,696 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:41:14,941 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:41:15,991 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:41:18,359 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:41:19,452 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:41:33,573 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:41:34,736 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:00,616 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:01,723 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:07,920 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:09,036 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:15,335 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:16,351 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:37,031 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:38,253 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:43,530 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:44,679 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:52,518 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:53,605 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:42:58,418 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:42:59,513 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:43:12,107 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:43:13,177 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:43:19,769 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-01 20:43:20,889 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-01 20:48:13,100 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/1/interfaces HTTP/1.1" 200 0
+2019-06-01 20:48:13,111 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/1/interfaces HTTP/1.1" 200 44
+2019-06-01 20:48:13,726 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/2/interfaces HTTP/1.1" 200 0
+2019-06-01 20:48:13,801 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 20:57:26,848 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 20:57:27,535 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/11/interfaces HTTP/1.1" 200 0
+2019-06-01 20:57:27,673 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/11/interfaces HTTP/1.1" 200 44
+2019-06-01 20:57:28,303 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 20:57:29,038 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/10/interfaces HTTP/1.1" 200 0
+2019-06-01 20:57:29,156 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/10/interfaces HTTP/1.1" 200 44
+2019-06-01 20:57:29,584 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 20:57:31,552 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-01 20:57:31,566 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 20:57:32,415 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/2/interfaces HTTP/1.1" 200 3794
+2019-06-01 21:27:48,935 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-01 21:27:48,936 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-06-01 21:27:48,963 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:27:49,078 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 70
+2019-06-01 21:29:38,385 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "PUT /interface/user HTTP/1.1" 200 89
+2019-06-01 21:29:47,770 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-01 21:29:47,772 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:29:54,787 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-01 21:29:56,359 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:32:26,784 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-01 21:33:39,356 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-01 21:33:39,424 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:34:30,304 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:34:36,592 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:34:43,260 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:34:44,689 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:34:47,473 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-01 21:34:49,546 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:36:02,962 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:36:13,075 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:38:41,644 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:38:52,341 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:40:12,429 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:41:04,059 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:43:24,212 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:44:06,243 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-01 21:44:06,291 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:44:19,444 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:46:08,782 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:48:52,410 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:50:49,914 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:50:57,812 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:51:17,423 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:52:20,093 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:52:23,793 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:52:28,238 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:53:32,518 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:55:09,128 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-01 21:55:09,163 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:55:58,461 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-01 21:56:03,416 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:13:04,993 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 10:14:33,958 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-06-02 10:14:33,959 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-02 10:14:34,739 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-02 10:14:34,742 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-02 10:14:36,181 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-02 10:14:36,257 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:33,960 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:40,658 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:43,439 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:50,335 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:55,980 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:18:59,733 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:19:03,342 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:19:08,728 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:19:21,173 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:20:07,910 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:20:56,833 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:07,690 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:42,496 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:46,951 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:51,566 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:54,415 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:21:57,628 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:22:00,862 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:22:16,133 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:22:26,167 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:23:01,428 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:23:09,475 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:10,365 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-02 10:28:10,411 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:15,040 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:27,899 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:31,306 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:33,973 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:44,074 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:28:56,319 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:22,439 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:35,160 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:41,770 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:47,754 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:54,331 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:30:58,258 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:31:21,050 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:31:27,791 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:31:55,260 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:32:03,181 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:33:37,433 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:33:45,471 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:34:00,243 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:34:22,086 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:34:22,121 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-06-02 10:34:22,144 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-02 10:34:31,149 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "POST /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:34:31,203 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:35:51,618 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:36:11,932 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:37:09,553 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:37:40,402 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:38:01,651 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:38:15,180 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-02 10:38:15,216 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:38:49,338 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/services/ HTTP/1.1" 200 0
+2019-06-02 10:38:49,354 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-02 10:38:49,756 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:38:58,080 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/1 HTTP/1.1" 200 0
+2019-06-02 10:38:58,207 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "PUT /interface/tasks/1 HTTP/1.1" 200 44
+2019-06-02 10:38:58,216 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:39:35,302 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/services/ HTTP/1.1" 200 502
+2019-06-02 10:39:35,788 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:40:52,297 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:40:54,764 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:40:58,820 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:41:04,507 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:41:27,508 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:41:59,803 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:42:41,573 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:52:37,692 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-02 10:52:37,748 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:52:54,572 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:53:38,277 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:53:38,302 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/user HTTP/1.1" 200 0
+2019-06-02 10:53:38,351 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/user HTTP/1.1" 200 74
+2019-06-02 10:53:48,263 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "POST /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:53:48,273 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 330
+2019-06-02 10:53:51,490 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/2 HTTP/1.1" 200 0
+2019-06-02 10:53:51,628 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "DELETE /interface/tasks/2 HTTP/1.1" 200 44
+2019-06-02 10:53:51,636 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:54:01,452 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/1 HTTP/1.1" 200 0
+2019-06-02 10:54:01,590 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "DELETE /interface/tasks/1 HTTP/1.1" 200 44
+2019-06-02 10:54:01,598 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:56:32,994 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:56:50,700 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:58:25,387 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "POST /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:58:25,408 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 167
+2019-06-02 10:58:32,239 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "POST /interface/tasks/ HTTP/1.1" 200 44
+2019-06-02 10:58:32,248 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292
+2019-06-02 11:30:42,402 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:30:48,979 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:30:58,628 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:30:59,610 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:31:05,897 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:31:06,919 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:31:10,269 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:31:11,327 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:31:16,143 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:31:17,139 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:32:29,322 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:32:30,413 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:32:56,112 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:32:57,216 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:33:19,917 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:33:21,071 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:33:48,211 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:33:49,369 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:33:51,668 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:33:52,797 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:33:58,133 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:33:59,241 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:34:15,925 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:34:16,947 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:34:22,055 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:34:23,159 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:34:35,644 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:34:36,781 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:35:38,746 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:35:39,879 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:35:43,539 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\views\task\task_detail_interfaces_views.py changed, reloading.
+2019-06-02 11:35:44,596 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:36:27,609 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:36:28,718 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:36:36,751 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:36:37,894 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:36:41,671 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:36:42,780 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:36:46,559 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:203] D:\git\test_devcyc_demo\interface_manager\backend\impi_project\interface_app\urls.py changed, reloading.
+2019-06-02 11:36:47,689 INFO     C:\python3.5\lib\site-packages\django\utils\autoreload.py[line:576] Watching for file changes with StatReloader
+2019-06-02 11:43:42,537 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "OPTIONS /interface/tasks/ HTTP/1.1" 200 0
+2019-06-02 11:43:42,588 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292
+2019-06-02 11:43:45,472 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292
+2019-06-02 11:43:49,975 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292
+2019-06-02 11:44:00,529 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292
+2019-06-02 11:44:17,182 INFO     C:\python3.5\lib\site-packages\django\core\servers\basehttp.py[line:154] "GET /interface/tasks/ HTTP/1.1" 200 292

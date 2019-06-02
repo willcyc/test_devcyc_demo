@@ -45,7 +45,7 @@
           v-if="0 !== page.total"
           :page-size="page.page_size"
           :current-page="page.current" @current-change="current_change"
-          layout="prev,pager,next"
+          layout="total,prev,pager,next"
           :total="page.total">
         </el-pagination>
       </div>
@@ -85,7 +85,7 @@
             window.open('/edit/interface?service=' + this.service_id + '&interface_id=' + id);
           },
           open_delete_interface(id){
-            this.$confirm('此操作将永久删  除该接口，是否继续？','提示',{
+            this.$confirm('此操作将永久删除该接口，是否继续？','提示',{
               confirmButtonText:'确定',
               cancelButtonText:'取消',
               type:'warning'
