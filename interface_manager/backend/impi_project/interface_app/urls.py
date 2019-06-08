@@ -11,7 +11,8 @@ from interface_app.views.debug.test_list_views import TestListViews
 from interface_app.views.task.task_detail_views import TaskDetailViews
 from interface_app.views.task.task_list_views import TaskListViews
 from interface_app.views.task.task_detail_interfaces_views import TaskDetailInterfacesViews
-
+from interface_app.views.task.task_detail_results_views import TaskDetailVersionResultsViews,TaskDetailVersionViews
+from interface_app.views.task.task_detail_run_views import TaskDetailRunViews
 
 urlpatterns = [
     # path('user/register',user_views.register_user),
@@ -33,4 +34,9 @@ urlpatterns = [
     path('tasks/', TaskListViews.as_view()),
     path('tasks/<int:pk>', TaskDetailViews.as_view()),
     path('tasks/<int:pk>/interfaces', TaskDetailInterfacesViews.as_view()),
+
+    path('tasks/<int:pk>/versions', TaskDetailVersionViews.as_view()),
+    path('tasks/versions/<int:pk>/results', TaskDetailVersionResultsViews.as_view()),
+
+    path('tasks/<int:pk>/run', TaskDetailRunViews.as_view()),
 ]
