@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 celery = "==3.1.26.post2"
-django = "==2.1.4"
+django = "==2.2.13"
 django-celery = "==3.2.2"
 django-crontab = "==0.7.1"
 django-redis = "==4.10.0"
